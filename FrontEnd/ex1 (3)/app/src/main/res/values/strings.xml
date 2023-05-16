@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ex1</string>
+    <string name="some_id">이메일</string>
+    <string name="abc_gmail_c">예) abc@gmail.com</string>
+    <string name="some_id2">비밀번호</string>
+    <string name="password">password</string>
+    <string name="some_id3">이메일 기억</string>
+    <string name="some_id4">로그인 유지</string>
+    <string name="some_id5">로그인</string>
+    <string name="some_id6">회원가입</string>
+    <string name="some_id7">회원가입</string>
+    <string name="some_id8">이메일*</string>
+    <string name="some_id9">이메일 확인*</string>
+    <string name="some_id10">아래 약관에 모두 동의합니다.</string>
+    <string name="some_id11">이용약관 필수 동의 <u>자세히보기</u></string>
+    <string name="some_id12">개인정보 처리방침 필수 동의 <u>자세히보기</u></string>
+    <string name="some_id13">위치정보 이용약관 필수 동의 <u>자세히보기</u></string>
+    <string name="some_id15">비밀번호*</string>
+    <string name="some_id16">영문, 숫자 조합 8~16자</string>
+    <string name="some_id17">비밀번호 확인*</string>
+    <string name="some_id19">이름*</string>
+    <string name="some_id20">닉네임</string>
+    <string name="some_id21">나이</string>
+    <string name="some_id22">숫자</string>
+    <string name="some_id23">전화번호</string>
+    <string name="some_id24">010-1234-5678</string>
+    <string name="some_id25">#관심 키워드</string>
+    <string name="some_id26">#따뜻함</string>
+    <string name="some_id27">키워드는 나중에 다시 수정할 수 있어요!</string>
+    <string name="splash_text">오아시스라는 이름은\n여행자들이 뜨거운 사막에서\n신선한 물과 그늘을 찾듯이,\n카페를 찾는 이들에게 좋은 음료와\n새로운 경험을 선사한다는 의미를 담고 있다.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

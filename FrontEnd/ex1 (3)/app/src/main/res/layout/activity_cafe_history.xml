@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CafeHistoryActivity">
+
+
+        <View
+            android:id="@+id/cafe_history_arrow1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/arrow"
+            />
+
+        <TextView
+            android:id="@+id/my_cafe_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:text="Cafd History"
+            android:textAppearance="@style/my_profile"
+            />
+
+        <View
+            android:id="@+id/rectangle_profile"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:background="@drawable/profile_img"
+            android:layout_below="@+id/my_cafe_history"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:id="@+id/receipt_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영수증 인식"
+            android:textAppearance="@style/some_id1"
+            android:layout_toRightOf="@id/rectangle_profile"
+            android:layout_below="@+id/my_cafe_history"
+            android:layout_marginTop="52dp"
+            android:layout_marginLeft="28dp"
+            />
+
+        <View
+            android:id="@+id/receipt_arrow"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:layout_below="@+id/my_cafe_history"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="53dp"
+            android:layout_toRightOf="@id/receipt_text"
+            android:background="@drawable/arrow2_1" />
+
+        <View
+            android:id="@+id/rectangle_keyword"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:background="@drawable/profile_img"
+            android:layout_below="@+id/rectangle_profile"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:id="@+id/cafe_history_modify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="히스토리 수정"
+            android:textAppearance="@style/some_id1"
+            android:layout_toRightOf="@id/rectangle_keyword"
+            android:layout_below="@+id/receipt_text"
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="28dp"
+            />
+
+        <View
+            android:id="@+id/cafe_history_modify_arrow"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:background="@drawable/arrow2_1"
+            android:layout_toRightOf="@id/cafe_history_modify_text"
+            android:layout_below="@+id/receipt_arrow"
+            android:layout_marginTop="46dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+</RelativeLayout>

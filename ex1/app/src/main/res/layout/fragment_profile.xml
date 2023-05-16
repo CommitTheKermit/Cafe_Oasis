@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/my_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:text="my_profile"
+            android:textAppearance="@style/my_profile"
+            />
+
+        <TextView
+            android:id="@+id/my_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="234dp"
+            android:text="닉네임이에요"
+            android:textAppearance="@style/some_id1"
+            />
+
+        <TextView
+            android:id="@+id/my_profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="abcdefg123@gmail.com"
+            android:textAppearance="@style/some_id1"
+            android:layout_below="@+id/my_profile_name"
+            />
+
+        <View
+            android:id="@+id/rectangle_profile"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:background="@drawable/profile_img"
+            android:layout_below="@+id/my_profile_email"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:id="@+id/profile_modify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보 수정"
+            android:textAppearance="@style/some_id1"
+            android:layout_toRightOf="@id/rectangle_profile"
+            android:layout_below="@+id/my_profile_email"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="28dp"
+            />
+
+        <View
+            android:id="@+id/profile_modify_arrow"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:background="@drawable/arrow2_1"
+            android:layout_toRightOf="@id/profile_modify_text"
+            android:layout_below="@+id/my_profile_email"
+            android:layout_marginTop="45.3dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <View
+            android:id="@+id/rectangle_keyword"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:background="@drawable/profile_img"
+            android:layout_below="@+id/rectangle_profile"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:id="@+id/keyword_modify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="키워드 수정"
+            android:textAppearance="@style/some_id1"
+            android:layout_toRightOf="@id/rectangle_keyword"
+            android:layout_below="@+id/profile_modify_text"
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="28dp"
+            />
+
+        <View
+            android:id="@+id/keyword_modify_arrow"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:background="@drawable/arrow2_1"
+            android:layout_toRightOf="@id/profile_modify_text"
+            android:layout_below="@+id/profile_modify_arrow"
+            android:layout_marginTop="46dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+
+        <View
+            android:id="@+id/rectangle_history"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:background="@drawable/profile_img"
+            android:layout_below="@+id/rectangle_keyword"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <TextView
+            android:id="@+id/history_modify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카페 히스토리"
+            android:textAppearance="@style/some_id1"
+            android:layout_toRightOf="@id/rectangle_history"
+            android:layout_below="@+id/keyword_modify_text"
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="28dp"
+            />
+
+        <View
+            android:id="@+id/history_modify_arrow"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:background="@drawable/arrow2_1"
+            android:layout_toRightOf="@id/profile_modify_text"
+            android:layout_below="@+id/keyword_modify_arrow"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

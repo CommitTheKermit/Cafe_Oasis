@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/some_id">
+
+    <View
+        android:id="@+id/arrow2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/arrow"
+        />
+
+    <TextView
+        android:id="@+id/text_sign2"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/some_id7"
+        android:textAppearance="@style/some_id7"
+        android:lineSpacingExtra="-4sp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/sign2_password"
+        android:layout_width="320dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:text="@string/some_id15"
+        android:textAppearance="@style/some_id8"
+        android:lineSpacingExtra="-2sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/rectangle_1"
+        android:hint="@string/some_id16"
+        android:textSize="14sp"
+        android:textColorHint="#bdbdbd"
+        android:paddingLeft="13dp"
+        />
+
+    <TextView
+        android:id="@+id/sign2_check_password"
+        android:layout_width="320dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="212dp"
+        android:text="@string/some_id17"
+        android:textAppearance="@style/some_id9"
+        android:lineSpacingExtra="-2sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edit_check_password"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="238dp"
+        android:background="@drawable/rectangle_1"
+        android:hint="@string/some_id16"
+        android:textSize="14sp"
+        android:textColorHint="#bdbdbd"
+        android:paddingLeft="13dp"
+        />
+
+    <TextView
+        android:id="@+id/btn_next_sign2"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rectangle_15"
+        android:text="다음"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

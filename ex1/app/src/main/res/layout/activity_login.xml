@@ -10,164 +10,163 @@
 
     <View
         android:id="@+id/main_image"
-        android:layout_width="146dp"
+        android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="106dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
         android:background="@drawable/main_image"
         />
 
     <TextView
         android:id="@+id/login_email"
-        android:layout_width="320dp"
-        android:layout_height="21dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="182dp"
-        android:text="@string/some_id"
-        android:textAppearance="@style/some_id1"
-        android:lineSpacingExtra="-2sp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/main_image"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
         android:gravity="top"
-        />
+        android:text="@string/some_id"
+        android:textAppearance="@style/some_id1" />
 
     <EditText
         android:id="@+id/login_input_email"
-        android:layout_width="320dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="208dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_below="@+id/login_email"
+        android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/abc_gmail_c"
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
         />
-    <!-- 비밀번호 -->
+
     <TextView
         android:id="@+id/login_password"
-        android:layout_width="320dp"
+        android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="276dp"
+        android:layout_marginStart="80dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/login_input_email"
+        android:layout_marginTop="10dp"
         android:text="@string/some_id2"
         android:textAppearance="@style/some_id1"
         android:lineSpacingExtra="-2sp"
         android:gravity="top"
         />
+
     <EditText
         android:id="@+id/login_input_password"
-        android:layout_width="320dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="302dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_below="@+id/login_password"
+        android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_2"
         android:hint="@string/password"
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
         />
+
     <CheckBox
         android:id="@+id/email_checkbox"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="360dp"
-
+        android:layout_below="@+id/login_input_password"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/login_input_password"
         />
 
     <TextView
         android:id="@+id/remember_email"
         android:layout_width="286dp"
-        android:layout_height="21dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="51dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="360dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/login_input_password"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/email_checkbox"
+        android:layout_marginLeft="10dp"
         android:text="@string/some_id3"
         android:textAppearance="@style/some_id3"
-        android:lineSpacingExtra="-2sp"
-        android:gravity="top"
         />
+
     <CheckBox
         android:id="@+id/keep_checkbox"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="384dp"
+        android:layout_below="@+id/email_checkbox"
+        android:layout_marginTop="3dp"
+        android:layout_alignLeft="@+id/login_input_password"
         />
+
     <TextView
         android:id="@+id/maintain_login"
         android:layout_width="286dp"
-        android:layout_height="21dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="51dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="384dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/remember_email"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/keep_checkbox"
+        android:layout_marginLeft="10dp"
         android:text="@string/some_id4"
         android:textAppearance="@style/some_id3"
         android:lineSpacingExtra="-2sp"
-        android:gravity="top"
         />
+
     <TextView
         android:id="@+id/btn_login"
-        android:layout_width="320dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="18dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="415dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/keep_checkbox"
+        android:layout_marginTop="30dp"
         android:background="@drawable/button1"
         android:text="@string/some_id5"
         android:textAppearance="@style/some_id4"
         android:textAlignment="center"
         android:gravity="center"
         />
+
     <TextView
         android:id="@+id/btn_sign"
-        android:layout_width="320dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="18dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="463dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="5dp"
         android:background="@drawable/button1"
         android:text="@string/some_id6"
         android:textAppearance="@style/some_id4"
         android:textAlignment="center"
         android:gravity="center"
         />
-    <View
+
+    <ImageView
         android:id="@+id/btn_naver"
         android:layout_width="140dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="17dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="529dp"
-        android:background="@drawable/naver1"
+        android:layout_below="@+id/btn_sign"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@+id/login_input_password"
+        android:scaleType="centerCrop"
+        android:background="@drawable/naver"
         />
-    <View
+
+    <ImageView
         android:id="@+id/btn_kakao"
         android:layout_width="140dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="197dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="529dp"
-        android:background="@drawable/kakao1"
+        android:layout_below="@+id/btn_sign"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/login_input_password"
+        android:scaleType="centerCrop"
+        android:background="@drawable/kakao"
         />
 
 </RelativeLayout>

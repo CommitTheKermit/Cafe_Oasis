@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+01rgc6rfimb2+j1$le3$zhg4hy58@%*_80#exjryo#y&zd#!c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['52.79.247.229', '*']
 
 
 # Application definition
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'login_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # mysqlclient librarly 설치
-        'NAME': 'myboard',
+        'NAME': 'Oasis_db',
         'USER': 'root',
         'PASSWORD': 'tiger', # mariaDB 설치 시 입력한 root 비밀번호 입력
         'HOST': 'localhost',

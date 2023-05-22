@@ -42,4 +42,10 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.5.3'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
 
+    implementation "com.kakao.sdk:v2-all:2.13.0"
+    implementation "com.kakao.sdk:v2-user:2.13.0"
+    
+    implementation 'com.navercorp.nid:oauth-jdk8:5.5.0' // jdk 8
+
+
 }

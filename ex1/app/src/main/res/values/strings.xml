@@ -30,4 +30,9 @@
     <string name="splash_text">오아시스라는 이름은\n여행자들이 뜨거운 사막에서\n신선한 물과 그늘을 찾듯이,\n카페를 찾는 이들에게 좋은 음료와\n새로운 경험을 선사한다는 의미를 담고 있다.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="naver_client_id">xxx</string>
+    <string name="naver_client_secret">xxx</string>
+    <string name="naver_client_name">xxx</string>
+
 </resources>

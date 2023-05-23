@@ -147,7 +147,7 @@
         />
 
     <TextView
-        android:id="@+id/btn_next_sign3"
+        android:id="@+id/btn_profile_modify"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"

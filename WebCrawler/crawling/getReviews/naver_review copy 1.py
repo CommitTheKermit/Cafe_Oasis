@@ -158,7 +158,8 @@ def get_review():
         action = ActionChains(driver)
         length = len(elements)
         count = 0
-        print(f"리뷰 수 : {len(elements), {cafe_name_global}}")
+        print(f"리뷰 수 : {len(elements)}, {cafe_name_global}, index={cafe_name_list.index(cafe_name_global)}")
+        
         for _ in range(length):
             if count % 10 == 0:
                 print(count)
@@ -300,6 +301,7 @@ for cafe_name in cafe_name_list:
         keyword_count_dict = "리뷰 없음"
     
     driver.switch_to.default_content()
+    
     driver.switch_to.window(window_name = driver.window_handles[0])
     driver.find_element(By.CLASS_NAME,"button_clear").send_keys(Keys.ENTER) #검색창 클리어
 
@@ -308,6 +310,6 @@ for cafe_name in cafe_name_list:
 
     nickname_visited_dict.update(returned_nickname_visited_dict)
 
-cafe_name_review_df = pd.DataFrame(nickname_visited_dict)
+cafe_name_review_df = pd.DataFrame.from_dict(nickname_visited_dict, orient='index')
 
 cafe_name_review_df.to_csv(output_file, encoding="utf-8-sig")

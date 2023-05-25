@@ -47,5 +47,7 @@ dependencies {
     
     implementation 'com.navercorp.nid:oauth-jdk8:5.5.0' // jdk 8
 
+    implementation 'com.naver.maps:map-sdk:3.16.2' /* 네이버 지도 SDK 의존성 선언 */
+
 
 }

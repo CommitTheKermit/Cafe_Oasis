@@ -136,6 +136,10 @@
             </intent-filter>
         </activity>
 
+        /* 지도 */
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="857j0eetze" />
 
     </application>
 

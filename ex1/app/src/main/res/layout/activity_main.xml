@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/some_id">
+
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/nav"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="575dp"
+        >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            >
+            <View
+                android:id="@+id/main_map"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/map1"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/frame_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            >
+            <View
+                android:id="@+id/main_home"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/home1"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_6"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true">
+
+            <View
+                android:id="@+id/main_profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/profile1"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

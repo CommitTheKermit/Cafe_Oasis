@@ -10,122 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af3f94f2-53dd-438e-b512-c03c5911cc30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/androidTest/java/com/example/ex1/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/BookMarkerFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/CafeHistoryActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/DataPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/HistoryModifyActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/HomeFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Join1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Join2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Join3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Keyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Keyword_Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/LoginActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/MapFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/MyProfile_Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/NaviActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/RatingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ReceipRecognitionActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/RecommendationFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/SplashActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ViewHolderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ViewPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/arrow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/arrow2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/bookmarker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/cafe1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/cafe2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/cafe3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/home1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/kakao1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/map1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/map_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/naver1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/profile1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/profile_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/rating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/recommendation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/button1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/button2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/click_color.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/frame_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/main_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/nav.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/some_id.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_cafe_history.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_history_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_join1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_join2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_join3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_keyword.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_keyword_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_my_profile_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_navi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_receip_recognition.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_book_marker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_map.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_rating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_recommendation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/item_viewpager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/menu/navi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/test/java/com/example/ex1/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +36,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -161,8 +47,6 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-=======
->>>>>>> Stashed changes
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.ex1.Utils" />

@@ -84,7 +84,6 @@ def designate_tab_and_click(tab_name : str):
 def designate_review_tab_and_click(tab_name : str) -> str:
     try:
         driver.switch_to.window(window_name = driver.window_handles[-1])
-        driver.minimize_window()
 
         WebDriverWait(driver,2).until(\
             EC.presence_of_element_located((By.ID, "onlyHasMedia")))
@@ -159,9 +158,10 @@ def get_review():
         action = ActionChains(driver)
         length = len(elements)
         count = 0
-        print(f"리뷰 수 : {len(elements)}")
+        print(f"리뷰 수 : {len(elements)}, {cafe_name_global}, index={cafe_name_list.index(cafe_name_global)}")
+        
         for _ in range(length):
-            if count % 50 == 0:
+            if count % 10 == 0:
                 print(count)
             element = elements[count]
             nickname = element.text.split(sep='\n')[0]
@@ -217,8 +217,8 @@ try:
 finally:
    pass
 
-input_file = "cafe_infos0.csv"
-output_file = "cafe_reviews0.csv"
+input_file = "cafe_info_hexa8.csv"
+output_file = "cafe_reviews8.csv"
 
 
 df = pd.read_csv(input_file)
@@ -301,6 +301,8 @@ for cafe_name in cafe_name_list:
         keyword_count_dict = "리뷰 없음"
     
     driver.switch_to.default_content()
+    
+    driver.switch_to.window(window_name = driver.window_handles[0])
     driver.find_element(By.CLASS_NAME,"button_clear").send_keys(Keys.ENTER) #검색창 클리어
 
     if returned_nickname_visited_dict == -1:
@@ -308,6 +310,6 @@ for cafe_name in cafe_name_list:
 
     nickname_visited_dict.update(returned_nickname_visited_dict)
 
-cafe_name_review_df = pd.DataFrame(nickname_visited_dict)
+cafe_name_review_df = pd.DataFrame.from_dict(nickname_visited_dict, orient='index')
 
 cafe_name_review_df.to_csv(output_file, encoding="utf-8-sig")

@@ -217,8 +217,8 @@ try:
 finally:
    pass
 
-input_file = "cafe_info_hexa1.csv"
-output_file = "cafe_reviews1.csv"
+input_file = "cafe_info_hexa9.csv"
+output_file = "cafe_reviews9.csv"
 
 
 df = pd.read_csv(input_file)

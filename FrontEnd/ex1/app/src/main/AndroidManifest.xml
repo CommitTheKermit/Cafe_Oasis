@@ -118,7 +118,7 @@
                 android:value="" />
         </activity>
 
-        /* 지도 */
+        /* 여기 잘못 넣어서 안됐던 거..!! */
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="hu4kbw8ndf" />

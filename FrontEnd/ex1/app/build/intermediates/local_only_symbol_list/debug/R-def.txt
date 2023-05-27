@@ -20,6 +20,7 @@ drawable click_color
 drawable frame_4
 drawable home
 drawable home1
+drawable ic_baseline_place_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable kakao1
@@ -98,11 +99,13 @@ id main_map
 id main_profile
 id maintain_login
 id map
+id map_view
 id my_cafe_history
 id my_profile
 id my_profile_email
 id my_profile_name
 id nav
+id oasis_map
 id picture_load_btn
 id profile
 id profile_modify_arrow
@@ -211,6 +214,7 @@ style Theme.Ex1
 style abc_gmail_c
 style keyword_1
 style my_profile
+style oasis_map
 style some_id1
 style some_id10
 style some_id11

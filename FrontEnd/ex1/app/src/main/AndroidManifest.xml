@@ -99,7 +99,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name=".Activities.NaviActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -111,12 +111,18 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.NaviActivity"
+            android:name=".Activities.LoginActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        /* 지도 */
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="hu4kbw8ndf" />
+
     </application>
 
 </manifest>

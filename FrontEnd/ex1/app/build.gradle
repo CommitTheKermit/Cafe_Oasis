@@ -41,5 +41,6 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.5.3'
     implementation 'androidx.navigation:navigation-ui:2.5.3'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'com.naver.maps:map-sdk:3.16.2' /* 네이버 지도 SDK 의존성 선언 */
 
 }

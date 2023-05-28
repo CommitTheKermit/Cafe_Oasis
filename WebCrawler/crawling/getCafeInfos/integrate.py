@@ -49,7 +49,7 @@ def cottation():
     df = pd.read_csv("cafe_info_daegu2.csv")
     for idx in df.index:
         df.loc[idx, '설명'] = f"\"{df.loc[idx, '설명']}\""
-
+        df.loc[idx, '키워드'] = f"\"{df.loc[idx, '키워드']}\""
     df.to_csv("cafe_info_daegu3.csv", encoding="utf-8-sig")
     
 

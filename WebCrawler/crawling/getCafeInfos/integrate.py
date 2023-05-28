@@ -45,5 +45,14 @@ def df_div_hexa(dfAll):
 
         dfAll.iloc[startIndex : endIndex].to_csv(f"cafe_info_hexa{i}.csv", encoding="utf-8-sig")
 
-dfAll = concatAll()
+def cottation():
+    df = pd.read_csv("cafe_info_daegu2.csv")
+    for idx in df.index:
+        df.loc[idx, '설명'] = f"\"{df.loc[idx, '설명']}\""
+
+    df.to_csv("cafe_info_daegu3.csv", encoding="utf-8-sig")
+    
+
+# dfAll = concatAll()
 # df_div_hexa(dfAll)
+cottation()

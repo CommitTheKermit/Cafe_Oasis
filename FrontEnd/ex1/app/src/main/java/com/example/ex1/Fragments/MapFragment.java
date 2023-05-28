@@ -14,17 +14,21 @@ import android.widget.Toast;
 import com.example.ex1.R;
 import com.naver.maps.geometry.LatLng;
 import com.naver.maps.map.CameraPosition;
+import com.naver.maps.map.LocationTrackingMode;
 import com.naver.maps.map.MapView;
 import com.naver.maps.map.NaverMap;
 import com.naver.maps.map.OnMapReadyCallback;
 import com.naver.maps.map.overlay.Marker;
 import com.naver.maps.map.overlay.Overlay;
 import com.naver.maps.map.overlay.OverlayImage;
+import com.naver.maps.map.util.FusedLocationSource;
 
 
 public class MapFragment extends Fragment implements OnMapReadyCallback {
     private MapView mapView;
     private static NaverMap naverMap;
+    private static final int LOCATION_PERMISSION_REQUEST_CODE = 1000; //2
+    private FusedLocationSource locationSource; //2
 
     //마커
     private Marker marker1 = new Marker();
@@ -43,19 +47,21 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         mapView = view.findViewById(R.id.map_view);
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
+        locationSource = new FusedLocationSource(this, LOCATION_PERMISSION_REQUEST_CODE); //2
 
-        //마커
-        setMarker(marker1, 35.837026, 128.753294, R.drawable.ic_baseline_place_24, "이름");
+    }
 
-        marker1.setOnClickListener(new Overlay.OnClickListener() {
-            @Override
-            public boolean onClick(@NonNull Overlay overlay)
-            {
-                Toast.makeText(getActivity().getApplicationContext(), "마커1 클릭", Toast.LENGTH_SHORT).show();
-                return false;
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           @NonNull String[] permissions,  @NonNull int[] grantResults) {
+        if (locationSource.onRequestPermissionsResult(
+                requestCode, permissions, grantResults)) {
+            if (!locationSource.isActivated()) { // 권한 거부됨
+                naverMap.setLocationTrackingMode(LocationTrackingMode.None);
             }
-        });
-
+            return;
+        }
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     @Override
@@ -68,6 +74,19 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                 15                           // 줌 레벨
         );
         naverMap.setCameraPosition(cameraPosition);
+
+        //마커
+        setMarker(marker1, 35.83822810000016, 128.75294189999966, R.drawable.ic_baseline_place_24, "이름");
+
+        marker1.setOnClickListener(new Overlay.OnClickListener() {
+            @Override
+            public boolean onClick(@NonNull Overlay overlay)
+            {
+                Toast.makeText(getActivity().getApplicationContext(), "마커1 클릭", Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
+
     }
 
     public void setMarker(Marker marker, double lat, double lng, int resourceID, String name){

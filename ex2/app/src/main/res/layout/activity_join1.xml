@@ -83,10 +83,9 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/abc_gmail_c"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
 
     <CheckBox
         android:id="@+id/all_agree"
@@ -195,5 +194,11 @@
         android:textAlignment="center"
         android:gravity="center"
         />
+
+    <Button
+        android:id="@+id/btn_email_validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email validate" />
 
 </RelativeLayout>

@@ -40,7 +40,7 @@ import kotlin.jvm.functions.Function2;
 
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
-    private TextView btn_login;
+    private TextView btn_login, btn_sign;
     private EditText login_input_email, login_input_password;
     View main_image;
     ImageView btn_kakao, btn_naver;
@@ -58,6 +58,7 @@ public class LoginActivity extends AppCompatActivity {
         login_input_password = (EditText) findViewById(R.id.login_input_password);
         btn_kakao = findViewById(R.id.btn_kakao);
         btn_naver = findViewById(R.id.btn_naver);
+        btn_sign = findViewById(R.id.btn_sign);
 
         mContext = this;
         main_image = findViewById(R.id.main_image);
@@ -69,6 +70,15 @@ public class LoginActivity extends AppCompatActivity {
 
             return;
         }
+
+        btn_sign.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, Join1.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override

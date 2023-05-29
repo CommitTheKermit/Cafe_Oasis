@@ -10,7 +10,7 @@
     <string name="some_id6">회원가입</string>
     <string name="some_id7">회원가입</string>
     <string name="some_id8">이메일*</string>
-    <string name="some_id9">이메일 확인*</string>
+    <string name="some_id9">인증번호 확인</string>
     <string name="some_id10">아래 약관에 모두 동의합니다.</string>
     <string name="some_id11">이용약관 필수 동의 <u>자세히보기</u></string>
     <string name="some_id12">개인정보 처리방침 필수 동의 <u>자세히보기</u></string>

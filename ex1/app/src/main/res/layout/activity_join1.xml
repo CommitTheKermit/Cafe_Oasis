@@ -62,138 +62,61 @@
         />
 
     <TextView
-        android:id="@+id/sign1_check_email"
+        android:id="@+id/btn_email"
         android:layout_width="match_parent"
-        android:layout_height="21dp"
+        android:layout_height="35dp"
         android:layout_below="@+id/edit_email"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="20dp"
-        android:gravity="top"
-        android:text="@string/some_id9"
-        android:textAppearance="@style/some_id9" />
-
-    <EditText
-        android:id="@+id/edit_check_email"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/sign1_check_email"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/rectangle_1"
-        android:hint="@string/abc_gmail_c"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
-        android:paddingLeft="13dp"
-        />
-
-    <CheckBox
-        android:id="@+id/all_agree"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/edit_check_email"
-        android:layout_marginTop="50dp"
-        android:layout_alignLeft="@+id/edit_check_email"
-        />
-
-
-    <TextView
-        android:id="@+id/sign1_all_agree"
-        android:layout_width="286dp"
-        android:layout_height="21dp"
-        android:layout_below="@+id/edit_check_email"
-        android:layout_marginTop="50dp"
-        android:layout_toRightOf="@+id/all_agree"
-        android:layout_marginLeft="10dp"
-        android:text="@string/some_id10"
-        android:textAppearance="@style/some_id10"
-        android:lineSpacingExtra="-2sp"
-        android:gravity="top"
-        />
-
-    <CheckBox
-        android:id="@+id/first_agree"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/all_agree"
-        android:layout_marginTop="20dp"
-        android:layout_alignLeft="@+id/all_agree"
-
-        />
-    <TextView
-        android:id="@+id/sign1_first_agree"
-        android:layout_width="286dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/sign1_all_agree"
-        android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/all_agree"
-        android:layout_marginLeft="10dp"
-        android:text="@string/some_id11"
-        android:textAppearance="@style/some_id11"
-        android:lineSpacingExtra="-6sp"
-        android:gravity="top"
-        />
-
-    <CheckBox
-        android:id="@+id/second_agree"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/first_agree"
         android:layout_marginTop="10dp"
-        android:layout_alignLeft="@+id/first_agree"
-        />
-
-    <TextView
-        android:id="@+id/sign1_second_agree"
-        android:layout_width="286dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/sign1_first_agree"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@+id/all_agree"
-        android:layout_marginLeft="10dp"
-        android:text="@string/some_id12"
-        android:textAppearance="@style/some_id12"
-        android:lineSpacingExtra="-6sp"
-        android:gravity="top"
-        />
-
-    <CheckBox
-        android:id="@+id/thrid_agree"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/second_agree"
-        android:layout_marginTop="10dp"
-        android:layout_alignLeft="@+id/second_agree"
-        />
-
-    <TextView
-        android:id="@+id/sign1_thrid_agree"
-        android:layout_width="286dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/sign1_second_agree"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@+id/all_agree"
-        android:layout_marginLeft="10dp"
-        android:text="@string/some_id13"
-        android:textAppearance="@style/some_id13"
-        android:lineSpacingExtra="-6sp"
-        android:gravity="top"
-        />
-
-    <TextView
-        android:id="@+id/btn_next_sign1"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/rectangle_15"
-        android:text="다음"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
+        android:background="@drawable/rectangle_5"
         android:gravity="center"
-        />
+        android:text="인증 메일 전송"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/sign1_check_email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="21dp"-->
+<!--        android:layout_below="@+id/btn_email"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:gravity="top"-->
+<!--        android:text="@string/some_id9"-->
+<!--        android:textAppearance="@style/some_id9" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit_check_email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@+id/sign1_check_email"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:background="@drawable/rectangle_1"-->
+<!--        android:hint="@string/abc_gmail_c"-->
+<!--        android:textSize="14sp"-->
+<!--        android:textColorHint="#bdbdbd"-->
+<!--        android:paddingLeft="13dp"-->
+<!--        />-->
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/btn_next_sign1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:background="@drawable/rectangle_15"-->
+<!--        android:text="다음"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textAlignment="center"-->
+<!--        android:gravity="center"-->
+<!--        />-->
 
 </RelativeLayout>

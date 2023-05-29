@@ -22,6 +22,13 @@
     <permission
         android:name="com.example.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <permission
         android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -112,7 +119,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ex1.Activities.LoginActivity"
+            android:name="com.example.ex1.Activities.NaviActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -125,12 +132,32 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ex1.Activities.NaviActivity"
+            android:name="com.example.ex1.Activities.LoginActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        /* 지도 */
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="hu4kbw8ndf" />
+
+        <activity
+            android:name="com.naver.maps.map.app.LegendActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_legend"
+            android:theme="@style/navermap_app" />
+        <activity
+            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_legal_notice"
+            android:theme="@style/navermap_app" />
+        <activity
+            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_open_source_license"
+            android:theme="@style/navermap_app" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

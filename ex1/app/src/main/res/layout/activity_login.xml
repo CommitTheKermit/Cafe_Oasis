@@ -136,16 +136,15 @@
         android:id="@+id/btn_sign"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_below="@+id/btn_login"
         android:layout_centerInParent="true"
         android:layout_marginLeft="80dp"
-        android:layout_below="@+id/btn_login"
         android:layout_marginTop="5dp"
         android:background="@drawable/button1"
-        android:text="@string/some_id6"
-        android:textAppearance="@style/some_id4"
-        android:textAlignment="center"
         android:gravity="center"
-        />
+        android:text="@string/some_id6"
+        android:textAlignment="center"
+        android:textAppearance="@style/some_id4" />
 
     <ImageView
         android:id="@+id/btn_naver"

@@ -102,21 +102,56 @@
 <!--        android:paddingLeft="13dp"-->
 <!--        />-->
 
+    <TextView
+        android:id="@+id/sign1_check_email"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_below="@+id/btn_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/some_id9"
+        android:textAppearance="@style/some_id9" />
 
+    <EditText
+        android:id="@+id/edit_check_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/sign1_check_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rectangle_1"
+        />
 
-<!--    <TextView-->
-<!--        android:id="@+id/btn_next_sign1"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="55dp"-->
-<!--        android:layout_alignParentLeft="true"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_alignParentRight="true"-->
-<!--        android:background="@drawable/rectangle_15"-->
-<!--        android:text="다음"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textColor="#ffffff"-->
-<!--        android:textAlignment="center"-->
-<!--        android:gravity="center"-->
-<!--        />-->
+    <TextView
+        android:id="@+id/btn_check_email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/edit_check_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_5"
+        android:gravity="center"
+        android:text="인증 번호 확인"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/btn_next_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rectangle_15"
+        android:text="다음"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
 
 </RelativeLayout>

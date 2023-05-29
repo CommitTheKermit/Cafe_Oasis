@@ -11,7 +11,7 @@ import com.example.ex1.R;
 
 public class Join1 extends AppCompatActivity {
 
-    TextView btn_email;
+    TextView btn_email,btn_next_sign1;
     View arrow1;
 
     @Override
@@ -21,14 +21,7 @@ public class Join1 extends AppCompatActivity {
 
         btn_email = findViewById(R.id.btn_email);
         arrow1 = findViewById(R.id.arrow1);
-
-        btn_email.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Join1.this,EmailAuthenticationActivity.class);
-                startActivity(intent);
-            }
-        });
+        btn_next_sign1 = findViewById(R.id.btn_next_sign1);
 
         arrow1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +29,14 @@ public class Join1 extends AppCompatActivity {
                 Intent intent = new Intent(Join1.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        btn_next_sign1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Join1.this,Join2.class);
+                startActivity(intent);
             }
         });
 

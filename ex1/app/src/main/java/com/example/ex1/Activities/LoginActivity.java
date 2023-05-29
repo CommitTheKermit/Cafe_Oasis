@@ -92,9 +92,8 @@ public class LoginActivity extends AppCompatActivity {
                     public void run() {
                         try{
                             // API 요청을 보내기 위한 URL 생성
-                            URL url = new URL("http://52.79.247.229:8000/pics_users/login");
+                            URL url = new URL("http://cafeoasis.xyz/app_oasis/login");
                             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-//            int status = conn.getResponseCode();
                             conn.setRequestMethod("POST");
                             conn.setRequestProperty("Content-Type", "application/json");
 
@@ -120,15 +119,7 @@ public class LoginActivity extends AppCompatActivity {
                             }
                             // 연결 종료
                             conn.disconnect();
-                        }
-                        catch (JSONException e)
-                        {
-                            throw new RuntimeException(e);
-                        } catch (ProtocolException e) {
-                            throw new RuntimeException(e);
-                        } catch (MalformedURLException e) {
-                            throw new RuntimeException(e);
-                        } catch (IOException e) {
+                        } catch (JSONException | IOException e) {
                             throw new RuntimeException(e);
                         }
                     }

@@ -56,26 +56,11 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/abc_gmail_c"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/btn_email"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_below="@+id/edit_email"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/rectangle_5"
-        android:gravity="center"
-        android:text="인증 메일 전송"
-        android:textColor="@color/black"
-        android:textSize="15sp" />
-
-<!--    <TextView-->
+    <!--    <TextView-->
 <!--        android:id="@+id/sign1_check_email"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="21dp"-->
@@ -103,10 +88,24 @@
 <!--        />-->
 
     <TextView
+        android:id="@+id/btnEmailSend"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/edit_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rectangle_5"
+        android:gravity="center"
+        android:text="인증 메일 전송"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
         android:id="@+id/sign1_check_email"
         android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:layout_below="@+id/btn_email"
+        android:layout_below="@+id/btnEmailSend"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
         android:layout_marginTop="20dp"
@@ -122,11 +121,10 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/rectangle_1"
-        />
+        android:background="@drawable/rectangle_1" />
 
     <TextView
-        android:id="@+id/btn_check_email"
+        android:id="@+id/btnCheckCode"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_below="@+id/edit_check_email"

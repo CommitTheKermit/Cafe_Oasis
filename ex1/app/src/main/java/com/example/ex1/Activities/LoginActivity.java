@@ -18,8 +18,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ex1.Main.MainActivity;
+import com.example.ex1.Objects.JsonAndStatus;
+import com.example.ex1.Objects.UserInfo;
 import com.example.ex1.R;
 import com.example.ex1.Utils.PermissionUtils;
+import com.example.ex1.Utils.ServerComm;
 import com.kakao.sdk.auth.model.OAuthToken;
 import com.kakao.sdk.user.UserApiClient;
 import com.kakao.sdk.user.model.User;
@@ -86,44 +89,40 @@ public class LoginActivity extends AppCompatActivity {
                 String email = login_input_email.getText().toString();
                 String pw = login_input_password.getText().toString();
 
+                // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
+                JSONObject jsonObject = new JSONObject();
+                try {
+                    jsonObject.put("user_email", email);
+                    jsonObject.put("user_pw", pw);
 
-                new Thread(){
-                    @Override
-                    public void run() {
-                        try{
-                            // API 요청을 보내기 위한 URL 생성
-                            URL url = new URL("http://cafeoasis.xyz/app_oasis/login");
-                            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                            conn.setRequestMethod("POST");
-                            conn.setRequestProperty("Content-Type", "application/json");
+                    JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/app_oasis/login"),
+                            jsonObject);
 
+                    if(resultJson.getStatusCode() == 200){
+                        Toast.makeText(LoginActivity.this, "로그인 성공",
+                                Toast.LENGTH_SHORT).show();
 
-                            // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
-                            JSONObject data = new JSONObject();
-                            data.put("user_id", email);
-                            data.put("user_pw", pw);
+                        JSONObject tempJson = resultJson.getJsonObject();
+                        UserInfo userInfo = new UserInfo();
 
-                            conn.setDoOutput(true);
-                            conn.getOutputStream().write(data.toString().getBytes());
+                        userInfo.setUser_email(tempJson.getString("user_email"));
+                        userInfo.setUser_name(tempJson.getString("user_name"));
+                        userInfo.setUser_type(tempJson.getInt("user_type"));
+                        userInfo.setUser_nickname(tempJson.getString("user_nickname"));
+                        userInfo.setUser_age(tempJson.getInt("user_age"));
+                        userInfo.setUser_sex(tempJson.getInt("user_sex"));
 
-                            String output = null;
-                            int status = conn.getResponseCode();
-                            if(status == HttpURLConnection.HTTP_OK){
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                startActivity(intent);
-                            }
-                            else{
-                                Toast.makeText(LoginActivity.this, "아이디와 비밀번호를 다시 확인해보세요", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                startActivity(intent);
-                            }
-                            // 연결 종료
-                            conn.disconnect();
-                        } catch (JSONException | IOException e) {
-                            throw new RuntimeException(e);
-                        }
+                        Intent intent = new Intent(LoginActivity.this, NaviActivity.class);
+                        intent.putExtra("userInfo", userInfo);
+                        startActivity(intent);
+                        finish();
                     }
-                }.start();
+                    else{
+                        Toast.makeText(LoginActivity.this, "아이디와 비밀번호를 다시 확인해보세요", Toast.LENGTH_SHORT).show();
+                    }
+                } catch (JSONException | MalformedURLException e) {
+                    throw new RuntimeException(e);
+                }
 
             }
         });

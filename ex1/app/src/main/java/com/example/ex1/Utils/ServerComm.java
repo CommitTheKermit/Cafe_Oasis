@@ -4,6 +4,8 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
+import com.example.ex1.Objects.JsonAndStatus;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -16,7 +18,7 @@ import java.net.URL;
 
 public class ServerComm {
     private static int statusCode = 0;
-    private static JSONObject outputJson = null;
+    private static JsonAndStatus outputJson = null;
 
     public static int getStatusCode(URL argUrl, JSONObject argJson){
         Thread thread = new Thread(){
@@ -37,8 +39,8 @@ public class ServerComm {
                     conn.disconnect();
                     statusCode = status;
 
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
+                } catch (Exception e) {
+                    return;
                 }
             }
         };
@@ -53,7 +55,7 @@ public class ServerComm {
 
     }
 
-    public static JSONObject getOutputString(URL argUrl, JSONObject argJson){
+    public static JsonAndStatus getOutputString(URL argUrl, JSONObject argJson){
         Thread thread = new Thread(){
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
@@ -82,9 +84,11 @@ public class ServerComm {
                     }
 
                     returnJson = new JSONObject(output);
+                    outputJson = new JsonAndStatus();
                     // 연결 종료
                     conn.disconnect();
-                    outputJson = returnJson;
+                    outputJson.setJsonObject(returnJson);
+                    outputJson.setStatusCode(status);
 
                 } catch (IOException | JSONException e) {
                     throw new RuntimeException(e);

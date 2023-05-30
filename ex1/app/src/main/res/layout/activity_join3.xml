@@ -54,10 +54,9 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/sign3_nickname"

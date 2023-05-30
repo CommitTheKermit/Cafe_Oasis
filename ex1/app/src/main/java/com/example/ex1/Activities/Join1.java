@@ -37,6 +37,7 @@ public class Join1 extends AppCompatActivity {
         editCheckEmail = findViewById(R.id.edit_check_email);
         arrow1 = findViewById(R.id.arrow1);
         btn_next_sign1 = findViewById(R.id.btn_next_sign1);
+        btn_next_sign1.setEnabled(false);
 
         UserInfo userInfo = new UserInfo();
 
@@ -88,6 +89,7 @@ public class Join1 extends AppCompatActivity {
                     if(statusCode == 200){
                         Toast.makeText(Join1.this, "인증 성공",
                                 Toast.LENGTH_SHORT).show();
+                        btn_next_sign1.setEnabled(true);
                     }
                     else{
                         Toast.makeText(Join1.this, "인증 실패",

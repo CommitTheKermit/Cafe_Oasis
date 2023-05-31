@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment"
+    android:id="@+id/mainFrameLayout">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/rating_btn"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rating"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <ImageButton
+            android:id="@+id/recommendation_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recommendation"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/rating_btn"
+            />
+
+        <ImageButton
+            android:id="@+id/bookmarket_btn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bookmarker"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/recommendation_btn"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+
+            android:id="@+id/child_frame">
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

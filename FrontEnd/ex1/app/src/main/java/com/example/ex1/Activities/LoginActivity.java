@@ -58,27 +58,27 @@ public class LoginActivity extends AppCompatActivity {
 
                 new Thread(){
                     @Override
-                    public void run() {
+                    public void run() {//HttpURLConnection 통신하기 위해서는 반드시 쓰레드가 필요함
                         try{
                             // API 요청을 보내기 위한 URL 생성
-                            URL url = new URL("http://52.79.247.229:8000/pics_users/login");
+                            URL url = new URL("http://52.79.247.229:8000/pics_users/login");//서버 IP + 서버 메소드
                             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 //            int status = conn.getResponseCode();
-                            conn.setRequestMethod("POST");
+                            conn.setRequestMethod("POST");//대부분 POST 방식으로 처리함
                             conn.setRequestProperty("Content-Type", "application/json");
 
 
                             // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
-                            JSONObject data = new JSONObject();
-                            data.put("user_id", email);
-                            data.put("user_pw", pw);
+                            JSONObject data = new JSONObject();//JSON 형식 생성
+                            data.put("user_id", email);//JSON에 키 : 밸류 저장
+                            data.put("user_pw", pw);//JSON에 키 : 밸류 저장
 
-                            conn.setDoOutput(true);
-                            conn.getOutputStream().write(data.toString().getBytes());
+                            conn.setDoOutput(true);//POST 방식 요청/응답에 꼭 필요
+                            conn.getOutputStream().write(data.toString().getBytes());//JSON을 커넥션에 써줌
 
                             String output = null;
-                            int status = conn.getResponseCode();
-                            if(status == HttpURLConnection.HTTP_OK){
+                            int status = conn.getResponseCode();//메소드 처리 아님. 상태코드만 받는다
+                            if(status == HttpURLConnection.HTTP_OK){//상태코드가 200이라면 정상처리됐음을 의미
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 startActivity(intent);
                             }
@@ -88,7 +88,7 @@ public class LoginActivity extends AppCompatActivity {
                                 startActivity(intent);
                             }
                             // 연결 종료
-                            conn.disconnect();
+                            conn.disconnect();//커낵션 종료 꼭 필요함
                         }
                         catch (JSONException e)
                         {

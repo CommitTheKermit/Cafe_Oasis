@@ -9,180 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba527c7-b4f1-4896-9c48-8d39542aa317" name="Changes" comment="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화">
-      <change afterPath="$PROJECT_DIR$/../FrontEnd/.idea/FrontEnd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arrow2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arrow2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bookmarker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cafe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cafe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cafe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_call_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_local_cafe_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_place_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_place_24_beb5af.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kakao1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/map1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/map_btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/naver1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/profile1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/profile_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/recommendation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/trost.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/javac/debug/classes/com/example/ex1/Activities/NaviActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/javac/debug/classes/com/example/ex1/Fragments/MapFragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/ex1/app/src/main/java/com/example/ex1/Fragments/MapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/ex1/app/src/main/java/com/example/ex1/Fragments/MapFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebCrawler/새 폴더/cafe_reviews0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebCrawler/새 폴더/cafe_reviews2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebCrawler/새 폴더/cafe_reviews3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ex1/Fragments/MapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ex1/Fragments/MapFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_map.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/androidTest/java/com/example/ex1/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/CafeHistoryActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/HistoryModifyActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/Join1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/Join2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/Join3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/Keyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/Keyword_Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/LoginActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/NaviActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/ReceipRecognitionActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Activities/SplashActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/DataPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Fragments/BookMarkerFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Fragments/HomeFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Fragments/MapFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Fragments/ProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Fragments/RatingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Fragments/RecommendationFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/KakaoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Main/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/Utils/PermissionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/ViewHolderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/java/com/example/ex1/ViewPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/arrow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/arrow2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/bookmarker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/cafe1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/cafe2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/cafe3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/home1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/kakao1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/map1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/map_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/naver1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/profile1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/profile_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/rating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable-v24/recommendation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/button1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/button2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/click_color.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/frame_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/ic_baseline_place_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/kakao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/main_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/nav.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/naver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/rectangle_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/rectangle_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/rectangle_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/rectangle_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/rectangle_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/drawable/some_id.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_cafe_history.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_history_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_join1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_join2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_join3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_keyword.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_keyword_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_my_profile_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_navi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_receip_recognition.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/fragment_book_marker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/fragment_map.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/fragment_rating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/fragment_recommendation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/layout/item_viewpager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/menu/navi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/app/src/test/java/com/example/ex1/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2/settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="cba527c7-b4f1-4896-9c48-8d39542aa317" name="Changes" comment="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +67,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -258,7 +85,8 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "android-custom-viewC:/Users/commitKermit/AppData/Local/Android/Sdk/sources/android-33/android/view/View.java_SELECTED": "View",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/commitKermit/Desktop/github/Cafe_Oasis/ex1/app/src/main/res/layout"
+    "last_opened_file_path": "C:/Users/commitKermit/Desktop/ex1",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">

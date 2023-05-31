@@ -20,6 +20,10 @@ drawable click_color
 drawable frame_4
 drawable home
 drawable home1
+drawable ic_baseline_call_24
+drawable ic_baseline_local_cafe_24
+drawable ic_baseline_place_24
+drawable ic_baseline_place_24_beb5af
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable kakao
@@ -45,6 +49,7 @@ drawable rectangle_4
 drawable rectangle_5
 drawable round
 drawable some_id
+drawable trost
 id Photo_shoot_btn
 id arrow1
 id arrow2
@@ -79,6 +84,7 @@ id edit_num
 id edit_password
 id email_auth_arrow
 id email_checkbox
+id fragment_container
 id frame_3
 id frame_4
 id frame_6
@@ -87,6 +93,7 @@ id history_arrow1
 id history_modify_arrow
 id history_modify_text
 id home
+id imagepoint
 id keep_checkbox
 id keyword
 id keyword_mo
@@ -107,6 +114,7 @@ id main_map
 id main_profile
 id maintain_login
 id map
+id map_view
 id modify_age
 id modify_name
 id modify_nickname
@@ -116,6 +124,7 @@ id my_profile
 id my_profile_email
 id my_profile_name
 id nav
+id oasis_map
 id picture_load_btn
 id profile
 id profile_modify_arrow
@@ -160,6 +169,9 @@ id text_sign2
 id text_sign3
 id text_sign4
 id text_splash
+id txtaddr
+id txttel
+id txttitle
 id viewpager2_bookmarker
 id viewpager2_rating
 id viewpager2_recommendation
@@ -188,6 +200,7 @@ layout fragment_map
 layout fragment_profile
 layout fragment_rating
 layout fragment_recommendation
+layout item_point
 layout item_viewpager
 menu navi
 mipmap ic_launcher
@@ -229,6 +242,7 @@ style Theme.Ex1
 style abc_gmail_c
 style keyword_1
 style my_profile
+style oasis_map
 style some_id1
 style some_id10
 style some_id11

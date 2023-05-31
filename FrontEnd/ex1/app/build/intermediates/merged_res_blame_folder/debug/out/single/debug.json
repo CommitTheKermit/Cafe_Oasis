@@ -1,302 +1,414 @@
 [
     {
-        "merged": "com.example.ex1.app-merged_res-48:/layout_activity_join3.xml.flat",
-        "source": "com.example.ex1.app-main-50:/layout/activity_join3.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_line.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/line.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_main.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_cafe_history.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_cafe_history.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_button2.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\button2.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_cafe1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/cafe1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\fragment_profile.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_keyword.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_keyword.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_receip_recognition.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_receip_recognition.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_naver.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/naver.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_rectangle_3.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\rectangle_3.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rectangle_1.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rectangle_1.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_item_viewpager.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/item_viewpager.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_arrow.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/arrow.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_arrow2_1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\arrow2_1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rating.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rating.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_profile_img.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/profile_img.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_profile_img.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/profile_img.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_keyword_modify.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_keyword_modify.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_click_color.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/click_color.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/menu_navi.xml.flat",
+        "source": "com.example.ex1.app-main-54:/menu/navi.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_map.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\map.png"
+        "merged": "com.example.ex1.app-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.ex1.app-main-54:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_email_authentication.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_email_authentication.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_arrow2.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\arrow2.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rectangle_2.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rectangle_2.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_rectangle_4.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\rectangle_4.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_my_profile_modify.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_my_profile_modify.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\fragment_home.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_map.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/map.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\xml\\backup_rules.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_kakao1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/kakao1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_fragment_recommendation.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\fragment_recommendation.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_rating.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/rating.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_some_id.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\some_id.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_arrow.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/arrow.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_fragment_map.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\fragment_map.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_kakao.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\kakao.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_ic_baseline_call_24.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/ic_baseline_call_24.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_cafe3.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\cafe3.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rectangle_3.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rectangle_3.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_my_profile_modify.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_my_profile_modify.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-pngs-43:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_map1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/map1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_fragment_book_marker.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\fragment_book_marker.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_map_btn.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/map_btn.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_map_btn.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\map_btn.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_bookmarker.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/bookmarker.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_join1.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_join1.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_button1.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\button1.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_main_image.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/main_image.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_fragment_rating.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\fragment_rating.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_keyword.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_keyword.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_keyword_modify.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_keyword_modify.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_navi.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_navi.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_login.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_rectangle_5.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\rectangle_5.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_nav.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\nav.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "com.example.ex1.app-main-54:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_profile.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\profile.png"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_email_authentication.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_email_authentication.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_some_id.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/some_id.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_join2.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_join2.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_fragment_home.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_profile1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\profile1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_profile1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/profile1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_line.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\line.png"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_recommendation.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\recommendation.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_profile1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/profile1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_arrow.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\arrow.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_cafe1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/cafe1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_main_image.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\main_image.png"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_profile_img.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\profile_img.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_arrow2.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/arrow2.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_splash.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_recommendation.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/recommendation.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_rectangle_1.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\rectangle_1.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_map1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\map1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_bookmarker.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/bookmarker.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\menu_navi.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\menu\\navi.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_cafe3.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/cafe3.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_kakao1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\kakao1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_splash.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_profile.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/profile.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_frame_4.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\frame_4.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_receip_recognition.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_receip_recognition.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_login.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-ldpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_cafe2.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\cafe2.png"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_fragment_book_marker.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/fragment_book_marker.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_history_modify.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_history_modify.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_home1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/home1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_naver1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\naver1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_arrow2.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/arrow2.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_home1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\home1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_cafe3.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/cafe3.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_join3.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_join3.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_item_point.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/item_point.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_round.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\round.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_join3.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_join3.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_rating.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\rating.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rectangle_5.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rectangle_5.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_home.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\home.png"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_button1.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/button1.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_click_color.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\click_color.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_naver1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/naver1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_rectangle_2.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\rectangle_2.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_item_viewpager.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\item_viewpager.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_navi.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_navi.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_rectangle_15.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\rectangle_15.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_map1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/map1.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_ic_baseline_place_24.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/ic_baseline_place_24.xml"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_cafe1.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\cafe1.png"
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable-v24_bookmarker.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable-v24\\bookmarker.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.ex1.app-pngs-47:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\layout_activity_cafe_history.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\layout\\activity_cafe_history.xml"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_kakao.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/kakao.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-48:\\drawable_naver.png.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-50:\\drawable\\naver.png"
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_line.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/line.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_naver1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/naver1.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_map_btn.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/map_btn.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_join2.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_join2.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_fragment_profile.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_ic_baseline_local_cafe_24.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/ic_baseline_local_cafe_24.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_arrow2_1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/arrow2_1.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_button2.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/button2.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_fragment_rating.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/fragment_rating.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_nav.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/nav.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_fragment_recommendation.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/fragment_recommendation.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_cafe2.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/cafe2.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_kakao1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/kakao1.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rectangle_15.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rectangle_15.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable-v24_cafe2.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable-v24/cafe2.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_history_modify.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_history_modify.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_fragment_map.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_home.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/home.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/layout_activity_join1.xml.flat",
+        "source": "com.example.ex1.app-main-54:/layout/activity_join1.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_recommendation.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/recommendation.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_round.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/round.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ex1.app-main-54:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_ic_baseline_place_24_beb5af.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/ic_baseline_place_24_beb5af.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_frame_4.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/frame_4.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_trost.jpg.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/trost.jpg"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_home1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/home1.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_rectangle_4.xml.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/rectangle_4.xml"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-52:/drawable_arrow2_1.png.flat",
+        "source": "com.example.ex1.app-main-54:/drawable/arrow2_1.png"
     }
 ]

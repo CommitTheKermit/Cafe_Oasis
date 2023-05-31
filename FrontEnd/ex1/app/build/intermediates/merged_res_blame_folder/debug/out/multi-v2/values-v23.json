@@ -1,40 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ex1.app-mergeDebugResources-46:/values-v23/values-v23.xml",
+            "outputFile": "com.example.ex1.app-mergeDebugResources-50:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\5a27ca775560873887f189ff403aaaac\\transformed\\v2-friend-2.13.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\1d6008e40b174b18ef5fa9ea4cd35014\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",
                     "from": {
-                        "startLines": "2,84",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,5781",
-                        "endLines": "83,166",
-                        "endColumns": "12,12",
-                        "endOffsets": "5776,11600"
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
                     },
                     "to": {
-                        "startLines": "53,135",
-                        "startColumns": "4,4",
-                        "startOffsets": "3382,8915",
-                        "endLines": "134,217",
-                        "endColumns": "12,12",
-                        "endOffsets": "8910,14541"
+                        "startLines": "218,221,224,229,233,236,239,242,247,250,254",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "14546,14762,14972,15292,15529,15736,15943,16146,16478,16680,16945",
+                        "endLines": "220,223,228,232,235,238,241,246,249,253,257",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "14757,14967,15287,15524,15731,15938,16141,16473,16675,16940,17213"
                     }
                 },
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\780c8931bfe5d3b0e26a458d121ff58b\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\fa3659a04c6e45d556b5f8662112b28b\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\1f624a3ec658e1a90eb17b72d8f4e5aa\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -53,22 +42,33 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\8dabd95bc81c6c3e4a972c559871b715\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\5a66dbe28a151e3d258030c9f05e44d5\\transformed\\jetified-v2-friend-2.13.0\\res\\values-v23\\values-v23.xml",
                     "from": {
-                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
-                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                        "startLines": "2,84",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,5781",
+                        "endLines": "83,166",
+                        "endColumns": "12,12",
+                        "endOffsets": "5776,11600"
                     },
                     "to": {
-                        "startLines": "218,221,224,229,233,236,239,242,247,250,254",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "14546,14762,14972,15292,15529,15736,15943,16146,16478,16680,16945",
-                        "endLines": "220,223,228,232,235,238,241,246,249,253,257",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "14757,14967,15287,15524,15731,15938,16141,16473,16675,16940,17213"
+                        "startLines": "53,135",
+                        "startColumns": "4,4",
+                        "startOffsets": "3382,8915",
+                        "endLines": "134,217",
+                        "endColumns": "12,12",
+                        "endOffsets": "8910,14541"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
                     }
                 }
             ]

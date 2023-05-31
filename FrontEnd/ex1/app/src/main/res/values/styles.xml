@@ -76,10 +76,5 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="oasis_map">
-        <item name="android:textSize">28sp</item>
-        <item name="android:textColor">#6A515E</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
 </resources>

@@ -8,14 +8,26 @@
     android:background="@drawable/some_id"
     >
 
+    <View
+        android:id="@+id/keyword_modify_arrow1"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/arrow"
+        />
+
+
     <TextView
-        android:id="@+id/text_keyword"
+        android:id="@+id/text_keyword_modify"
         android:layout_width="160dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="23dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/keyword_modify_arrow1"
+        android:layout_marginTop="20dp"
         android:text="@string/some_id25"
         android:textAppearance="@style/some_id7"
         android:lineSpacingExtra="-4sp"
@@ -29,15 +41,15 @@
         android:layout_width="99dp"
         android:layout_height="42dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="97dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/text_keyword_modify"
+        android:layout_marginTop="10dp"
         >
 
         <TextView
             android:id="@+id/rectangle_3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
@@ -52,10 +64,10 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/some_id"
+        android:id="@+id/keyword_mo"
         android:layout_width="200dp"
         android:layout_height="18dp"
-        android:layout_above="@+id/btn_next_keyword"
+        android:layout_above="@+id/btn_complete_keyword"
         android:layout_centerInParent="true"
         android:layout_marginBottom="8dp"
         android:gravity="center_vertical"
@@ -64,7 +76,7 @@
         android:textAppearance="@style/some_id14" />
 
     <TextView
-        android:id="@+id/btn_next_keyword"
+        android:id="@+id/btn_complete_keyword"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"

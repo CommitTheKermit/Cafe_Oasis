@@ -28,307 +28,345 @@
 16    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
 16-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:10:5-75
 16-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:10:22-72
-17
-18    <uses-feature
-18-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:12:5-14:35
-19        android:glEsVersion="0x00020000"
-19-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:13:9-41
-20        android:required="true" />
-20-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:14:9-32
-21
-22    <permission
-22-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:16:5-18:47
-23        android:name="com.example.permission.MAPS_RECEIVE"
-23-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:17:9-59
-24        android:protectionLevel="signature" />
-24-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:18:9-44
-25
-26    <uses-feature
-26-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:12:5-14:36
-27        android:name="android.hardware.wifi"
-27-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:13:9-45
-28        android:required="false" />
-28-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:14:9-33
-29
-30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-30-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:5-76
-30-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:22-73
-31
-32    <permission
-32-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-33        android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-33-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-34        android:protectionLevel="signature" />
-34-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-35
-36    <uses-permission android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-36-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-36-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-37
-38    <application
-38-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:20:5-126:19
-39        android:allowBackup="true"
-39-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:21:9-35
-40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-41        android:dataExtractionRules="@xml/data_extraction_rules"
-41-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:22:9-65
-42        android:debuggable="true"
-43        android:fullBackupContent="@xml/backup_rules"
-43-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:23:9-54
-44        android:icon="@mipmap/ic_launcher"
-44-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:9-43
-45        android:label="@string/app_name"
-45-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:25:9-41
-46        android:roundIcon="@mipmap/ic_launcher_round"
-46-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:9-54
-47        android:supportsRtl="true"
-47-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:27:9-35
-48        android:testOnly="true"
-49        android:theme="@style/Theme.Ex1"
-49-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:9-41
-50        android:usesCleartextTraffic="true" >
-50-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:30:9-44
-51        <activity
-51-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:31:9-37:20
-52            android:name="com.example.ex1.Activities.ReceipRecognitionActivity"
-52-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:32:13-65
-53            android:exported="false" >
-53-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:33:13-37
-54            <meta-data
-54-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-55                android:name="android.app.lib_name"
-55-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-56                android:value="" />
-56-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-57        </activity>
-58        <activity
-58-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:38:9-44:20
-59            android:name="com.example.ex1.Activities.CafeHistoryActivity"
-59-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:39:13-59
-60            android:exported="false" >
-60-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:40:13-37
-61            <meta-data
-61-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-62                android:name="android.app.lib_name"
-62-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-63                android:value="" />
-63-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-64        </activity>
-65        <activity
-65-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:45:9-51:20
-66            android:name="com.example.ex1.Activities.Keyword_Modify"
-66-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:46:13-54
-67            android:exported="false" >
-67-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:47:13-37
-68            <meta-data
-68-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-69                android:name="android.app.lib_name"
-69-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-70                android:value="" />
-70-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-71        </activity>
-72        <activity
-72-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:52:9-58:20
-73            android:name="com.example.ex1.Activities.MyProfile_Modify"
-73-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:53:13-56
-74            android:exported="false" >
-74-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:54:13-37
-75            <meta-data
-75-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-76                android:name="android.app.lib_name"
-76-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-77                android:value="" />
-77-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-78        </activity>
-79        <activity
-79-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:59:9-65:20
-80            android:name="com.example.ex1.Main.MainActivity"
-80-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:60:13-46
-81            android:exported="false" >
-81-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:61:13-37
-82            <meta-data
-82-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-83                android:name="android.app.lib_name"
-83-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-84                android:value="" />
-84-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-85        </activity>
-86        <activity
-86-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:66:9-72:20
-87            android:name="com.example.ex1.Activities.SplashActivity"
-87-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:67:13-54
-88            android:exported="false" >
-88-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:68:13-37
-89            <meta-data
-89-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-90                android:name="android.app.lib_name"
-90-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-91                android:value="" />
-91-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-92        </activity>
-93        <activity
-93-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:9-79:20
-94            android:name="com.example.ex1.Activities.Keyword"
-94-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:13-47
-95            android:exported="false" >
-95-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:75:13-37
-96            <meta-data
-96-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-97                android:name="android.app.lib_name"
-97-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-98                android:value="" />
-98-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-99        </activity>
-100        <activity
-100-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:80:9-86:20
-101            android:name="com.example.ex1.Activities.Join3"
-101-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:81:13-45
-102            android:exported="false" >
-102-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:82:13-37
-103            <meta-data
-103-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-104                android:name="android.app.lib_name"
-104-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-105                android:value="" />
-105-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-106        </activity>
-107        <activity
-107-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:87:9-93:20
-108            android:name="com.example.ex1.Activities.Join2"
-108-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:88:13-45
-109            android:exported="false" >
-109-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:89:13-37
-110            <meta-data
-110-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-111                android:name="android.app.lib_name"
-111-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-112                android:value="" />
-112-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-113        </activity>
-114        <activity
-114-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:94:9-100:20
-115            android:name="com.example.ex1.Activities.Join1"
-115-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:95:13-45
-116            android:exported="false" >
-116-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:96:13-37
-117            <meta-data
-117-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-118                android:name="android.app.lib_name"
-118-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-119                android:value="" />
-119-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-120        </activity>
-121        <activity
-121-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:101:9-112:20
-122            android:name="com.example.ex1.Activities.NaviActivity"
-122-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:102:13-52
-123            android:exported="true" >
-123-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:103:13-36
-124            <intent-filter>
-124-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:104:13-108:29
-125                <action android:name="android.intent.action.MAIN" />
-125-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:105:17-69
-125-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:105:25-66
-126
-127                <category android:name="android.intent.category.LAUNCHER" />
-127-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:107:17-77
-127-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:107:27-74
-128            </intent-filter>
-129
-130            <meta-data
-130-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-131                android:name="android.app.lib_name"
-131-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-132                android:value="" />
-132-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-133        </activity>
-134        <activity
-134-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:113:9-119:20
-135            android:name="com.example.ex1.Activities.LoginActivity"
-135-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:114:13-53
-136            android:exported="false" >
-136-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:115:13-37
-137            <meta-data
-137-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-36:36
-138                android:name="android.app.lib_name"
-138-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:17-52
-139                android:value="" />
-139-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-33
-140        </activity>
-141        /* 지도 */
-142        <meta-data
-142-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:122:9-124:42
-143            android:name="com.naver.maps.map.CLIENT_ID"
-143-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:123:13-56
-144            android:value="hu4kbw8ndf" />
-144-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:124:13-39
-145
-146        <activity
-146-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:21:9-25:51
-147            android:name="com.naver.maps.map.app.LegendActivity"
-147-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:22:13-65
-148            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-148-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:23:13-91
-149            android:label="@string/navermap_legend"
-149-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:24:13-52
-150            android:theme="@style/navermap_app" />
-150-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:25:13-48
-151        <activity
-151-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:26:9-30:51
-152            android:name="com.naver.maps.map.app.LegalNoticeActivity"
-152-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:27:13-70
-153            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-153-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:28:13-91
-154            android:label="@string/navermap_legal_notice"
-154-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:29:13-58
-155            android:theme="@style/navermap_app" />
-155-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:30:13-48
-156        <activity
-156-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:31:9-35:51
-157            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
-157-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:32:13-76
-158            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-158-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:33:13-91
-159            android:label="@string/navermap_open_source_license"
-159-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:34:13-65
-160            android:theme="@style/navermap_app" />
-160-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:35:13-48
-161
-162        <provider
-162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-163            android:name="androidx.startup.InitializationProvider"
-163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-164            android:authorities="com.example.ex1.androidx-startup"
-164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-165            android:exported="false" >
-165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-166            <meta-data
-166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-167                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-168                android:value="androidx.startup" />
-168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-169            <meta-data
-169-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lovel\.gradle\caches\transforms-3\ff0c332789c9865088b0af445f8548a5\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-170                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-170-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lovel\.gradle\caches\transforms-3\ff0c332789c9865088b0af445f8548a5\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-171                android:value="androidx.startup" />
-171-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lovel\.gradle\caches\transforms-3\ff0c332789c9865088b0af445f8548a5\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-172        </provider>
-173
-174        <uses-library
-174-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-175            android:name="androidx.window.extensions"
-175-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-176            android:required="false" />
-176-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-177        <uses-library
-177-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-178            android:name="androidx.window.sidecar"
-178-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-179            android:required="false" />
-179-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-180    </application>
+17    <uses-permission android:name="android.permission.CALL_PHONE" />
+17-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:11:5-68
+17-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:11:22-66
+18
+19    <uses-feature
+19-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:13:5-15:35
+20        android:glEsVersion="0x00020000"
+20-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:14:9-41
+21        android:required="true" />
+21-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:15:9-32
+22
+23    <permission
+23-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:17:5-19:47
+24        android:name="com.example.permission.MAPS_RECEIVE"
+24-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:18:9-59
+25        android:protectionLevel="signature" />
+25-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:19:9-44
+26
+27    <uses-feature
+27-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:12:5-14:36
+28        android:name="android.hardware.wifi"
+28-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:13:9-45
+29        android:required="false" />
+29-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:14:9-33
+30
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:5-76
+31-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:22-73
+32
+33    <permission
+33-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:21:5-127:19
+40        android:allowBackup="true"
+40-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:22:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.9.0] C:\Users\lovel\.gradle\caches\transforms-3\89e362569a51574587919f624bc8aa70\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+42        android:dataExtractionRules="@xml/data_extraction_rules"
+42-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:23:9-65
+43        android:debuggable="true"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:9-54
+45        android:icon="@mipmap/ic_launcher"
+45-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:25:9-43
+46        android:label="@string/app_name"
+46-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:27:9-54
+48        android:supportsRtl="true"
+48-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.Ex1"
+50-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:29:9-41
+51        android:usesCleartextTraffic="true" >
+51-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:31:9-44
+52        <activity
+52-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:32:9-38:20
+53            android:name="com.example.ex1.Activities.ReceipRecognitionActivity"
+53-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:33:13-65
+54            android:exported="false" >
+54-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:13-37
+55            <meta-data
+55-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+56                android:name="android.app.lib_name"
+56-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+57                android:value="" />
+57-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+58        </activity>
+59        <activity
+59-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:39:9-45:20
+60            android:name="com.example.ex1.Activities.CafeHistoryActivity"
+60-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:40:13-59
+61            android:exported="false" >
+61-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:41:13-37
+62            <meta-data
+62-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+63                android:name="android.app.lib_name"
+63-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+64                android:value="" />
+64-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+65        </activity>
+66        <activity
+66-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:46:9-52:20
+67            android:name="com.example.ex1.Activities.Keyword_Modify"
+67-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:47:13-54
+68            android:exported="false" >
+68-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:48:13-37
+69            <meta-data
+69-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+70                android:name="android.app.lib_name"
+70-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+71                android:value="" />
+71-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+72        </activity>
+73        <activity
+73-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:53:9-59:20
+74            android:name="com.example.ex1.Activities.MyProfile_Modify"
+74-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:54:13-56
+75            android:exported="false" >
+75-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:55:13-37
+76            <meta-data
+76-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+77                android:name="android.app.lib_name"
+77-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+78                android:value="" />
+78-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+79        </activity>
+80        <activity
+80-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:60:9-66:20
+81            android:name="com.example.ex1.Main.MainActivity"
+81-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:61:13-46
+82            android:exported="false" >
+82-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:62:13-37
+83            <meta-data
+83-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+84                android:name="android.app.lib_name"
+84-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+85                android:value="" />
+85-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+86        </activity>
+87        <activity
+87-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:67:9-73:20
+88            android:name="com.example.ex1.Activities.SplashActivity"
+88-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:68:13-54
+89            android:exported="false" >
+89-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:69:13-37
+90            <meta-data
+90-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+91                android:name="android.app.lib_name"
+91-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+92                android:value="" />
+92-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+93        </activity>
+94        <activity
+94-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:9-80:20
+95            android:name="com.example.ex1.Activities.Keyword"
+95-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:75:13-47
+96            android:exported="false" >
+96-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:76:13-37
+97            <meta-data
+97-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+98                android:name="android.app.lib_name"
+98-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+99                android:value="" />
+99-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+100        </activity>
+101        <activity
+101-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:81:9-87:20
+102            android:name="com.example.ex1.Activities.Join3"
+102-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:82:13-45
+103            android:exported="false" >
+103-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:83:13-37
+104            <meta-data
+104-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+105                android:name="android.app.lib_name"
+105-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+106                android:value="" />
+106-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+107        </activity>
+108        <activity
+108-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:88:9-94:20
+109            android:name="com.example.ex1.Activities.Join2"
+109-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:89:13-45
+110            android:exported="false" >
+110-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:90:13-37
+111            <meta-data
+111-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+112                android:name="android.app.lib_name"
+112-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+113                android:value="" />
+113-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+114        </activity>
+115        <activity
+115-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:95:9-101:20
+116            android:name="com.example.ex1.Activities.Join1"
+116-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:96:13-45
+117            android:exported="false" >
+117-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:97:13-37
+118            <meta-data
+118-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+119                android:name="android.app.lib_name"
+119-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+120                android:value="" />
+120-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+121        </activity>
+122        <activity
+122-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:102:9-113:20
+123            android:name="com.example.ex1.Activities.NaviActivity"
+123-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:103:13-52
+124            android:exported="true" >
+124-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:104:13-36
+125            <intent-filter>
+125-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:105:13-109:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:106:17-69
+126-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:106:25-66
+127
+128                <category android:name="android.intent.category.LAUNCHER" />
+128-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:108:17-77
+128-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:108:27-74
+129            </intent-filter>
+130
+131            <meta-data
+131-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+132                android:name="android.app.lib_name"
+132-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+133                android:value="" />
+133-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+134        </activity>
+135        <activity
+135-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:114:9-120:20
+136            android:name="com.example.ex1.Activities.LoginActivity"
+136-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:115:13-53
+137            android:exported="false" >
+137-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:116:13-37
+138            <meta-data
+138-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:13-37:36
+139                android:name="android.app.lib_name"
+139-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:17-52
+140                android:value="" />
+140-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:17-33
+141        </activity>
+142        /* 여기 잘못 넣어서 안됐던 거..!! */
+143        <meta-data
+143-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:123:9-125:42
+144            android:name="com.naver.maps.map.CLIENT_ID"
+144-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:124:13-56
+145            android:value="hu4kbw8ndf" />
+145-->C:\Users\lovel\Documents\GitHub\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:125:13-39
+146
+147        <activity
+147-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:21:9-25:51
+148            android:name="com.naver.maps.map.app.LegendActivity"
+148-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:22:13-65
+149            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+149-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:23:13-91
+150            android:label="@string/navermap_legend"
+150-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:24:13-52
+151            android:theme="@style/navermap_app" />
+151-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:25:13-48
+152        <activity
+152-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:26:9-30:51
+153            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+153-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:27:13-70
+154            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+154-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:28:13-91
+155            android:label="@string/navermap_legal_notice"
+155-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:29:13-58
+156            android:theme="@style/navermap_app" />
+156-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:30:13-48
+157        <activity
+157-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:31:9-35:51
+158            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+158-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:32:13-76
+159            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+159-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:33:13-91
+160            android:label="@string/navermap_open_source_license"
+160-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:34:13-65
+161            android:theme="@style/navermap_app" />
+161-->[com.naver.maps:map-sdk:3.16.2] C:\Users\lovel\.gradle\caches\transforms-3\8aa0228e535eb142f98bd73870c1627f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:35:13-48
+162        <activity
+162-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
+163            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+163-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:11:13-75
+164            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+164-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:12:13-144
+165            android:screenOrientation="unspecified"
+165-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:13:13-52
+166            android:theme="@style/Theme.Transparent.Permission" />
+166-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:14:13-64
+167
+168        <provider
+168-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
+169            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
+169-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:17:13-84
+170            android:authorities="com.example.ex1.tedpermissionprovider"
+170-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:18:13-73
+171            android:exported="false" />
+171-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\lovel\.gradle\caches\transforms-3\64c43b2227bc790aec2363a2b3ecf73c\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:19:13-37
+172
+173        <activity
+173-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\f917440584734adecbe9dded6f769672\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+174-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\f917440584734adecbe9dded6f769672\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\f917440584734adecbe9dded6f769672\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\f917440584734adecbe9dded6f769672\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+177
+178        <meta-data
+178-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\1e438b9d971203dcf1d6d26a0d7ac043\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+179            android:name="com.google.android.gms.version"
+179-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\1e438b9d971203dcf1d6d26a0d7ac043\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+180            android:value="@integer/google_play_services_version" />
+180-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lovel\.gradle\caches\transforms-3\1e438b9d971203dcf1d6d26a0d7ac043\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 181
-182</manifest>
+182        <provider
+182-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+183            android:name="androidx.startup.InitializationProvider"
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+184            android:authorities="com.example.ex1.androidx-startup"
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+185            android:exported="false" >
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+186            <meta-data
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+187                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+188                android:value="androidx.startup" />
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lovel\.gradle\caches\transforms-3\b8f137bdf7b384493eb7f48453e18b4d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+189            <meta-data
+189-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lovel\.gradle\caches\transforms-3\ff0c332789c9865088b0af445f8548a5\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+190                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+190-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lovel\.gradle\caches\transforms-3\ff0c332789c9865088b0af445f8548a5\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+191                android:value="androidx.startup" />
+191-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lovel\.gradle\caches\transforms-3\ff0c332789c9865088b0af445f8548a5\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+192        </provider>
+193
+194        <uses-library
+194-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+195            android:name="androidx.window.extensions"
+195-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+196            android:required="false" />
+196-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+197        <uses-library
+197-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+198            android:name="androidx.window.sidecar"
+198-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+199            android:required="false" />
+199-->[androidx.window:window:1.0.0] C:\Users\lovel\.gradle\caches\transforms-3\7b6399a5a40011d2779dc724e6e1a275\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+200    </application>
+201
+202</manifest>

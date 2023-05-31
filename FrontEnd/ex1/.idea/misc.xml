@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/lovel/Documents/GitHub/Cafe_Oasis/FrontEnd/ex1/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.1" />
+        <entry key="..\:/Users/lovel/Documents/GitHub/Cafe_Oasis/FrontEnd/ex1/app/src/main/res/drawable/ic_baseline_local_cafe_24.xml" value="0.1" />
+        <entry key="..\:/Users/lovel/Documents/GitHub/Cafe_Oasis/FrontEnd/ex1/app/src/main/res/drawable/ic_baseline_place_24_beb5af.xml" value="0.1" />
+        <entry key="..\:/Users/lovel/Documents/GitHub/Cafe_Oasis/FrontEnd/ex1/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
         <entry key="..\:/Users/lovel/Documents/GitHub/Cafe_Oasis/FrontEnd/ex1/app/src/main/res/layout/fragment_map.xml" value="0.1" />
+        <entry key="..\:/Users/lovel/Documents/GitHub/Cafe_Oasis/FrontEnd/ex1/app/src/main/res/layout/item_point.xml" value="0.4" />
       </map>
     </option>
   </component>

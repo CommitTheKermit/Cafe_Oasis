@@ -44,6 +44,13 @@
             android:layout_toRightOf="@+id/recommendation_btn"
             />
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+
+            android:id="@+id/child_frame">
+        </FrameLayout>
 
 
 

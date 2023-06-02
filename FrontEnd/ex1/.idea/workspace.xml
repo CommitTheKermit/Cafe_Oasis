@@ -9,134 +9,63 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af3f94f2-53dd-438e-b512-c03c5911cc30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/androidTest/java/com/example/ex1/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/BookMarkerFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/CafeHistoryActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/DataPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/HistoryModifyActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/HomeFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Join1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Join2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Join3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Keyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/Keyword_Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/LoginActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/MapFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/MyProfile_Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/NaviActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/RatingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ReceipRecognitionActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/RecommendationFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/SplashActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ViewHolderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/java/com/example/ex1/ViewPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/arrow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/arrow2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/bookmarker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/cafe1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/cafe2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/cafe3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/home1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/kakao1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/map1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/map_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/naver1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/profile1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/profile_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/rating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable-v24/recommendation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/button1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/button2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/click_color.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/frame_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/main_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/nav.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/rectangle_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/drawable/some_id.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_cafe_history.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_history_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_join1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_join2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_join3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_keyword.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_keyword_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_my_profile_modify.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_navi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_receip_recognition.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_book_marker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_map.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_rating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/fragment_recommendation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/layout/item_viewpager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/menu/navi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/app/src/test/java/com/example/ex1/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1 (3)/settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="cba527c7-b4f1-4896-9c48-8d39542aa317" name="Changes" comment="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\commitKermit\.android\avd\Pixel_2_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\user\.android\avd\Pixel_2_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ex1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ex1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ex1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ex1" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -144,29 +73,38 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PsmxkhSWTX5qWWRYtiRyMGWtRL" />
+  <component name="ProjectId" id="2QSlwaAuyV71e0ebu8ZQ2Fm2NCp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/commitKermit/Desktop/github/Cafe_Oasis/FrontEnd/ex1",
-    "settings.editor.selected.configurable": "preferences.keymap"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\aaaaaa\Cafe_Oasis\FrontEnd\ex1\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\ex1\app\src\main\res\layout" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\ex1\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-974316622">
+      <recent name="com.example.ex1.Activities" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.ex1.Utils" />
+      <recent name="com.example.ex1.Adapter" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="ex1.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -215,6 +153,7 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -228,12 +167,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af3f94f2-53dd-438e-b512-c03c5911cc30" name="Changes" comment="" />
-      <created>1684254411185</created>
+      <changelist id="cba527c7-b4f1-4896-9c48-8d39542aa317" name="Changes" comment="" />
+      <created>1685355104716</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684254411185</updated>
+      <updated>1685355104716</updated>
     </task>
+    <task id="LOCAL-00001" summary="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화">
+      <created>1685382670218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685382670218</updated>
+    </task>
+    <task id="LOCAL-00002" summary="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화">
+      <created>1685382732065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685382732065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,18 +201,52 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원가입 에서 이메일 인증이랑 유저 인포 클래스, 서버 통신 클래스화" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join1.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join2.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join3.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join3.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="4" />
+          <line>116</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

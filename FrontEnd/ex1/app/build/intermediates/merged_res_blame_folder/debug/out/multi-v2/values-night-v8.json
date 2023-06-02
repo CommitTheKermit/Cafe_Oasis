@@ -1,10 +1,73 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ex1.app-mergeDebugResources-39:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.ex1.app-mergeDebugResources-51:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\8dabd95bc81c6c3e4a972c559871b715\\transformed\\material-1.8.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\81867f1e25426f286c012ae9f7cc8fb0\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "179",
+                        "endColumns": "85",
+                        "endOffsets": "260"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\6f0275c7fdc6d8dbf579ceaab66f7781\\transformed\\jetified-v2-friend-2.13.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,111",
+                        "endColumns": "55,57",
+                        "endOffsets": "106,164"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "265,321",
+                        "endColumns": "55,57",
+                        "endOffsets": "316,374"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\Desktop\\aaaaaa\\Cafe_Oasis\\FrontEnd\\ex1\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "804"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1011",
+                        "endLines": "26",
+                        "endColumns": "12",
+                        "endOffsets": "1580"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\878a18e6f71612a34325ef9766ba9ecd\\transformed\\jetified-oauth-jdk8-5.5.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,120",
+                        "endColumns": "64,58",
+                        "endOffsets": "115,174"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\d0ded2f9a6934da3e3abcb7da9d94082\\transformed\\material-1.8.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -13,34 +76,15 @@
                         "endOffsets": "125,236,325,426,533,640,739,846,949,1037,1161,1263,1365,1481,1583,1697,1825,1941,2063,2199,2319,2453,2573,2685,2811,2928,3052,3182,3304,3442,3576,3692,3812"
                     },
                     "to": {
-                        "startLines": "22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55",
+                        "startLines": "27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1263,1338,1449,1538,1639,1746,1853,1952,2059,2162,2250,2374,2476,2578,2694,2796,2910,3038,3154,3276,3412,3532,3666,3786,3898,4113,4230,4354,4484,4606,4744,4878,4994",
+                        "startOffsets": "1585,1660,1771,1860,1961,2068,2175,2274,2381,2484,2572,2696,2798,2900,3016,3118,3232,3360,3476,3598,3734,3854,3988,4108,4220,4435,4552,4676,4806,4928,5066,5200,5316",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "1333,1444,1533,1634,1741,1848,1947,2054,2157,2245,2369,2471,2573,2689,2791,2905,3033,3149,3271,3407,3527,3661,3781,3893,4019,4225,4349,4479,4601,4739,4873,4989,5109"
+                        "endOffsets": "1655,1766,1855,1956,2063,2170,2269,2376,2479,2567,2691,2793,2895,3011,3113,3227,3355,3471,3593,3729,3849,3983,4103,4215,4341,4547,4671,4801,4923,5061,5195,5311,5431"
                     }
                 },
                 {
-                    "source": "C:\\Users\\commitKermit\\Desktop\\github\\Cafe_Oasis\\FrontEnd\\ex1\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "806"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "687",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1258"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\780c8931bfe5d3b0e26a458d121ff58b\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\7a1fbcd36e17b9cdaded8eda01a56642\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -49,11 +93,11 @@
                         "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,47",
+                        "startLines": "7,8,9,10,11,12,13,52",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,4024",
+                        "startOffsets": "379,449,533,617,713,815,917,4346",
                         "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,4108"
+                        "endOffsets": "444,528,612,708,810,912,1006,4430"
                     }
                 }
             ]

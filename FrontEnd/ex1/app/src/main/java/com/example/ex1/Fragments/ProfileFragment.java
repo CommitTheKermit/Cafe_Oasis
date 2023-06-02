@@ -10,13 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.ex1.Activities.CafeHistoryActivity;
+import com.example.ex1.Activities.Keyword_Modify;
 import com.example.ex1.Activities.MyProfile_Modify;
 import com.example.ex1.R;
 
 
 public class ProfileFragment extends Fragment {
 
-    View view, profile_modify_arrow, history_modify_arrow;
+    View view, profile_modify_arrow, history_modify_arrow, keyword_modify_arrow;
 
 
     @Override
@@ -25,13 +26,23 @@ public class ProfileFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_profile,container,false);
         profile_modify_arrow =  view.findViewById(R.id.profile_modify_arrow);
         history_modify_arrow = view.findViewById(R.id.history_modify_arrow);
-
+        keyword_modify_arrow = view.findViewById(R.id.keyword_modify_arrow);
 
         profile_modify_arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), MyProfile_Modify.class);
                 startActivity(intent);
+
+            }
+        });
+
+        keyword_modify_arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Keyword_Modify.class);
+                startActivity(intent);
+
             }
         });
 
@@ -40,6 +51,7 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), CafeHistoryActivity.class);
                 startActivity(intent);
+
             }
         });
 

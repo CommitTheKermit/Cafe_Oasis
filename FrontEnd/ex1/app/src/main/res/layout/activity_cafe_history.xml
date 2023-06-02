@@ -56,9 +56,9 @@
             android:layout_width="20dp"
             android:layout_height="17dp"
             android:layout_below="@+id/my_cafe_history"
-            android:layout_marginLeft="63dp"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="53dp"
-            android:layout_toRightOf="@id/receipt_text"
+            android:layout_toRightOf="@id/cafe_history_modify_text"
             android:background="@drawable/arrow2_1" />
 
         <View
@@ -89,7 +89,7 @@
             android:layout_height="17dp"
             android:background="@drawable/arrow2_1"
             android:layout_toRightOf="@id/cafe_history_modify_text"
-            android:layout_below="@+id/receipt_arrow"
+            android:layout_below="@+id/receipt_text"
             android:layout_marginTop="46dp"
             android:layout_marginLeft="50dp"
             />

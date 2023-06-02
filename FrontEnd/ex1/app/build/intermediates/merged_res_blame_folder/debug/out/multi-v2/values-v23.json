@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ex1.app-mergeDebugResources-50:/values-v23/values-v23.xml",
+            "outputFile": "com.example.ex1.app-mergeDebugResources-51:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\1d6008e40b174b18ef5fa9ea4cd35014\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
-                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
-                    },
-                    "to": {
-                        "startLines": "218,221,224,229,233,236,239,242,247,250,254",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "14546,14762,14972,15292,15529,15736,15943,16146,16478,16680,16945",
-                        "endLines": "220,223,228,232,235,238,241,246,249,253,257",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "14757,14967,15287,15524,15731,15938,16141,16473,16675,16940,17213"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\1f624a3ec658e1a90eb17b72d8f4e5aa\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\e70e18ee7ba81f9b02b666c18305da00\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\5a66dbe28a151e3d258030c9f05e44d5\\transformed\\jetified-v2-friend-2.13.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\d0ded2f9a6934da3e3abcb7da9d94082\\transformed\\material-1.8.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "218,221,224,229,233,236,239,242,247,250,254",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "14546,14762,14972,15292,15529,15736,15943,16146,16478,16680,16945",
+                        "endLines": "220,223,228,232,235,238,241,246,249,253,257",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "14757,14967,15287,15524,15731,15938,16141,16473,16675,16940,17213"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\6f0275c7fdc6d8dbf579ceaab66f7781\\transformed\\jetified-v2-friend-2.13.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,84",
                         "startColumns": "4,4",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\7a1fbcd36e17b9cdaded8eda01a56642\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

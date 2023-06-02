@@ -67,9 +67,18 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onMapReady(@NonNull NaverMap naverMap) {
         this.naverMap = naverMap;
+        CameraPosition cameraPosition = new CameraPosition(
+                new LatLng(35.8716, 128.6015),  // 위치 지정
+                15                           // 줌 레벨
+        );
+        naverMap.setCameraPosition(cameraPosition);
+
         ActivityCompat.requestPermissions(requireActivity(), PERMISSIONS, LOCATION_PERMISSION_REQUEST_CODE); //권한확인
         UiSettings uiSettings = naverMap.getUiSettings();
         uiSettings.setLocationButtonEnabled(true);
+
+
+
         naverMap.setLocationSource(locationSource);  //현재 위치
 
         //naverMap.setLocationTrackingMode(LocationTrackingMode.Follow);
@@ -82,8 +91,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         );
         naverMap.setCameraPosition(cameraPosition);*/
 
+        // 정보 창이 열려있는 경우, 지도를 누르면 닫기
         naverMap.setOnMapClickListener((point, coord) -> {
-            // 정보 창이 열려있는 경우 닫습니다.
             if (infoWindow1.getMarker() != null) {
                 infoWindow1.close();
             }
@@ -107,22 +116,6 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
             }
             return true;
         });
-
-        /*marker1.setOnClickListener(new Overlay.OnClickListener() {
-            @Override
-            public boolean onClick(@NonNull Overlay overlay)
-            {
-                ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);
-                pointAdapter adapter = new pointAdapter(requireActivity(), rootView);
-
-                infoWindow1.setAdapter(adapter);
-                infoWindow1.setZIndex(10); //인포창의 우선순위
-                infoWindow1.setAlpha(0.9f); //투명도 조정
-                infoWindow1.open(marker1); //인포창 표시
-                return false;
-            }
-        });*/
-
     }
 
     @Override

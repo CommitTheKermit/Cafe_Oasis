@@ -11,6 +11,60 @@
                         "startOffsets": "102",
                         "endLines": "14",
                         "endColumns": "12",
+                        "endOffsets": "768"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1220"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lovel\\.gradle\\caches\\transforms-3\\4b268d7a21a176f8cd9d52821d002b94\\transformed\\material-1.8.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1225,1300,1411,1500,1601,1708,1815,1914,2021,2124,2212,2336,2438,2540,2656,2758,2872,3000,3116,3238,3374,3494,3628,3748,3860,4075,4192,4316,4446,4568,4706,4840,4956",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1295,1406,1495,1596,1703,1810,1909,2016,2119,2207,2331,2433,2535,2651,2753,2867,2995,3111,3233,3369,3489,3623,3743,3855,3981,4187,4311,4441,4563,4701,4835,4951,5071"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lovel\\.gradle\\caches\\transforms-3\\d29a19f9413c211c3a0761934db69251\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,47",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,3986",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,4070"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-mergeDebugResources-44:\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lovel\\Documents\\GitHub\\Cafe_Oasis\\FrontEnd\\ex1\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
                         "endOffsets": "806"
                     },
                     "to": {

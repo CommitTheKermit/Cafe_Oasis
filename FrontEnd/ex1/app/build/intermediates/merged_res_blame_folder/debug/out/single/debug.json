@@ -4,6 +4,10 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable-v24\\kakao1.png"
     },
     {
+        "merged": "com.example.ex1.app-merged_res-46:/layout_item_point.xml.flat",
+        "source": "com.example.ex1.app-main-48:/layout/item_point.xml"
+    },
+    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_fragment_map.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\fragment_map.xml"
     },
@@ -20,12 +24,12 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable-v24\\line.png"
     },
     {
-        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable-v24_arrow2_1.png.flat",
-        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable-v24\\arrow2_1.png"
-    },
-    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable-v24_arrow2_1.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable-v24\\arrow2_1.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable_rectangle_15.xml.flat",
@@ -44,12 +48,12 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\button2.xml"
     },
     {
-        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_activity_join1.xml.flat",
@@ -62,6 +66,14 @@
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_fragment_profile.xml.flat",
@@ -88,12 +100,12 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\profile.png"
     },
     {
-        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_fragment_rating.xml.flat",
-        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\fragment_rating.xml"
-    },
-    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_fragment_rating.xml.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\fragment_rating.xml"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_activity_my_profile_modify.xml.flat",
@@ -160,8 +172,12 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\ic_baseline_local_cafe_24.xml"
     },
     {
-        "merged": "com.example.ex1.app-merged_res-46:/layout_fragment_map.xml.flat",
-        "source": "com.example.ex1.app-main-48:/layout/fragment_map.xml"
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_item_point.xml.flat",
@@ -174,6 +190,10 @@
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -212,6 +232,14 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\frame_4.xml"
     },
     {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -220,8 +248,16 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-pngs-41:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_fragment_book_marker.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\fragment_book_marker.xml"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable-v24_naver1.png.flat",
@@ -230,6 +266,10 @@
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable_map.png.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\map.png"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -252,12 +292,20 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\activity_cafe_history.xml"
     },
     {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_activity_splash.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\layout\\activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable-v24_cafe1.png.flat",
@@ -296,12 +344,24 @@
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\main_image.png"
     },
     {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable-v24_map1.png.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable-v24\\map1.png"
     },
     {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\drawable_some_id.xml.flat",
         "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\drawable\\some_id.xml"
+    },
+    {
+        "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-main-48:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\lovel\\.gradle\\daemon\\7.4\\com.example.ex1.app-merged_res-46:\\layout_activity_navi.xml.flat",

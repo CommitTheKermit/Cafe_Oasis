@@ -13,14 +13,15 @@
             android:background="@drawable/ic_baseline_local_cafe_24"
             android:layout_gravity="center"
             android:layout_margin="2dp" />
+
         <TextView
             android:id="@+id/txttitle"
-            android:layout_width="match_parent"
+            android:layout_width="197dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginEnd="4dp"
             android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
             android:text="포인트 지점명"
             android:textSize="14dp"
             android:textStyle="bold" />
@@ -31,7 +32,7 @@
         android:layout_height="1dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
-        android:background="@android:color/holo_orange_dark" />
+        android:background="@color/oasis" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +42,7 @@
 
         <ImageView
             android:id="@+id/imagepoint"
-            android:layout_width="96dp"
+            android:layout_width="75dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
             android:layout_margin="0dp" />

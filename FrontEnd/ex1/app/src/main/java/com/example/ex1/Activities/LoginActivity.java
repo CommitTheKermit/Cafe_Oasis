@@ -3,6 +3,7 @@ package com.example.ex1.Activities;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.splashscreen.SplashScreen;
 
 import android.Manifest;
 import android.content.Context;
@@ -54,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
     NaverIdLoginSDK mOAuthLoginInstance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         btn_login = (TextView) findViewById(R.id.btn_login);

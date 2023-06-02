@@ -189,15 +189,16 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ex1.Activities.LoginActivity"
+            android:name="com.example.ex1.Activities.NaviActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.ex1.Activities.NaviActivity"
-            android:exported="true" >
+            android:name="com.example.ex1.Activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

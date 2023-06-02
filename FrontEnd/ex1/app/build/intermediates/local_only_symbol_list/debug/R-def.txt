@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_cafe_background
 color purple_200
 color purple_500
 color purple_700
@@ -203,6 +204,9 @@ layout fragment_recommendation
 layout item_point
 layout item_viewpager
 menu navi
+mipmap ic_cafe
+mipmap ic_cafe_foreground
+mipmap ic_cafe_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_gmail_c
@@ -238,6 +242,7 @@ string some_id7
 string some_id8
 string some_id9
 string splash_text
+style SplashTheme
 style Theme.Ex1
 style abc_gmail_c
 style keyword_1

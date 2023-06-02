@@ -95,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
                     jsonObject.put("user_email", email);
                     jsonObject.put("user_pw", pw);
 
-                    JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/app_oasis/login"),
+                    JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/users/login"),
                             jsonObject);
 
                     if(resultJson.getStatusCode() == 200){

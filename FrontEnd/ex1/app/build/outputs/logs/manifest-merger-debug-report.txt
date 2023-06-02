@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
-INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
-INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
-INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
+INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
+INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
+INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\commitKermit\.gradle\caches\transforms-3\02f393470d292f4a39bdb8d42c27ffc5\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.kakao.sdk:v2-all:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d4eb8c409d638048ac85fa1480d920d2\transformed\jetified-v2-all-2.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\5a66dbe28a151e3d258030c9f05e44d5\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:2:1-22:12
@@ -87,22 +87,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\commitKermit\.gradle\caches\tr
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\9c93c0208ca51e60d003bcd86a7f4e2d\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.4] C:\Users\commitKermit\.gradle\caches\transforms-3\bacb4de3337da4ce69d53c1ec9dcdf05\transformed\jetified-relinker-1.4.4\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
-INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
-INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
+INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
+INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
+INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
 	package
 		INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
 		INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
 		INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-157:12
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:1-198:12
 		INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:2:11-69
@@ -142,28 +142,82 @@ uses-permission#android.permission.CALL_PHONE
 ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:11:5-68
 	android:name
 		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:11:22-66
-permission#com.example.permission.MAPS_RECEIVE
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:13:5-15:47
-	android:protectionLevel
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:15:9-44
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:14:9-59
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:13:5-14:48
+	tools:remove
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:14:9-45
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:15:5-16:47
+	tools:remove
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:16:9-45
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:15:22-77
+queries
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:18:5-34:15
+MERGED from [com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7a49177847b80d5d072da05dfc3d54cb\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:13:5-23:15
+MERGED from [com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7a49177847b80d5d072da05dfc3d54cb\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:13:5-23:15
+MERGED from [com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\823e57a194a39ea358e948220d617248\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:9:5-12:15
+MERGED from [com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\823e57a194a39ea358e948220d617248\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:9:5-12:15
+MERGED from [com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\a1b76ee91b4c550c49e24f116d4b0cc9\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:9:5-22:15
+MERGED from [com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\a1b76ee91b4c550c49e24f116d4b0cc9\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:9:5-22:15
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:20:9-23:18
+action#android.intent.action.VIEW
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:21:21-62
+data
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:22:13-43
+	android:host
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:191:21-41
+	android:scheme
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:22:19-40
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:9-28:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:27:21-70
+intent#action:name:android.intent.action.GET_CONTENT
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:31:9-33:18
+action#android.intent.action.GET_CONTENT
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:32:21-69
+permission#com.example.permission.MAPS_RECEIVE
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:5-39:47
+	android:protectionLevel
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:38:9-59
 uses-feature#0x00020000
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:16:5-18:35
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:40:5-42:35
 MERGED from [com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\0ba75d1cd587bc523981706f3716498d\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:9:5-11:35
 MERGED from [com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\0ba75d1cd587bc523981706f3716498d\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:9:5-11:35
 	android:glEsVersion
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:41:9-41
 	android:required
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:42:9-32
 uses-feature#android.hardware.telephony
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:19:5-21:36
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:43:5-45:36
 	android:required
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:21:9-33
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:45:9-33
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:20:9-50
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:44:9-50
+uses-feature#android.hardware.camera
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:47:9-47
 application
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:23:5-155:19
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:50:5-196:19
 MERGED from [com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\5a66dbe28a151e3d258030c9f05e44d5\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:10:5-20:19
 MERGED from [com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\5a66dbe28a151e3d258030c9f05e44d5\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:10:5-20:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1d6008e40b174b18ef5fa9ea4cd35014\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
@@ -202,162 +256,170 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\co
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\commitKermit\.gradle\caches\transforms-3\4b621581b14be943fef7e9025808a5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\commitKermit\.gradle\caches\transforms-3\11719f426e3912cf36f493acb6a06bf9\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\commitKermit\.gradle\caches\transforms-3\11719f426e3912cf36f493acb6a06bf9\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:61:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:58:9-35
 	android:label
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:29:9-41
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:56:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:27:9-54
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:54:9-54
 	android:roundIcon
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:30:9-54
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:57:9-54
 	tools:targetApi
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:34:9-29
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:62:9-29
 	android:icon
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:9-43
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:55:9-43
 	android:allowBackup
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:52:9-35
 	android:theme
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:32:9-41
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:59:9-41
 	android:dataExtractionRules
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:9-65
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:53:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:33:9-44
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:60:9-44
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:51:9-41
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:64:9-73:20
+	android:grantUriPermissions
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:68:13-47
+	android:authorities
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:66:13-50
+	android:exported
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:65:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:69:13-72:25
+	android:resource
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-51
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:17-67
 activity#com.example.ex1.Activities.EmailAuthenticationActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:9-41:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:75:9-81:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:77:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:13-67
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:76:13-67
 meta-data#android.app.lib_name
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:38:13-40:36
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:78:13-80:36
 	android:value
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:40:17-33
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:80:17-33
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:39:17-52
-activity#com.example.ex1.Activities.ReceipRecognitionActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:42:9-48:20
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:79:17-52
+activity#com.example.ex1.Activities.ReceiptRecognitionActivity
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:82:9-88:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:84:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:43:13-65
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:83:13-66
 activity#com.example.ex1.Activities.CafeHistoryActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:49:9-55:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:89:9-95:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:50:13-59
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:90:13-59
 activity#com.example.ex1.Activities.Keyword_Modify
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:56:9-62:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:96:9-102:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:98:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:57:13-54
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:97:13-54
 activity#com.example.ex1.Activities.MyProfile_Modify
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:63:9-69:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:103:9-109:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:65:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:105:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:64:13-56
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:104:13-56
 activity#com.example.ex1.Main.MainActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:9-76:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:110:9-116:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:112:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:13-46
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:111:13-46
 activity#com.example.ex1.Activities.SplashActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:77:9-83:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:117:9-123:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:119:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:78:13-54
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:118:13-54
 activity#com.example.ex1.Activities.Keyword
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:84:9-90:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:124:9-130:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:86:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:126:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:85:13-47
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:125:13-47
 activity#com.example.ex1.Activities.Join3
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:91:9-97:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:131:9-137:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:93:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:133:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:92:13-45
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:132:13-45
 activity#com.example.ex1.Activities.Join2
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:98:9-104:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:138:9-144:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:100:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:140:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:99:13-45
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:139:13-45
 activity#com.example.ex1.Activities.Join1
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:105:9-111:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:145:9-151:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:107:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:147:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:106:13-45
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:146:13-45
 activity#com.example.ex1.Activities.LoginActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:112:9-124:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:152:9-159:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:114:13-36
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:154:13-37
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:113:13-53
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:115:13-119:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:116:17-69
-	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:116:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:118:17-77
-	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:118:27-74
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:153:13-53
 activity#com.example.ex1.Activities.NaviActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:126:9-132:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:161:9-173:20
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:128:13-37
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:163:13-36
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:127:13-52
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:162:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:164:13-168:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:165:17-69
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:165:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:167:17-77
+	android:name
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:167:27-74
 meta-data#com.naver.maps.map.CLIENT_ID
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:135:9-137:42
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:176:9-178:42
 	android:value
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:137:13-39
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:178:13-39
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:136:13-56
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:177:13-56
 activity#com.kakao.sdk.auth.AuthCodeHandlerActivity
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:139:9-153:20
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:180:9-194:20
 MERGED from [com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\785159d2393281d0e29882f961d42379\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:16:9-19:56
 MERGED from [com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\785159d2393281d0e29882f961d42379\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:16:9-19:56
 	android:launchMode
 		ADDED from [com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\785159d2393281d0e29882f961d42379\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:18:13-44
 	android:exported
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:141:13-36
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:182:13-36
 	android:theme
 		ADDED from [com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\785159d2393281d0e29882f961d42379\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:19:13-53
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:140:13-70
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:181:13-70
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:oauth+data:scheme:kakao0a54726da46915c126069829a6458a5f
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:142:13-152:29
-action#android.intent.action.VIEW
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:143:17-69
-	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:143:25-66
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:183:13-193:29
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:145:17-76
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:186:17-76
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:145:27-73
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:186:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:146:17-78
+ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:187:17-78
 	android:name
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:146:27-75
-data
-ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:149:17-151:78
-	android:host
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:150:21-41
-	android:scheme
-		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:151:21-75
+		ADDED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:187:27-75
 uses-sdk
 INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml
@@ -552,12 +614,6 @@ ADDED from [com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches
 		ADDED from [com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\5a66dbe28a151e3d258030c9f05e44d5\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:19:13-49
 	android:name
 		ADDED from [com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\5a66dbe28a151e3d258030c9f05e44d5\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:18:13-73
-queries
-ADDED from [com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7a49177847b80d5d072da05dfc3d54cb\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:13:5-23:15
-MERGED from [com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\823e57a194a39ea358e948220d617248\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:9:5-12:15
-MERGED from [com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\823e57a194a39ea358e948220d617248\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:9:5-12:15
-MERGED from [com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\a1b76ee91b4c550c49e24f116d4b0cc9\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:9:5-22:15
-MERGED from [com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\a1b76ee91b4c550c49e24f116d4b0cc9\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:9:5-22:15
 package#com.nhn.android.search
 ADDED from [com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7a49177847b80d5d072da05dfc3d54cb\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:16:9-58
 	android:name

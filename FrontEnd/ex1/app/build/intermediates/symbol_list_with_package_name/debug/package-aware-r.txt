@@ -3370,7 +3370,6 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
-id Photo_shoot_btn
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3490,6 +3489,8 @@ id btn_next_keyword
 id btn_next_sign1
 id btn_next_sign2
 id btn_next_sign3
+id btn_photo_shoot
+id btn_picture_load
 id btn_profile_modify
 id btn_receip
 id btn_sign
@@ -3850,7 +3851,6 @@ id percent
 id picked_count_tv
 id picked_friends_rv
 id picked_nickname_tv
-id picture_load_btn
 id pin
 id placeholder_margin_view
 id position
@@ -5924,4 +5924,5 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths
 xml image_share_filepaths

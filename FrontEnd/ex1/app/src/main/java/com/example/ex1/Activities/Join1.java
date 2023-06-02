@@ -57,7 +57,7 @@ public class Join1 extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject();
                 try {
                     jsonObject.put("user_email", inputEmail);
-                    int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/app_oasis/mailsend"),
+                    int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/mailsend"),
                             jsonObject);
                     if(statusCode == 200){
                         Toast.makeText(Join1.this, "인증 코드 발송 이메일을 확인해주세요",
@@ -84,7 +84,7 @@ public class Join1 extends AppCompatActivity {
                 try {
                     jsonObject.put("user_email", inputEmail);
                     jsonObject.put("user_code", inputCode);
-                    int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/app_oasis/mailverify"),
+                    int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/mailverify"),
                             jsonObject);
                     if(statusCode == 200){
                         Toast.makeText(Join1.this, "인증 성공",

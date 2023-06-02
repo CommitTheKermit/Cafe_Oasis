@@ -32,7 +32,7 @@ public class CafeHistoryActivity extends AppCompatActivity {
         receipt_arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ReceipRecognitionActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ReceiptRecognitionActivity.class);
                 startActivity(intent);
             }
         });

@@ -34,7 +34,7 @@
 
 
     <TextView
-        android:id="@+id/Photo_shoot_btn"
+        android:id="@+id/btn_photo_shoot"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
@@ -52,7 +52,7 @@
         />
 
     <TextView
-        android:id="@+id/picture_load_btn"
+        android:id="@+id/btn_picture_load"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
@@ -60,7 +60,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/Photo_shoot_btn"
+        android:layout_below="@id/btn_photo_shoot"
         android:background="@drawable/rectangle_1"
         android:textSize="14sp"
         android:text="사진 불러오기"

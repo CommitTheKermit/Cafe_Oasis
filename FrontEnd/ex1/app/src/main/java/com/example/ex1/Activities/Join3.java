@@ -66,7 +66,7 @@ public class Join3 extends AppCompatActivity {
                     jsonObject.put("user_age", userInfo.getUser_age());
                     jsonObject.put("user_nickname", userInfo.getUser_nickname());
 
-                    int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/app_oasis/signup"),
+                    int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/signup"),
                             jsonObject);
                     if(statusCode == 200){
                         Toast.makeText(Join3.this, "가입 성공",

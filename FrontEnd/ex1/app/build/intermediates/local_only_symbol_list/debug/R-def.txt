@@ -50,7 +50,6 @@ drawable rectangle_5
 drawable round
 drawable some_id
 drawable trost
-id Photo_shoot_btn
 id arrow1
 id arrow2
 id arrow3
@@ -67,6 +66,8 @@ id btn_next_keyword
 id btn_next_sign1
 id btn_next_sign2
 id btn_next_sign3
+id btn_photo_shoot
+id btn_picture_load
 id btn_profile_modify
 id btn_receip
 id btn_sign
@@ -125,7 +126,6 @@ id my_profile_email
 id my_profile_name
 id nav
 id oasis_map
-id picture_load_btn
 id profile
 id profile_modify_arrow
 id profile_modify_arrow1
@@ -257,3 +257,4 @@ style some_id9
 style splash_text
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

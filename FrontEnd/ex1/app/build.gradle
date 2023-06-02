@@ -52,5 +52,5 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:17.0.0' //FusedLocationSource
     implementation 'io.github.ParkSangGwon:tedpermission-rx3:3.3.0' // Ted Permission - RxJava3
 
-
+    implementation 'androidx.core:core-splashscreen:1.0.1'
 }

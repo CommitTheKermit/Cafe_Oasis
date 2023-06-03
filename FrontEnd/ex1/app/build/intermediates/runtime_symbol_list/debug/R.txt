@@ -3789,8 +3789,6 @@ int id mtrl_view_tag_bottom_padding 0x7f090196
 int id multiply 0x7f090197
 int id my_cafe_history 0x7f090198
 int id my_profile 0x7f090199
-int id my_profile_email 0x7f09019a
-int id my_profile_name 0x7f09019b
 int id nav 0x7f09019c
 int id nav_controller_view_tag 0x7f09019d
 int id nav_host_fragment_container 0x7f09019e
@@ -4023,6 +4021,8 @@ int id tag_window_insets_animation_callback 0x7f090280
 int id text 0x7f090281
 int id text2 0x7f090282
 int id textEnd 0x7f090283
+int id textProfileEmail 0x7f0902da
+int id textProfileNickname 0x7f0902db
 int id textSpacerNoButtons 0x7f090284
 int id textSpacerNoTitle 0x7f090285
 int id textStart 0x7f090286

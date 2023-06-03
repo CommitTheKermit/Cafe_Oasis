@@ -123,8 +123,6 @@ id modify_nickname
 id modify_num
 id my_cafe_history
 id my_profile
-id my_profile_email
-id my_profile_name
 id nav
 id oasis_map
 id profile
@@ -156,6 +154,8 @@ id sign_num
 id some_id
 id splash
 id splash_img
+id textProfileEmail
+id textProfileNickname
 id text_history
 id text_keyword
 id text_keyword_modify

@@ -51,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
     private static String OAUTH_CLIENT_ID = "8KKe9jwrqNw84LwVTrBY";
     private static String OAUTH_CLIENT_SECRET = "BUf5oFmqqI";
     private static String OAUTH_CLIENT_NAME = "cafe_oasis";
+    public static UserInfo userInfo = new UserInfo();
     Context mContext;
     NaverIdLoginSDK mOAuthLoginInstance;
     @Override
@@ -105,7 +106,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.LENGTH_SHORT).show();
 
                         JSONObject tempJson = resultJson.getJsonObject();
-                        UserInfo userInfo = new UserInfo();
+
 
                         userInfo.setUser_email(tempJson.getString("user_email"));
                         userInfo.setUser_name(tempJson.getString("user_name"));

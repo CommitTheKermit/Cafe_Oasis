@@ -16,29 +16,29 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="34dp"
-            android:text="my_profile"
+            android:text="PROFILE"
             android:textAppearance="@style/my_profile"
             />
 
         <TextView
-            android:id="@+id/my_profile_name"
+            android:id="@+id/textProfileNickname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="234dp"
-            android:text="닉네임이에요"
+            android:text="닉네임"
             android:textAppearance="@style/some_id1"
             />
 
         <TextView
-            android:id="@+id/my_profile_email"
+            android:id="@+id/textProfileEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="abcdefg123@gmail.com"
+            android:text="email@email.com"
             android:textAppearance="@style/some_id1"
-            android:layout_below="@+id/my_profile_name"
+            android:layout_below="@+id/textProfileNickname"
             />
 
         <View
@@ -46,7 +46,7 @@
             android:layout_width="54dp"
             android:layout_height="46dp"
             android:background="@drawable/profile_img"
-            android:layout_below="@+id/my_profile_email"
+            android:layout_below="@+id/textProfileEmail"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="60dp"
             />
@@ -58,7 +58,7 @@
             android:text="개인정보 수정"
             android:textAppearance="@style/some_id1"
             android:layout_toRightOf="@id/rectangle_profile"
-            android:layout_below="@+id/my_profile_email"
+            android:layout_below="@+id/textProfileEmail"
             android:layout_marginTop="42dp"
             android:layout_marginLeft="28dp"
             />
@@ -69,7 +69,7 @@
             android:layout_height="22dp"
             android:background="@drawable/arrow2_1"
             android:layout_toRightOf="@id/profile_modify_text"
-            android:layout_below="@+id/my_profile_email"
+            android:layout_below="@+id/textProfileEmail"
             android:layout_marginTop="45.3dp"
             android:layout_marginLeft="50dp"
             />

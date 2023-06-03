@@ -36,6 +36,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Base64;
@@ -101,50 +102,7 @@ public class ReceiptRecognitionActivity extends AppCompatActivity {
                 // Callback is invoked after the user selects a media item or closes the
                 // photo picker.
                 if (uri != null) {
-                    Uri selectedImage = uri;
-                    String[] filePathColumn = {MediaStore.Images.Media.DATA};
-                    Cursor cursor = getContentResolver().query(selectedImage,
-                            filePathColumn, null, null, null);
-
-                    if (cursor == null || cursor.getCount() < 1) {
-                        return; // no cursor or no record. DO YOUR ERROR HANDLING
-                    }
-
-                    cursor.moveToFirst();
-                    int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
-
-                    if (columnIndex < 0) // no column index
-                        return; // DO YOUR ERROR HANDLING
-
-                    //선택한 파일 경로
-                    String picturePath = cursor.getString(columnIndex);
-                    String base64Image = imageToBase64(picturePath);
-                    cursor.close();
-
-                    JSONObject apiInput = new JSONObject();
-                    try {
-                        apiInput.put("format", "jpg");
-                        apiInput.put("name", "recipt");
-                        apiInput.put("data", base64Image);
-
-                        JSONArray jsonArray = new JSONArray();
-                        jsonArray.put(apiInput);
-
-                        JSONObject jsonObject = new JSONObject();
-                        jsonObject.put("images", jsonArray);
-                        jsonObject.put("version", "V2");
-                        jsonObject.put("requestId", UUID.randomUUID());
-                        jsonObject.put("timestamp", System.currentTimeMillis());
-                        jsonObject.put("lang", "ko");
-
-                        JsonAndStatus outputJson = ServerComm.getOutputString(
-                                new URL("https://5yuqotffnj.apigw.ntruss.com/custom/v1/22921/5e7254c8d8fd2d1b52d8094dc099a1492233b6fe7e4222641b1586917df8e915/general"), jsonObject);
-                        JSONObject outputString = outputJson.getJsonObject();
-
-                        System.out.println("asd");
-                    } catch (JSONException | MalformedURLException e) {
-                        throw new RuntimeException(e);
-                    }
+                    clovaOCR(uri, 0);
                 } else {
                     Log.d("PhotoPicker", "No media selected");
                 }
@@ -171,7 +129,7 @@ public class ReceiptRecognitionActivity extends AppCompatActivity {
 
     private File createImageFile() throws IOException {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        String imageFileName = "JPEG_" + timeStamp + "_";
+        String imageFileName = "JPG_" + timeStamp + "_";
         File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         File image = File.createTempFile(
                 imageFileName,
@@ -188,6 +146,8 @@ public class ReceiptRecognitionActivity extends AppCompatActivity {
 
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
 //            setPic();
+            Log.d("thing", currentPhotoPath);
+            clovaOCR(Uri.parse(currentPhotoPath), 1);
         }
     }
 
@@ -220,7 +180,64 @@ public class ReceiptRecognitionActivity extends AppCompatActivity {
         }
         return base64Image;
     }
+    public void clovaOCR(Uri uri, int caseNum){
+        Uri selectedImage = uri;
+        String picturePath = "";
+        String base64Image = "";
+        switch (caseNum){
+            case 0:
+                String[] filePathColumn = {MediaStore.Images.Media.DATA};
+                Cursor cursor = getContentResolver().query(selectedImage,
+                        filePathColumn, null, null, null);
 
+                if (cursor == null || cursor.getCount() < 1) {
+                    return; // no cursor or no record. DO YOUR ERROR HANDLING
+                }
+
+                cursor.moveToFirst();
+                int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+
+                if (columnIndex < 0) // no column index
+                    return; // DO YOUR ERROR HANDLING
+                //선택한 파일 경로
+                picturePath = cursor.getString(columnIndex);
+                base64Image = imageToBase64(picturePath);
+                cursor.close();
+                break;
+            case 1:
+                picturePath = uri.getPath();
+                base64Image = imageToBase64(picturePath);
+                break;
+        }
+
+
+
+
+        JSONObject apiInput = new JSONObject();
+        try {
+            apiInput.put("format", "jpg");
+            apiInput.put("name", "recipt");
+            apiInput.put("data", base64Image);
+
+            JSONArray jsonArray = new JSONArray();
+            jsonArray.put(apiInput);
+
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("images", jsonArray);
+            jsonObject.put("version", "V2");
+            jsonObject.put("requestId", UUID.randomUUID());
+            jsonObject.put("timestamp", System.currentTimeMillis());
+            jsonObject.put("lang", "ko");
+
+            JsonAndStatus outputJson = ServerComm.getOutputString(
+                    new URL("https://5yuqotffnj.apigw.ntruss.com/custom/v1/22921/5e7254c8d8fd2d1b52d8094dc099a1492233b6fe7e4222641b1586917df8e915/general"), jsonObject);
+            JSONObject outputString = outputJson.getJsonObject();
+
+            System.out.println("asd");
+        } catch (JSONException | MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 //    private void setPic() {
 //        ImageView imageView = (ImageView) findViewById(R.id.imageView);

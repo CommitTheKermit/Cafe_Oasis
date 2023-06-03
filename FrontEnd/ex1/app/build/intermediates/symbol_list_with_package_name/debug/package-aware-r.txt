@@ -3896,6 +3896,7 @@ id rectangles
 id refresh_button
 id reject_tv
 id remember_email
+id report_drawn
 id restart
 id reverse
 id reverseSawtooth

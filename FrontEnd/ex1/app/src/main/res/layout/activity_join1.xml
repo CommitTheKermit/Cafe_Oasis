@@ -20,32 +20,30 @@
 
     <TextView
         android:id="@+id/text_sign1"
-        android:layout_width="104dp"
+        android:layout_width="140dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="64dp"
+        android:gravity="top"
+        android:lineSpacingExtra="-4sp"
         android:text="@string/some_id7"
         android:textAppearance="@style/some_id7"
-        android:lineSpacingExtra="-4sp"
-        android:gravity="top"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/sign1_email"
         android:layout_width="320dp"
         android:layout_height="21dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="118dp"
-        android:text="@string/some_id8"
-        android:textAppearance="@style/some_id8"
-        android:lineSpacingExtra="-2sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/some_id8"
+        android:textAppearance="@style/some_id8" />
 
     <EditText
         android:id="@+id/edit_email"
@@ -98,43 +96,43 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="390dp"
         />
+
     <TextView
         android:id="@+id/sign1_all_agree"
         android:layout_width="286dp"
         android:layout_height="21dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="54dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
         android:layout_marginTop="390dp"
-        android:text="@string/some_id10"
-        android:textAppearance="@style/some_id10"
-        android:lineSpacingExtra="-2sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/some_id10"
+        android:textAppearance="@style/some_id10" />
 
     <CheckBox
         android:id="@+id/first_agree"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="23dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
         android:layout_marginTop="432dp"
 
         />
+
     <TextView
         android:id="@+id/sign1_first_agree"
         android:layout_width="286dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="54dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="432dp"
-        android:text="@string/some_id11"
-        android:textAppearance="@style/some_id11"
-        android:lineSpacingExtra="-6sp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="434dp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-6sp"
+        android:text="@string/some_id11"
+        android:textAppearance="@style/some_id11" />
 
     <CheckBox
         android:id="@+id/second_agree"
@@ -153,7 +151,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="54dp"
-        android:layout_marginTop="461dp"
+        android:layout_marginTop="463dp"
         android:gravity="top"
         android:lineSpacingExtra="-6sp"
         android:text="@string/some_id12"
@@ -176,7 +174,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="54dp"
-        android:layout_marginTop="488dp"
+        android:layout_marginTop="490dp"
         android:gravity="top"
         android:lineSpacingExtra="-6sp"
         android:text="@string/some_id13"
@@ -187,14 +185,15 @@
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/rectangle_15"
-        android:text="다음"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
         android:gravity="center"
+        android:text="다음"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:fontFamily="@font/neo"
         />
 
 </RelativeLayout>

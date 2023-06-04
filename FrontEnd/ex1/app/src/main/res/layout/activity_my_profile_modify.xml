@@ -107,15 +107,15 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="331dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/some_id22"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp"
+        android:fontFamily="@font/neo"/>
 
     <TextView
         android:id="@+id/sign_num"
@@ -144,6 +144,7 @@
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
+        android:fontFamily="@font/neo"
         />
 
     <TextView
@@ -155,7 +156,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/rectangle_15"
         android:text="완료"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:gravity="center"

@@ -20,17 +20,16 @@
 
     <TextView
         android:id="@+id/text_sign2"
-        android:layout_width="104dp"
+        android:layout_width="200dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="64dp"
-        android:text="@string/some_id7"
-        android:textAppearance="@style/some_id7"
-        android:lineSpacingExtra="-4sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-4sp"
+        android:text="@string/some_id7"
+        android:textAppearance="@style/some_id7" />
 
     <TextView
         android:id="@+id/sign2_password"
@@ -51,15 +50,15 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="144dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/some_id16"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp"
+        android:fontFamily="@font/neo" />
 
     <TextView
         android:id="@+id/sign2_check_password"
@@ -88,6 +87,7 @@
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
+        android:fontFamily="@font/neo"
         />
 
     <TextView
@@ -99,10 +99,11 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/rectangle_15"
         android:text="다음"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:gravity="center"
+        android:fontFamily="@font/neo"
         />
 
 </RelativeLayout>

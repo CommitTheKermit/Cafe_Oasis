@@ -9,17 +9,17 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:id="@+id/oasis_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="34dp"
             android:layout_marginBottom="34dp"
             android:text="Oasis Map"
-            android:textAppearance="@style/oasis_map"
-            />
+            android:textAppearance="@style/oasis_map" />
 
         <com.naver.maps.map.MapView
             android:layout_below="@+id/oasis_map"

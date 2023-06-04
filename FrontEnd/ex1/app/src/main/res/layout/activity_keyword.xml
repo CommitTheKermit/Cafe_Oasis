@@ -10,18 +10,17 @@
 
     <TextView
         android:id="@+id/text_keyword"
-        android:layout_width="160dp"
+        android:layout_width="200dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="23dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
         android:layout_marginTop="32dp"
+        android:gravity="top"
+        android:lineSpacingExtra="-4sp"
         android:text="@string/some_id25"
         android:textAppearance="@style/some_id7"
-        android:lineSpacingExtra="-4sp"
-        android:gravity="top"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -53,7 +52,7 @@
 
     <TextView
         android:id="@+id/some_id"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_height="18dp"
         android:layout_above="@+id/btn_next_keyword"
         android:layout_centerInParent="true"
@@ -68,15 +67,14 @@
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/rectangle_15"
-        android:text="완료"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
         android:gravity="center"
-        />
+        android:text="완료"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
 
 
 </RelativeLayout>

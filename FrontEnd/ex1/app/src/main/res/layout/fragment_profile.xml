@@ -16,7 +16,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="34dp"
-            android:text="my_profile"
+            android:text="My Profile"
             android:textAppearance="@style/my_profile"
             />
 
@@ -27,7 +27,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="234dp"
-            android:text="닉네임이에요"
+            android:text="닉네임"
             android:textAppearance="@style/some_id1"
             />
 
@@ -45,11 +45,10 @@
             android:id="@+id/rectangle_profile"
             android:layout_width="54dp"
             android:layout_height="46dp"
-            android:background="@drawable/profile_img"
             android:layout_below="@+id/my_profile_email"
-            android:layout_marginTop="30dp"
             android:layout_marginLeft="60dp"
-            />
+            android:layout_marginTop="30dp"
+            android:background="@drawable/profile_img" />
 
         <TextView
             android:id="@+id/profile_modify_text"
@@ -78,11 +77,10 @@
             android:id="@+id/rectangle_keyword"
             android:layout_width="54dp"
             android:layout_height="46dp"
-            android:background="@drawable/profile_img"
             android:layout_below="@+id/rectangle_profile"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="60dp"
-            />
+            android:layout_marginTop="20dp"
+            android:background="@drawable/profile_img" />
 
         <TextView
             android:id="@+id/keyword_modify_text"

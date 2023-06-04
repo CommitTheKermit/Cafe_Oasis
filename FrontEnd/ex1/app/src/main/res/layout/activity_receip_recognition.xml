@@ -74,14 +74,13 @@
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/rectangle_15"
-        android:text="완료"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
         android:gravity="center"
-        />
+        android:text="완료"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
 
 </RelativeLayout>

@@ -7,13 +7,14 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.ex1.R;
 
 public class HomeFragment extends Fragment {
 
-    ImageButton rating_btn,recommendation_btn,bookmarket_btn;
+    Button rating_btn,recommendation_btn,bookmarket_btn;
     View view;
 
 

@@ -9,7 +9,6 @@ import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +28,14 @@ import com.naver.maps.map.overlay.Marker;
 import com.naver.maps.map.overlay.Overlay;
 import com.naver.maps.map.overlay.OverlayImage;
 import com.naver.maps.map.util.FusedLocationSource;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 
 public class MapFragment extends Fragment implements OnMapReadyCallback {
@@ -50,13 +57,11 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_map, container, false);
     }
 
     @Override
-    public void onViewCreated(@NonNull View view,
-                              @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mapView = view.findViewById(R.id.map_view);
         mapView.onCreate(savedInstanceState);
@@ -77,19 +82,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         UiSettings uiSettings = naverMap.getUiSettings();
         uiSettings.setLocationButtonEnabled(true);
 
-
-
         naverMap.setLocationSource(locationSource);  //현재 위치
-
-        //naverMap.setLocationTrackingMode(LocationTrackingMode.Follow);
         naverMap.setLayerGroupEnabled(naverMap.LAYER_GROUP_BUILDING, true);
-
-
-        /*CameraPosition cameraPosition = new CameraPosition(
-                new LatLng(35.83822810000016, 128.75294189999966),  // 위치 지정
-                15                           // 줌 레벨
-        );
-        naverMap.setCameraPosition(cameraPosition);*/
 
         // 정보 창이 열려있는 경우, 지도를 누르면 닫기
         naverMap.setOnMapClickListener((point, coord) -> {
@@ -98,9 +92,46 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
             }
         });
 
-        //마커
+        //2. Json 시도
+       /*
+       try {
+            String json = loadJSONFromAsset(); // assets 폴더의 JSON 파일을 어떻게 읽어오지..?
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                double lat = jsonObject.getDouble("latitude");
+                double lng = jsonObject.getDouble("longitude");
+                String name = jsonObject.getString("cafe_name");
+                String address = jsonObject.getString("address");
+                String phone = jsonObject.getString("cafe_phone");
+
+                // 마커 생성
+                Marker[] marker;
+                setMarker(marker[i], lat, lng, R.drawable.ic_baseline_place_24, name);
+
+                marker1.setOnClickListener(overlay -> {
+                    if (marker1.getInfoWindow() == null) {
+                        ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);
+                        pointAdapter adapter = new pointAdapter(requireActivity(), rootView);
+                        // 정보 창을 엽니다.
+                        infoWindow1.setAdapter(adapter);
+                        infoWindow1.setZIndex(10); //인포창의 우선순위
+                        infoWindow1.setAlpha(0.9f); //투명도 조정
+                        infoWindow1.open(marker1); //인포창 표시
+                    } else {
+                        // 정보 창이 이미 열려있는 경우 닫습니다.
+                        infoWindow1.close();
+                    }
+                    return true;
+                });
+            }
+        } catch (JSONException jsonException) {
+            jsonException.printStackTrace();
+        }*/
+
         setMarker(marker1, 35.84049650463925, 128.7003034345919, R.drawable.ic_baseline_place_24, "트로스트");
 
+        //1. 기존 되는 코드
         marker1.setOnClickListener(overlay -> {
             if (marker1.getInfoWindow() == null) {
                 ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);

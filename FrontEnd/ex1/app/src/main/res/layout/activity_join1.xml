@@ -151,14 +151,13 @@
         android:layout_width="286dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="54dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="463dp"
-        android:text="@string/some_id12"
-        android:textAppearance="@style/some_id12"
-        android:lineSpacingExtra="-6sp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="461dp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-6sp"
+        android:text="@string/some_id12"
+        android:textAppearance="@style/some_id12" />
 
     <CheckBox
         android:id="@+id/thrid_agree"
@@ -175,14 +174,13 @@
         android:layout_width="286dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="54dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
         android:layout_marginTop="488dp"
-        android:text="@string/some_id13"
-        android:textAppearance="@style/some_id13"
-        android:lineSpacingExtra="-6sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-6sp"
+        android:text="@string/some_id13"
+        android:textAppearance="@style/some_id13" />
 
     <TextView
         android:id="@+id/btn_next_sign1"

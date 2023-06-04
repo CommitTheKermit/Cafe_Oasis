@@ -67,6 +67,7 @@ id btn_sign
 id cafe_history_arrow1
 id cafe_history_modify_arrow
 id cafe_history_modify_text
+id callbutton
 id child_frame
 id edit_age
 id edit_check_email

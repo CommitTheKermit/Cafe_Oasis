@@ -56,7 +56,7 @@ public class Join1 extends AppCompatActivity {
 
                 JSONObject jsonObject = new JSONObject();
                 try {
-                    jsonObject.put("user_email", inputEmail);
+                    jsonObject.put("email", inputEmail);
                     int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/mailsend"),
                             jsonObject);
                     if(statusCode == 200){
@@ -82,7 +82,7 @@ public class Join1 extends AppCompatActivity {
 
                 JSONObject jsonObject = new JSONObject();
                 try {
-                    jsonObject.put("user_email", inputEmail);
+                    jsonObject.put("email", inputEmail);
                     jsonObject.put("user_code", inputCode);
                     int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/mailverify"),
                             jsonObject);

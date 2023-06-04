@@ -29,6 +29,8 @@ import com.kakao.sdk.user.UserApiClient;
 import com.kakao.sdk.user.model.User;
 import com.navercorp.nid.NaverIdLoginSDK;
 import com.navercorp.nid.oauth.OAuthLoginCallback;
+import com.navercorp.nid.profile.data.NidProfile;
+
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -54,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
     public static UserInfo userInfo = new UserInfo();
     Context mContext;
     NaverIdLoginSDK mOAuthLoginInstance;
+    String kakaoEmail = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
@@ -68,6 +71,7 @@ public class LoginActivity extends AppCompatActivity {
 
         mContext = this;
         main_image = findViewById(R.id.main_image);
+
 
         if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION)
@@ -95,8 +99,8 @@ public class LoginActivity extends AppCompatActivity {
                 // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
                 JSONObject jsonObject = new JSONObject();
                 try {
-                    jsonObject.put("user_email", email);
-                    jsonObject.put("user_pw", pw);
+                    jsonObject.put("email", email);
+                    jsonObject.put("password", pw);
 
                     JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/users/login"),
                             jsonObject);
@@ -108,12 +112,12 @@ public class LoginActivity extends AppCompatActivity {
                         JSONObject tempJson = resultJson.getJsonObject();
 
 
-                        userInfo.setUser_email(tempJson.getString("user_email"));
-                        userInfo.setUser_name(tempJson.getString("user_name"));
+                        userInfo.setUser_email(tempJson.getString("email"));
+                        userInfo.setUser_name(tempJson.getString("name"));
                         userInfo.setUser_type(tempJson.getInt("user_type"));
-                        userInfo.setUser_nickname(tempJson.getString("user_nickname"));
-                        userInfo.setUser_age(tempJson.getInt("user_age"));
-                        userInfo.setUser_sex(tempJson.getInt("user_sex"));
+                        userInfo.setUser_nickname(tempJson.getString("nickname"));
+                        userInfo.setUser_age(tempJson.getInt("age"));
+                        userInfo.setUser_sex(tempJson.getInt("sex"));
 
                         Intent intent = new Intent(LoginActivity.this, NaviActivity.class);
                         intent.putExtra("userInfo", userInfo);
@@ -138,10 +142,31 @@ public class LoginActivity extends AppCompatActivity {
                 Log.e(TAG,"CallBack Method");
                 //oAuthToken != null 이라면 로그인 성공
                 if(oAuthToken!=null){
-                    // 토큰이 전달된다면 로그인이 성공한 것이고 토큰이 전달되지 않으면 로그인 실패한다.
-                    Intent intent = new Intent(LoginActivity.this,NaviActivity.class);
+                    Kakaoprofile();
+                    String argUrl = "http://cafeoasis.xyz/users/signup?email=" + kakaoEmail;
+                    int statusCode = -1;
+                    try {
+                        statusCode = ServerComm.getStatusCodeGET(new URL(argUrl));
+                    } catch (MalformedURLException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                    Intent intent;
+                    if(statusCode == HttpURLConnection.HTTP_OK){
+                        // 토큰이 데이터베이스에 존재하여 메인으로 넘어감
+                        intent = new Intent(LoginActivity.this, NaviActivity.class);
+                        intent.putExtra("option", "notFirstLogin");
+                    }
+                    else{
+                        // 토큰이 데이터베이스에 존재하지 않아 개인정보 등록으로 넘어감
+
+                        intent = new Intent(LoginActivity.this, MyProfile_Modify.class);
+                        intent.putExtra("option", "firstLogin");
+                        intent.putExtra("email", kakaoEmail);
+                    }
                     startActivity(intent);
                     finish();
+
 
                 }else {
                     //로그인 실패
@@ -158,10 +183,12 @@ public class LoginActivity extends AppCompatActivity {
                  public void onClick(View v) {
                      if(UserApiClient.getInstance().isKakaoTalkLoginAvailable(LoginActivity.this)){
                          UserApiClient.getInstance().loginWithKakaoTalk(LoginActivity.this, callback);
+                         Kakaoprofile();
 
                      }else{
                          // 카카오톡이 설치되어 있지 않다면
                          UserApiClient.getInstance().loginWithKakaoAccount(LoginActivity.this, callback);
+                         Kakaoprofile();
                      }
                  }
              }
@@ -176,26 +203,26 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-//    private void Kakaoprofile() {
-//
-//        // 로그인 여부에 따른 UI 설정
-//        UserApiClient.getInstance().me(new Function2<User, Throwable, Unit>() {
-//            @Override
-//            public Unit invoke(User user, Throwable throwable) {
-//
-//                if (user != null) {
-//
-//                    // 유저의 아이디
-//                    Log.d(TAG, "invoke: id =" + user.getId());
-//                    // 유저의 이메일
-//                    Log.d(TAG, "invoke: email =" + user.getKakaoAccount().getEmail());
-//                    // 유저의 닉네임
-//                    Log.d(TAG, "invoke: nickname =" + user.getKakaoAccount().getProfile().getNickname());
-//                    // 유저의 성별
-//                    Log.d(TAG, "invoke: gender =" + user.getKakaoAccount().getGender());
-//                    // 유저의 연령대
-//                    Log.d(TAG, "invoke: age=" + user.getKakaoAccount().getAgeRange());
-//
+    private void Kakaoprofile() {
+
+        // 로그인 여부에 따른 UI 설정
+        UserApiClient.getInstance().me(new Function2<User, Throwable, Unit>() {
+            @Override
+            public Unit invoke(User user, Throwable throwable) {
+
+                if (user != null) {
+
+                    // 유저의 아이디
+                    Log.d(TAG, "invoke: id =" + user.getId());
+                    // 유저의 이메일
+                    Log.d(TAG, "invoke: email =" + user.getKakaoAccount().getEmail());
+                    // 유저의 닉네임
+                    Log.d(TAG, "invoke: nickname =" + user.getKakaoAccount().getProfile().getNickname());
+                    // 유저의 성별
+                    Log.d(TAG, "invoke: gender =" + user.getKakaoAccount().getGender());
+                    // 유저의 연령대
+                    Log.d(TAG, "invoke: age=" + user.getKakaoAccount().getAgeRange());
+                    kakaoEmail = user.getKakaoAccount().getEmail();
 //                    id_1 = String.valueOf(user.getId());
 //                    // 유저 닉네임 세팅해주기
 //                    nickname.setText(user.getKakaoAccount().getProfile().getNickname());
@@ -207,22 +234,23 @@ public class LoginActivity extends AppCompatActivity {
 //                    // 유저 프로필 사진 세팅해주기
 //
 //                    Log.d(TAG, "invoke: profile = "+user.getKakaoAccount().getProfile().getThumbnailImageUrl());
-//
-//
-//                } else {
-//                    // 로그인 되어있지 않으면
-//
-//                }
-//                return null;
-//            }
-//        });
-//    }
+
+
+                } else {
+                    // 로그인 되어있지 않으면
+
+                }
+                return null;
+            }
+        });
+    }
 
     private void initData() {
         //초기화
         NaverIdLoginSDK.INSTANCE.initialize(mContext, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_CLIENT_NAME);
         NaverIdLoginSDK.INSTANCE.authenticate(mContext,mOAuthLoginCallback);
     }
+
 
     /**
      * OAuthLoginHandler를 startOAuthLoginActivity() 메서드 호출 시 파라미터로 전달하거나 OAuthLoginButton
@@ -233,7 +261,16 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         public void onSuccess() {
 
-            //String accessToken = mOAuthLoginInstance.getAccessToken();
+            String accessToken = mOAuthLoginInstance.INSTANCE.getAccessToken();
+            String naverEmail = "";
+            try {
+                JsonAndStatus jsonAndStatus = ServerComm.getOutputString(
+                        new URL("https://openapi.naver.com/v1/nid/me"),
+                        accessToken);
+                naverEmail = jsonAndStatus.getJsonObject().getJSONObject("response").getString("email");
+            } catch (MalformedURLException | JSONException e) {
+                throw new RuntimeException(e);
+            }
             //String refreshToken = mOAuthLoginInstance.getRefreshToken(mContext);
             //long expiresAt = mOAuthLoginInstance.getExpiresAt(mContext);
             //String tokenType = mOAuthLoginInstance.getTokenType(mContext);
@@ -242,7 +279,33 @@ public class LoginActivity extends AppCompatActivity {
             //mOauthTokenType.setText(tokenType);
             //mOAuthState.setText(mOAuthLoginInstance.getState(mContext).toString());
 //            mOAuthLogin.callProfileApi();
-            redirectSignupActivity();
+
+
+            String argUrl = "http://cafeoasis.xyz/users/signup?email=" + naverEmail;
+            int statusCode = -1;
+            try {
+                statusCode = ServerComm.getStatusCodeGET(new URL(argUrl));
+            } catch (MalformedURLException e) {
+                throw new RuntimeException(e);
+            }
+
+            Intent intent;
+            if(statusCode == HttpURLConnection.HTTP_OK){
+                // 토큰이 데이터베이스에 존재하여 메인으로 넘어감
+                intent = new Intent(LoginActivity.this, NaviActivity.class);
+                intent.putExtra("option", "notFirstLogin");
+            }
+            else{
+                // 토큰이 데이터베이스에 존재하지 않아 개인정보 등록으로 넘어감
+
+                intent = new Intent(LoginActivity.this, MyProfile_Modify.class);
+                intent.putExtra("option", "firstLogin");
+                intent.putExtra("email", naverEmail);
+            }
+            startActivity(intent);
+            finish();
+
+//            redirectSignupActivity();
         }
 
         @Override
@@ -259,11 +322,16 @@ public class LoginActivity extends AppCompatActivity {
     };
 
 
+
+
     // 성공 후 이동할 액티비티
-    protected void redirectSignupActivity() {
-        final Intent intent = new Intent(this, NaviActivity.class);
-        startActivity(intent);
-        finish();
-    }
+//    protected void redirectSignupActivity() {
+//        final Intent intent = new Intent(this, NaviActivity.class);
+//        startActivity(intent);
+//        finish();
+//    }
+
+
+
 
 }

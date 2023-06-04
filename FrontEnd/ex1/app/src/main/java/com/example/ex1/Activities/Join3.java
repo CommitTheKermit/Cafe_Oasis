@@ -57,14 +57,15 @@ public class Join3 extends AppCompatActivity {
 
                 JSONObject jsonObject = new JSONObject();
                 try {
-                    jsonObject.put("user_email", userInfo.getUser_email());
-                    jsonObject.put("user_pw", userInfo.getUser_pw());
-                    jsonObject.put("user_name", userInfo.getUser_name());
-                    jsonObject.put("user_phone", userInfo.getUser_phone());
+
+                    jsonObject.put("email", userInfo.getUser_email());
+                    jsonObject.put("password", userInfo.getUser_pw());
+                    jsonObject.put("name", userInfo.getUser_name());
+                    jsonObject.put("phone_no", userInfo.getUser_phone());
                     jsonObject.put("user_type", 1);
-                    jsonObject.put("user_sex", -1);
-                    jsonObject.put("user_age", userInfo.getUser_age());
-                    jsonObject.put("user_nickname", userInfo.getUser_nickname());
+                    jsonObject.put("sex", -1);
+                    jsonObject.put("age", userInfo.getUser_age());
+                    jsonObject.put("nickname", userInfo.getUser_nickname());
 
                     int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/signup"),
                             jsonObject);

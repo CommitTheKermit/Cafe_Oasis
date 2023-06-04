@@ -55,10 +55,9 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/text_modify_nickname"
@@ -68,11 +67,10 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
         android:layout_marginTop="20dp"
-        android:text="@string/some_id20"
-        android:textAppearance="@style/some_id9"
-        android:lineSpacingExtra="-2sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/some_id20"
+        android:textAppearance="@style/some_id9" />
 
     <EditText
         android:id="@+id/modify_nickname"
@@ -83,10 +81,9 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/text_modify_age"

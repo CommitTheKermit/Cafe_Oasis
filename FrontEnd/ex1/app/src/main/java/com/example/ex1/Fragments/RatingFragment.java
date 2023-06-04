@@ -28,7 +28,7 @@ public class RatingFragment extends Fragment {
         viewPager2 = view.findViewById(R.id.viewpager2_rating);
 
         ArrayList<DataPage> list = new ArrayList<>();
-        list.add(new DataPage(R.drawable.cafe1,"1 Page","사랑시","와우1"));
+        list.add(new DataPage(R.drawable.trost,"트로스트","대구 수성구 달구벌대로641길 4-8 2층","#디저트"));
         list.add(new DataPage(R.drawable.cafe2,"2 Page","고백구","와우2"));
         list.add(new DataPage(R.drawable.cafe3,"3 Page","행복동","와우3"));
 

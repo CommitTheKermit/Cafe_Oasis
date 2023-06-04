@@ -2156,6 +2156,7 @@ int color nightonly_yellow550s 0x7f0602a4
 int color notification_action_color_filter 0x7f0602a5
 int color notification_icon_bg_color 0x7f0602a6
 int color notification_material_background_media_default_color 0x7f0602a7
+int color oasis 0x7f0602c6
 int color primary_dark_material_dark 0x7f0602a8
 int color primary_dark_material_light 0x7f0602a9
 int color primary_material_dark 0x7f0602aa
@@ -3129,6 +3130,10 @@ int drawable abc_vector_test 0x7f080077
 int drawable arrow 0x7f080078
 int drawable arrow2 0x7f080079
 int drawable arrow2_1 0x7f08007a
+int drawable arrow_back 0x7f080175
+int drawable arrow_front 0x7f080176
+int drawable arrow_front_resize20 0x7f080177
+int drawable arrow_front_resize30 0x7f080178
 int drawable avd_hide_password 0x7f08007b
 int drawable avd_show_password 0x7f08007c
 int drawable bookmarker 0x7f08007d
@@ -3143,12 +3148,20 @@ int drawable btn_radio_on_mtrl 0x7f080085
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080086
 int drawable button1 0x7f080087
 int drawable button2 0x7f080088
+int drawable button_background_clicked 0x7f080179
+int drawable button_background_selector 0x7f08017a
+int drawable button_background_unclicked 0x7f08017b
 int drawable cafe1 0x7f080089
 int drawable cafe2 0x7f08008a
 int drawable cafe3 0x7f08008b
 int drawable click_color 0x7f08008c
 int drawable close_btn_img 0x7f08008d
 int drawable close_btn_img_black 0x7f08008e
+int drawable cloud 0x7f08017c
+int drawable cloudresize 0x7f08017d
+int drawable cloudresize30 0x7f08017e
+int drawable cloudresize30_60 0x7f08017f
+int drawable cloudresize30_80 0x7f080180
 int drawable common_full_open_on_phone 0x7f08008f
 int drawable common_google_signin_btn_icon_dark 0x7f080090
 int drawable common_google_signin_btn_icon_dark_focused 0x7f080091
@@ -3201,6 +3214,7 @@ int drawable ic_search_black_24 0x7f0800bf
 int drawable icon_background 0x7f0800c0
 int drawable kakao 0x7f0800c1
 int drawable kakao1 0x7f0800c2
+int drawable kakao3 0x7f080181
 int drawable kakao_sdk_bg_cursor 0x7f0800c3
 int drawable kakao_sdk_bg_round_rect_gray 0x7f0800c4
 int drawable kakao_sdk_btn_back 0x7f0800c5
@@ -3232,6 +3246,7 @@ int drawable kakao_sdk_list_index_ico_favorite_large 0x7f0800de
 int drawable kakao_sdk_popup_background 0x7f0800df
 int drawable kakao_sdk_radio_select_on 0x7f0800e0
 int drawable kakao_sdk_round_button 0x7f0800e1
+int drawable layer_list 0x7f080182
 int drawable line 0x7f0800e2
 int drawable login_btn_img 0x7f0800e3
 int drawable m3_appbar_background 0x7f0800e4
@@ -3299,6 +3314,8 @@ int drawable mtrl_tabs_default_indicator 0x7f080121
 int drawable nav 0x7f080122
 int drawable naver 0x7f080123
 int drawable naver1 0x7f080124
+int drawable naver3 0x7f080183
+int drawable naver4 0x7f080184
 int drawable naver_icon 0x7f080125
 int drawable navermap_compass 0x7f080126
 int drawable navermap_default_background_dark 0x7f080127
@@ -3362,6 +3379,7 @@ int drawable notification_template_icon_bg 0x7f080160
 int drawable notification_template_icon_low_bg 0x7f080161
 int drawable notification_tile_bg 0x7f080162
 int drawable notify_panel_notification_icon_bg 0x7f080163
+int drawable oasislogo 0x7f080185
 int drawable profile 0x7f080164
 int drawable profile1 0x7f080165
 int drawable profile_img 0x7f080166
@@ -3379,6 +3397,10 @@ int drawable test_level_drawable 0x7f080171
 int drawable tooltip_frame_dark 0x7f080172
 int drawable tooltip_frame_light 0x7f080173
 int drawable trost 0x7f080174
+int font font 0x7f160000
+int font kopub 0x7f160001
+int font merriweather 0x7f160002
+int font neo 0x7f160003
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
@@ -3514,8 +3536,8 @@ int id buttonPanel 0x7f090083
 int id cache_measures 0x7f090084
 int id cafe_history_arrow1 0x7f090085
 int id cafe_history_modify_arrow 0x7f090086
-int id cafe_history_modify_text 0x7f090087
 int id callMeasure 0x7f090088
+int id callbutton 0x7f0902dc
 int id cancel_action 0x7f090089
 int id cancel_button 0x7f09008a
 int id carryVelocity 0x7f09008b
@@ -3662,7 +3684,6 @@ int id header_title 0x7f090117
 int id hideable 0x7f090118
 int id history_arrow1 0x7f090119
 int id history_modify_arrow 0x7f09011a
-int id history_modify_text 0x7f09011b
 int id home 0x7f09011c
 int id homeAsUp 0x7f09011d
 int id honorRequest 0x7f09011e
@@ -3690,7 +3711,6 @@ int id keyword 0x7f090133
 int id keyword_mo 0x7f090134
 int id keyword_modify_arrow 0x7f090135
 int id keyword_modify_arrow1 0x7f090136
-int id keyword_modify_text 0x7f090137
 int id labeled 0x7f090138
 int id layout 0x7f090139
 int id left 0x7f09013a
@@ -3874,7 +3894,6 @@ int id profile 0x7f0901ed
 int id profile_iv 0x7f0901ee
 int id profile_modify_arrow 0x7f0901ef
 int id profile_modify_arrow1 0x7f0901f0
-int id profile_modify_text 0x7f0901f1
 int id progressBar 0x7f0901f2
 int id progress_circular 0x7f0901f3
 int id progress_horizontal 0x7f0901f4
@@ -3883,12 +3902,8 @@ int id rating_btn 0x7f0901f6
 int id ratio 0x7f0901f7
 int id receip_arrow1 0x7f0901f8
 int id receipt_arrow 0x7f0901f9
-int id receipt_text 0x7f0901fa
 int id recommendation_btn 0x7f0901fb
 int id rectangle_3 0x7f0901fc
-int id rectangle_history 0x7f0901fd
-int id rectangle_keyword 0x7f0901fe
-int id rectangle_profile 0x7f0901ff
 int id rectangles 0x7f090200
 int id refresh_button 0x7f090201
 int id reject_tv 0x7f090202
@@ -4369,6 +4384,7 @@ int mipmap ic_cafe 0x7f0f0000
 int mipmap ic_cafe_foreground 0x7f0f0001
 int mipmap ic_cafe_round 0x7f0f0002
 int mipmap ic_launcher 0x7f0f0003
+int mipmap ic_launcher_foreground 0x7f0f0005
 int mipmap ic_launcher_round 0x7f0f0004
 int plurals mtrl_badge_content_description 0x7f100000
 int raw keep 0x7f110000

@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color black
 color ic_cafe_background
+color oasis
 color purple_200
 color purple_500
 color purple_700
@@ -11,13 +12,25 @@ color white
 drawable arrow
 drawable arrow2
 drawable arrow2_1
+drawable arrow_back
+drawable arrow_front
+drawable arrow_front_resize20
+drawable arrow_front_resize30
 drawable bookmarker
 drawable button1
 drawable button2
+drawable button_background_clicked
+drawable button_background_selector
+drawable button_background_unclicked
 drawable cafe1
 drawable cafe2
 drawable cafe3
 drawable click_color
+drawable cloud
+drawable cloudresize
+drawable cloudresize30
+drawable cloudresize30_60
+drawable cloudresize30_80
 drawable frame_4
 drawable home
 drawable home1
@@ -29,6 +42,8 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable kakao
 drawable kakao1
+drawable kakao3
+drawable layer_list
 drawable line
 drawable main_image
 drawable map
@@ -37,6 +52,9 @@ drawable map_btn
 drawable nav
 drawable naver
 drawable naver1
+drawable naver3
+drawable naver4
+drawable oasislogo
 drawable profile
 drawable profile1
 drawable profile_img
@@ -51,6 +69,10 @@ drawable rectangle_5
 drawable round
 drawable some_id
 drawable trost
+font font
+font kopub
+font merriweather
+font neo
 id arrow1
 id arrow2
 id arrow3
@@ -74,7 +96,7 @@ id btn_receip
 id btn_sign
 id cafe_history_arrow1
 id cafe_history_modify_arrow
-id cafe_history_modify_text
+id callbutton
 id child_frame
 id edit_age
 id edit_check_email
@@ -93,7 +115,6 @@ id frame_6
 id group_12
 id history_arrow1
 id history_modify_arrow
-id history_modify_text
 id home
 id imagepoint
 id keep_checkbox
@@ -101,7 +122,6 @@ id keyword
 id keyword_mo
 id keyword_modify_arrow
 id keyword_modify_arrow1
-id keyword_modify_text
 id line_22
 id login
 id login_email
@@ -128,16 +148,11 @@ id oasis_map
 id profile
 id profile_modify_arrow
 id profile_modify_arrow1
-id profile_modify_text
 id rating_btn
 id receip_arrow1
 id receipt_arrow
-id receipt_text
 id recommendation_btn
 id rectangle_3
-id rectangle_history
-id rectangle_keyword
-id rectangle_profile
 id remember_email
 id rl_layout
 id sign1
@@ -208,6 +223,7 @@ mipmap ic_cafe
 mipmap ic_cafe_foreground
 mipmap ic_cafe_round
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_gmail_c
 string app_name

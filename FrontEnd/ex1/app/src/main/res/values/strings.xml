@@ -31,8 +31,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="naver_client_id">xxx</string>
-    <string name="naver_client_secret">xxx</string>
-    <string name="naver_client_name">xxx</string>
+    <string name="naver_client_id">8KKe9jwrqNw84LwVTrBY</string>
+    <string name="naver_client_secret">BUf5oFmqqI</string>
+    <string name="naver_client_name">cafe_oasis</string>
 
 </resources>

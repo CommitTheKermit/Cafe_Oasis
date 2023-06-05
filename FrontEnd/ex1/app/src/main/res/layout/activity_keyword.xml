@@ -15,7 +15,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="23dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:text="@string/some_id25"
         android:textAppearance="@style/some_id7"
         android:lineSpacingExtra="-4sp"
@@ -23,33 +23,321 @@
         android:textStyle="bold"
         />
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/group_12"
-        android:layout_width="99dp"
-        android:layout_height="42dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="97dp"
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/some_id"
+        android:layout_below="@+id/text_keyword"
         >
 
-        <TextView
-            android:id="@+id/rectangle_3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/rectangle_4"
-            android:text="@string/some_id26"
-            android:textAppearance="@style/keyword_1"
-            android:textAlignment="center"
-            android:gravity="center"
-            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    </RelativeLayout>
+
+            <TextView
+                android:id="@+id/keyword_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#음료, 음식"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/text_dessert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dessert"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/keyword_first"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_dessert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_dessert"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="3.0" />
+
+
+            <TextView
+                android:id="@+id/text_various"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Various_menu"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/rangeSlider_dessert"
+                android:layout_marginLeft="15dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_various"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_various"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="3.0" />
+
+
+            <TextView
+                android:id="@+id/text_special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Special_menu"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/rangeSlider_various"
+                android:layout_marginLeft="15dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_special"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_special"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="3.0" />
+
+            <TextView
+                android:id="@+id/keyword_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#시설"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/rangeSlider_special"/>
+
+            <CheckBox
+                android:id="@+id/check_parking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keyword_second"
+                android:text="주차"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store_size"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/check_parking"
+                android:layout_marginLeft="15dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_size"
+                android:valueFrom="1.0"
+                android:valueTo="3.0"
+                android:stepSize="1.0"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                />
+
+            <TextView
+                android:id="@+id/text_Landscape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landscape"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/rangeSlider_size"
+                android:layout_marginLeft="15dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_Landscape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_Landscape"
+                android:valueFrom="1.0"
+                android:valueTo="3.0"
+                android:stepSize="1.0"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                />
+
+
+            <TextView
+                android:id="@+id/keyword_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#분위기"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/rangeSlider_Landscape"
+                />
+
+            <TextView
+                android:id="@+id/text_talk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talk"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/keyword_third"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/text_concentration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concentration"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/keyword_third"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_concentration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_concentration"
+                android:valueFrom="1.0"
+                android:valueTo="5.0"
+                android:stepSize="1.0"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                />
+
+
+            <TextView
+                android:id="@+id/text_trendy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trendy_store"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/rangeSlider_concentration"
+                android:layout_marginLeft="15dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_trendy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_trendy"
+                android:valueFrom="1.0"
+                android:valueTo="3.0"
+                android:stepSize="1.0"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                />
+
+
+            <TextView
+                android:id="@+id/text_unique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unique_store"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/rangeSlider_trendy"
+                android:layout_marginLeft="15dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_unique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_unique"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="3.0" />
+
+            <TextView
+                android:id="@+id/keyword_fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#가격대"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/rangeSlider_unique"/>
+
+            <TextView
+                android:id="@+id/text_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/keyword_fourth"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_price"
+                android:valueFrom="1.0"
+                android:valueTo="3.0"
+                android:stepSize="1.0"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                />
+
+            <TextView
+                android:id="@+id/keyword_fifth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#시설"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/rangeSlider_price"/>
+
+            <CheckBox
+                android:id="@+id/check_gift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keyword_fifth"
+                android:text="Gift_packaging"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
     <TextView
         android:id="@+id/some_id"

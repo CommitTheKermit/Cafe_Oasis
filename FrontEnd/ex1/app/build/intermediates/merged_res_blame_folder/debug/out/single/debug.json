@@ -304,6 +304,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-55:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "com.example.ex1.app-merged_res-53:/layout_activity_join3.xml.flat",
+        "source": "com.example.ex1.app-main-55:/layout/activity_join3.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\mipmap-mdpi_ic_cafe_round.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-54:\\mipmap-mdpi\\ic_cafe_round.png"
     },
@@ -314,10 +318,6 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\layout_activity_join1.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-55:\\layout\\activity_join1.xml"
-    },
-    {
-        "merged": "com.example.ex1.app-merged_res-53:/layout_fragment_profile.xml.flat",
-        "source": "com.example.ex1.app-main-55:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\drawable_nav.xml.flat",
@@ -368,12 +368,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-55:\\drawable-v24\\kakao1.png"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\drawable_cafe3.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-55:\\drawable\\cafe3.png"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\layout_activity_keyword.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-55:\\layout\\activity_keyword.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\drawable_cafe3.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-55:\\drawable\\cafe3.png"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-53:\\layout_activity_join2.xml.flat",

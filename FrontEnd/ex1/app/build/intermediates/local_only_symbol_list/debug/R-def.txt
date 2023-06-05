@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array spinner_array
 color black
 color ic_cafe_background
 color purple_200
@@ -75,6 +76,8 @@ id btn_sign
 id cafe_history_arrow1
 id cafe_history_modify_arrow
 id cafe_history_modify_text
+id check_gift
+id check_parking
 id child_frame
 id edit_age
 id edit_check_email
@@ -98,10 +101,15 @@ id home
 id imagepoint
 id keep_checkbox
 id keyword
+id keyword_fifth
+id keyword_first
+id keyword_fourth
 id keyword_mo
 id keyword_modify_arrow
 id keyword_modify_arrow1
 id keyword_modify_text
+id keyword_second
+id keyword_third
 id line_22
 id login
 id login_email
@@ -131,6 +139,15 @@ id profile
 id profile_modify_arrow
 id profile_modify_arrow1
 id profile_modify_text
+id rangeSlider_Landscape
+id rangeSlider_concentration
+id rangeSlider_dessert
+id rangeSlider_price
+id rangeSlider_size
+id rangeSlider_special
+id rangeSlider_trendy
+id rangeSlider_unique
+id rangeSlider_various
 id rating_btn
 id receip_arrow1
 id receipt_arrow
@@ -154,8 +171,12 @@ id sign3_name
 id sign3_nickname
 id sign_num
 id some_id
+id spinner_gen
 id splash
 id splash_img
+id text_Landscape
+id text_concentration
+id text_dessert
 id text_history
 id text_keyword
 id text_keyword_modify
@@ -164,12 +185,19 @@ id text_modify_age
 id text_modify_name
 id text_modify_nickname
 id text_modify_num
+id text_price
 id text_receip
 id text_sign1
 id text_sign2
 id text_sign3
 id text_sign4
+id text_size
+id text_special
 id text_splash
+id text_talk
+id text_trendy
+id text_unique
+id text_various
 id txtaddr
 id txttel
 id txttitle

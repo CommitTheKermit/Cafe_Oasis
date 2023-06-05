@@ -12,6 +12,15 @@ public class UserInfo implements Serializable {
     private int user_age = -1;
     private int user_sex = -1;
     private String user_phone = "default";
+    private String user_gen = "default";
+
+    public String getUser_gen() {
+        return user_gen;
+    }
+
+    public void setUser_gen(String user_gen) {
+        this.user_gen = user_gen;
+    }
 
     public int getUser_id() {
         return user_id;

@@ -93,7 +93,6 @@ id fragment_container
 id frame_3
 id frame_4
 id frame_6
-id group_12
 id history_arrow1
 id history_modify_arrow
 id history_modify_text
@@ -153,7 +152,6 @@ id receip_arrow1
 id receipt_arrow
 id receipt_text
 id recommendation_btn
-id rectangle_3
 id rectangle_history
 id rectangle_keyword
 id rectangle_profile

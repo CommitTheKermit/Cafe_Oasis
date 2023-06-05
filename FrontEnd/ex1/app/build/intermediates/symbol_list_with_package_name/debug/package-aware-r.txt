@@ -3657,7 +3657,6 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
-id group_12
 id group_divider
 id grouping
 id groups
@@ -3905,7 +3904,6 @@ id receip_arrow1
 id receipt_arrow
 id receipt_text
 id recommendation_btn
-id rectangle_3
 id rectangle_history
 id rectangle_keyword
 id rectangle_profile

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -27,6 +28,7 @@ public class Join3 extends AppCompatActivity {
     View arrow3;
     EditText edit_name, edit_nickname, edit_age, edit_num;
     Spinner spinner_gen;
+    String gen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +50,8 @@ public class Join3 extends AppCompatActivity {
         spinner_gen.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                userInfo.setUser_gen(parent.getItemAtPosition(position).toString());
+                //userInfo.setUser_gen(parent.getItemAtPosition(position).toString());
+                gen = parent.getItemAtPosition(position).toString();
             }
 
             @Override
@@ -62,6 +65,7 @@ public class Join3 extends AppCompatActivity {
             public void onClick(View v) {
                 userInfo.setUser_name(edit_name.getText().toString());
                 userInfo.setUser_nickname(edit_nickname.getText().toString());
+                userInfo.setUser_gen(gen);
                 int age = -1;
                 try {
                     age = Integer.parseInt(edit_age.getText().toString());

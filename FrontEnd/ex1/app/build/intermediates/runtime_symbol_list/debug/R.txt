@@ -3656,7 +3656,6 @@ int id ghost_view_holder 0x7f09010e
 int id gone 0x7f09010f
 int id graph 0x7f090110
 int id graph_wrap 0x7f090111
-int id group_12 0x7f090112
 int id group_divider 0x7f090113
 int id grouping 0x7f090114
 int id groups 0x7f090115
@@ -3904,7 +3903,6 @@ int id receip_arrow1 0x7f0901f8
 int id receipt_arrow 0x7f0901f9
 int id receipt_text 0x7f0901fa
 int id recommendation_btn 0x7f0901fb
-int id rectangle_3 0x7f0901fc
 int id rectangle_history 0x7f0901fd
 int id rectangle_keyword 0x7f0901fe
 int id rectangle_profile 0x7f0901ff

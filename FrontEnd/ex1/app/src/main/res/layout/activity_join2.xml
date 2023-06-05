@@ -9,27 +9,27 @@
 
     <View
         android:id="@+id/arrow2"
-        android:layout_width="23dp"
-        android:layout_height="23dp"
+        android:layout_width="28dp"
+        android:layout_height="18dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
         android:layout_marginTop="23dp"
-        android:background="@drawable/arrow"
-        />
+        android:alpha="0.7"
+        android:background="@drawable/arrow_back" />
 
     <TextView
         android:id="@+id/text_sign2"
-        android:layout_width="104dp"
+        android:layout_width="200dp"
         android:layout_height="36dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="40dp"
         android:layout_below="@+id/arrow2"
-        android:layout_marginTop="20dp"
-        android:text="@string/some_id7"
-        android:textAppearance="@style/some_id7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="64dp"
         android:gravity="top"
-        />
+        android:text="@string/some_id7"
+        android:textAppearance="@style/some_id7" />
 
     <TextView
         android:id="@+id/sign2_password"
@@ -38,7 +38,7 @@
         android:layout_below="@+id/text_sign2"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:gravity="top"
         android:lineSpacingExtra="-2sp"
         android:text="@string/some_id15"
@@ -56,7 +56,9 @@
         android:hint="@string/some_id16"
         android:paddingLeft="13dp"
         android:textColorHint="#bdbdbd"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:fontFamily="@font/neo"
+        />
 
     <TextView
         android:id="@+id/sign2_check_password"
@@ -66,11 +68,10 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
         android:layout_marginTop="20dp"
-        android:text="@string/some_id17"
-        android:textAppearance="@style/some_id9"
-        android:lineSpacingExtra="-2sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/some_id17"
+        android:textAppearance="@style/some_id9" />
 
     <EditText
         android:id="@+id/edit_check_password"
@@ -85,6 +86,7 @@
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
+        android:fontFamily="@font/neo"
         />
 
     <TextView
@@ -92,14 +94,14 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/rectangle_15"
-        android:text="다음"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
+        android:fontFamily="@font/neo"
         android:gravity="center"
-        />
+        android:text="다음"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
 
 </RelativeLayout>

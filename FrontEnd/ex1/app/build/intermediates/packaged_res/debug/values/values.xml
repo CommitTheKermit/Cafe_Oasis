@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="spinner_array">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="ic_cafe_background">#FFFFFF</color>
     <color name="oasis">#FF8FC1E4</color>
@@ -31,7 +35,7 @@
     <string name="some_id22">숫자</string>
     <string name="some_id23">전화번호</string>
     <string name="some_id24">010-1234-5678</string>
-    <string name="some_id25">#관심 키워드</string>
+    <string name="some_id25">관심 키워드</string>
     <string name="some_id26">#따뜻함</string>
     <string name="some_id27">키워드는 나중에 다시 수정할 수 있어요!</string>
     <string name="some_id3">이메일 기억</string>
@@ -52,7 +56,7 @@
         <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
 
     </style>
-    <style name="Theme.Ex1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Ex1" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">#8FC1E4</item>
         <item name="colorPrimaryVariant">#8FC1E4</item>

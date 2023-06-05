@@ -6,6 +6,7 @@ import androidx.annotation.RequiresApi;
 
 import com.example.ex1.Objects.JsonAndStatus;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -20,6 +21,7 @@ import java.net.URL;
 public class ServerComm {
     private static int statusCode = 0;
     private static JsonAndStatus outputJson = null;
+    private static JSONArray jsonArray = null;
 
     //POST 메서드 상태 코드 반환
     public static int getStatusCode(URL argUrl, JSONObject argJson){
@@ -188,4 +190,51 @@ public class ServerComm {
         }
 
     }
+
+    public static JSONArray getJSONArray(URL argUrl,  JSONObject argJson) {
+        Thread thread = new Thread() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
+            @Override
+            public void run() {
+                try {
+                    String output = null;
+                    JSONObject returnJson = null;
+                    // API 요청을 보내기 위한 URL 생성
+                    HttpURLConnection conn = (HttpURLConnection) argUrl.openConnection();
+                    conn.setRequestMethod("POST");
+                    conn.setRequestProperty("Content-Type", "application/json");
+
+                    conn.setDoOutput(true);
+                    conn.getOutputStream().write(argJson.toString().getBytes());
+
+                    int status = conn.getResponseCode();
+
+                    if (status == HttpURLConnection.HTTP_OK) {
+                        InputStream temp = conn.getInputStream();
+
+                        output = new BufferedReader(new InputStreamReader(temp)).lines()
+                                .reduce((a, b) -> a + b).get();
+                    } else {
+//                        output = "FAIL TO RECEIVE FROM SERVER";
+                    }
+
+                    jsonArray = new JSONArray(output);
+                    // 연결 종료
+                    conn.disconnect();
+
+                } catch (IOException | JSONException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        };
+        thread.start();
+
+        try {
+            thread.join();
+            return jsonArray;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }

@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,7 +27,8 @@ public class Join3 extends AppCompatActivity {
     TextView btn_next_sign3;
     View arrow3;
     EditText edit_name, edit_nickname, edit_age, edit_num;
-
+    Spinner spinner_gen;
+    UserInfo userInfo = new UserInfo();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,9 +40,29 @@ public class Join3 extends AppCompatActivity {
         edit_nickname = findViewById(R.id.edit_nickname);
         edit_age = findViewById(R.id.edit_age);
         edit_num = findViewById(R.id.edit_num);
+        spinner_gen = findViewById(R.id.spinner_gen);
 
         Intent intent = getIntent(); //전달할 데이터를 받을 Intent
-        UserInfo userInfo = (UserInfo) intent.getSerializableExtra("userInfo");
+        userInfo = (UserInfo) intent.getSerializableExtra("userInfo");
+
+        String[] items = {"남성", "여성"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+                this, android.R.layout.simple_spinner_item, items);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_gen.setAdapter(adapter);
+
+        spinner_gen.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                userInfo.setUser_sex(position + 1);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
 
         btn_next_sign3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,7 +87,7 @@ public class Join3 extends AppCompatActivity {
                     jsonObject.put("name", userInfo.getUser_name());
                     jsonObject.put("phone_no", userInfo.getUser_phone());
                     jsonObject.put("user_type", 1);
-                    jsonObject.put("sex", -1);
+                    jsonObject.put("sex", userInfo.getUser_sex());
                     jsonObject.put("age", userInfo.getUser_age());
                     jsonObject.put("nickname", userInfo.getUser_nickname());
 

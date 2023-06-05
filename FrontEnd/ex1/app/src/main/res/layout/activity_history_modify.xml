@@ -9,13 +9,14 @@
 
     <View
         android:id="@+id/history_arrow1"
-        android:layout_width="23dp"
-        android:layout_height="23dp"
+        android:layout_width="28dp"
+        android:layout_height="18dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="22dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
         android:layout_marginTop="23dp"
-        android:background="@drawable/arrow"
+        android:alpha="0.7"
+        android:background="@drawable/arrow_back"
         />
 
     <TextView
@@ -23,14 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
         android:layout_marginTop="64dp"
-        android:text="내 히스토리"
-        android:textAppearance="@style/some_id7"
-        android:lineSpacingExtra="-4sp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-4sp"
+        android:text="내 히스토리"
+        android:textAppearance="@style/some_id7" />
 
     <View
         android:id="@+id/line_22"
@@ -51,14 +51,15 @@
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/rectangle_15"
-        android:text="완료"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
         android:gravity="center"
+        android:text="완료"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:fontFamily="@font/neo"
         />
 
 </RelativeLayout>

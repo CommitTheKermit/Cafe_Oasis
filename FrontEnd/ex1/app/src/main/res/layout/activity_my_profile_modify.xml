@@ -9,13 +9,14 @@
 
     <View
         android:id="@+id/profile_modify_arrow1"
-        android:layout_width="23dp"
-        android:layout_height="23dp"
+        android:layout_width="28dp"
+        android:layout_height="18dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
         android:layout_marginTop="23dp"
-        android:background="@drawable/arrow"
+        android:alpha="0.7"
+        android:background="@drawable/arrow_back"
         />
 
     <TextView
@@ -23,9 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="64dp"
         android:layout_below="@+id/profile_modify_arrow1"
-        android:layout_marginTop="20dp"
         android:text="개인정보 수정"
         android:textAppearance="@style/some_id7"
         android:lineSpacingExtra="-4sp"
@@ -39,12 +41,11 @@
         android:layout_below="@+id/text_modify"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
-        android:text="이름"
-        android:textAppearance="@style/some_id9"
-        android:lineSpacingExtra="-2sp"
+        android:layout_marginTop="20dp"
         android:gravity="top"
-        />
+        android:lineSpacingExtra="-2sp"
+        android:text="이름"
+        android:textAppearance="@style/some_id9" />
 
     <EditText
         android:id="@+id/modify_name"
@@ -55,9 +56,11 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
-        android:paddingLeft="13dp"
+        android:textSize="14sp"
         android:textColorHint="#bdbdbd"
-        android:textSize="14sp" />
+        android:paddingLeft="13dp"
+        android:fontFamily="@font/neo"
+        />
 
     <TextView
         android:id="@+id/text_modify_nickname"
@@ -81,6 +84,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/neo"
         android:paddingLeft="13dp"
         android:textColorHint="#bdbdbd"
         android:textSize="14sp" />
@@ -112,6 +116,10 @@
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
+        android:fontFamily="@font/neo"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:maxLength="2"
         />
 
     <TextView
@@ -138,9 +146,12 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/some_id24"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp"
+        android:fontFamily="@font/neo"
+        android:digits="-0123456789"
+        android:inputType="number"
         />
 
     <TextView
@@ -152,10 +163,11 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/rectangle_15"
         android:text="완료"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:gravity="center"
+        android:fontFamily="@font/neo"
         />
 
 </RelativeLayout>

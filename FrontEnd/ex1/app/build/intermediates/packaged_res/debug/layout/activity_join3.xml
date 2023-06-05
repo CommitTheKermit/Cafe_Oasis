@@ -9,28 +9,27 @@
 
     <View
         android:id="@+id/arrow3"
-        android:layout_width="28dp"
-        android:layout_height="18dp"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="22dp"
         android:layout_marginTop="23dp"
-        android:alpha="0.7"
-        android:background="@drawable/arrow_back"
+        android:background="@drawable/arrow"
         />
 
     <TextView
         android:id="@+id/text_sign3"
-        android:layout_width="200dp"
+        android:layout_width="120dp"
         android:layout_height="36dp"
-        android:layout_below="@+id/arrow3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="64dp"
-        android:gravity="top"
+        android:layout_below="@+id/arrow3"
+        android:layout_marginTop="20dp"
         android:text="@string/some_id7"
-        android:textAppearance="@style/some_id7" />
+        android:textAppearance="@style/some_id7"
+        android:gravity="top"
+        />
 
     <TextView
         android:id="@+id/sign3_name"
@@ -95,10 +94,11 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
         android:layout_marginTop="20dp"
-        android:gravity="top"
-        android:lineSpacingExtra="-2sp"
         android:text="@string/some_id21"
-        android:textAppearance="@style/some_id9" />
+        android:textAppearance="@style/some_id9"
+        android:lineSpacingExtra="-2sp"
+        android:gravity="top"
+        />
 
     <EditText
         android:id="@+id/edit_age"
@@ -113,9 +113,6 @@
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        android:digits="0123456789"
-        android:inputType="number"
-        android:maxLength="2"
         />
 
     <TextView
@@ -142,12 +139,18 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/some_id24"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        android:digits="-0123456789"
-        android:inputType="number"
-        android:fontFamily="@font/neo"
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinner_gen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit_num"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_centerInParent="true"
         />
 
     <TextView
@@ -155,14 +158,15 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         android:background="@drawable/rectangle_15"
-        android:gravity="center"
         android:text="완료"
-        android:textAlignment="center"
+        android:textSize="20sp"
         android:textColor="#ffffff"
-        android:textSize="15sp"
-        android:fontFamily="@font/neo"/>
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
 
 </RelativeLayout>

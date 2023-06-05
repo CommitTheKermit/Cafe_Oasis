@@ -287,30 +287,6 @@
                 android:layout_marginLeft="15dp"
                 android:layout_below="@+id/rangeSlider_trendy"/>
 
-<!--            <TextView-->
-<!--                android:id="@+id/text_price"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="Price"-->
-<!--                android:textSize="14dp"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_below="@+id/keyword_fourth"-->
-<!--                android:layout_marginLeft="15dp"-->
-<!--                android:layout_marginTop="5dp"-->
-<!--                />-->
-
-<!--            <com.google.android.material.slider.RangeSlider-->
-<!--                android:id="@+id/rangeSlider_price"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_below="@+id/text_price"-->
-<!--                android:valueFrom="1.0"-->
-<!--                android:valueTo="3.0"-->
-<!--                android:stepSize="1.0"-->
-<!--                android:layout_centerInParent="true"-->
-<!--                android:layout_marginStart="20dp"-->
-<!--                />-->
-
             <CheckBox
                 android:id="@+id/check_price"
                 android:layout_width="wrap_content"

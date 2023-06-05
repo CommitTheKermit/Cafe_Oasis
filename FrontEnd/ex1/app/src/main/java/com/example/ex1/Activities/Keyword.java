@@ -17,7 +17,7 @@ public class Keyword extends AppCompatActivity {
     int[] keyword_point_arr = {1,1,1,1,0,1,1,3,1,1,0,0};
 
     RangeSlider rangeSlider_beverage, rangeSlider_dessert,rangeSlider_various,rangeSlider_special,rangeSlider_size,
-            rangeSlider_Landscape,rangeSlider_concentration,rangeSlider_trendy,rangeSlider_price;
+            rangeSlider_Landscape,rangeSlider_concentration,rangeSlider_trendy;
     CheckBox check_parking, check_price,check_gift;
 
     TextView btn_next_keyword;

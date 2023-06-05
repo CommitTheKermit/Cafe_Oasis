@@ -47,15 +47,37 @@
                 android:layout_marginTop="10dp"/>
 
             <TextView
+                android:id="@+id/text_beverage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beverage"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/keyword_first"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangeSlider_beverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_beverage"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="3.0" />
+
+            <TextView
                 android:id="@+id/text_dessert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dessert"
                 android:textSize="14dp"
                 android:textStyle="bold"
-                android:layout_below="@+id/keyword_first"
+                android:layout_below="@+id/rangeSlider_beverage"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="5dp"
                 />
 
             <com.google.android.material.slider.RangeSlider
@@ -225,12 +247,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_concentration"
-                android:valueFrom="1.0"
-                android:valueTo="5.0"
-                android:stepSize="1.0"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="20dp"
-                />
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="4.0" />
 
 
             <TextView
@@ -256,29 +277,6 @@
                 android:layout_marginStart="20dp"
                 />
 
-
-            <TextView
-                android:id="@+id/text_unique"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Unique_store"
-                android:textSize="14dp"
-                android:textStyle="bold"
-                android:layout_below="@id/rangeSlider_trendy"
-                android:layout_marginLeft="15dp"
-                />
-
-            <com.google.android.material.slider.RangeSlider
-                android:id="@+id/rangeSlider_unique"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/text_unique"
-                android:layout_centerInParent="true"
-                android:layout_marginStart="20dp"
-                android:stepSize="1.0"
-                android:valueFrom="1.0"
-                android:valueTo="3.0" />
-
             <TextView
                 android:id="@+id/keyword_fourth"
                 android:layout_width="wrap_content"
@@ -287,30 +285,42 @@
                 android:textSize="17dp"
                 android:textStyle="bold"
                 android:layout_marginLeft="15dp"
-                android:layout_below="@+id/rangeSlider_unique"/>
+                android:layout_below="@+id/rangeSlider_trendy"/>
 
-            <TextView
-                android:id="@+id/text_price"
+<!--            <TextView-->
+<!--                android:id="@+id/text_price"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Price"-->
+<!--                android:textSize="14dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_below="@+id/keyword_fourth"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                />-->
+
+<!--            <com.google.android.material.slider.RangeSlider-->
+<!--                android:id="@+id/rangeSlider_price"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/text_price"-->
+<!--                android:valueFrom="1.0"-->
+<!--                android:valueTo="3.0"-->
+<!--                android:stepSize="1.0"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                />-->
+
+            <CheckBox
+                android:id="@+id/check_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Price"
-                android:textSize="14dp"
-                android:textStyle="bold"
                 android:layout_below="@+id/keyword_fourth"
-                android:layout_marginLeft="15dp"
+                android:text="Price"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                />
-
-            <com.google.android.material.slider.RangeSlider
-                android:id="@+id/rangeSlider_price"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/text_price"
-                android:valueFrom="1.0"
-                android:valueTo="3.0"
-                android:stepSize="1.0"
-                android:layout_centerInParent="true"
-                android:layout_marginStart="20dp"
                 />
 
             <TextView
@@ -321,7 +331,7 @@
                 android:textSize="17dp"
                 android:textStyle="bold"
                 android:layout_marginLeft="15dp"
-                android:layout_below="@id/rangeSlider_price"/>
+                android:layout_below="@id/check_price"/>
 
             <CheckBox
                 android:id="@+id/check_gift"

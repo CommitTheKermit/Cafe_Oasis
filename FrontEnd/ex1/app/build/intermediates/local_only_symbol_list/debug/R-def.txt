@@ -78,6 +78,7 @@ id cafe_history_modify_arrow
 id cafe_history_modify_text
 id check_gift
 id check_parking
+id check_price
 id child_frame
 id edit_age
 id edit_check_email
@@ -139,13 +140,12 @@ id profile_modify_arrow
 id profile_modify_arrow1
 id profile_modify_text
 id rangeSlider_Landscape
+id rangeSlider_beverage
 id rangeSlider_concentration
 id rangeSlider_dessert
-id rangeSlider_price
 id rangeSlider_size
 id rangeSlider_special
 id rangeSlider_trendy
-id rangeSlider_unique
 id rangeSlider_various
 id rating_btn
 id receip_arrow1
@@ -173,6 +173,7 @@ id spinner_gen
 id splash
 id splash_img
 id text_Landscape
+id text_beverage
 id text_concentration
 id text_dessert
 id text_history
@@ -183,7 +184,6 @@ id text_modify_age
 id text_modify_name
 id text_modify_nickname
 id text_modify_num
-id text_price
 id text_receip
 id text_sign1
 id text_sign2
@@ -194,7 +194,6 @@ id text_special
 id text_splash
 id text_talk
 id text_trendy
-id text_unique
 id text_various
 id txtaddr
 id txttel

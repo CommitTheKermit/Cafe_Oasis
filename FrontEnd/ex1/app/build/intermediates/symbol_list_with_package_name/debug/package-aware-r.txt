@@ -3535,6 +3535,7 @@ id check_box
 id check_gift
 id check_image
 id check_parking
+id check_price
 id checkbox
 id checked
 id child_frame
@@ -3890,13 +3891,12 @@ id progress_circular
 id progress_horizontal
 id radio
 id rangeSlider_Landscape
+id rangeSlider_beverage
 id rangeSlider_concentration
 id rangeSlider_dessert
-id rangeSlider_price
 id rangeSlider_size
 id rangeSlider_special
 id rangeSlider_trendy
-id rangeSlider_unique
 id rangeSlider_various
 id rating_btn
 id ratio
@@ -4044,6 +4044,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id text_Landscape
+id text_beverage
 id text_concentration
 id text_dessert
 id text_history
@@ -4057,7 +4058,6 @@ id text_modify_age
 id text_modify_name
 id text_modify_nickname
 id text_modify_num
-id text_price
 id text_receip
 id text_sign1
 id text_sign2
@@ -4068,7 +4068,6 @@ id text_special
 id text_splash
 id text_talk
 id text_trendy
-id text_unique
 id text_various
 id textinput_counter
 id textinput_error

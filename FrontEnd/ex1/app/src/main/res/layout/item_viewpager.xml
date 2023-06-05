@@ -58,6 +58,7 @@
                 android:text="키워드"
                 />
 
+<<<<<<< Updated upstream
             <android.widget.Button
                 android:id="@+id/viewpager_map_btn"
                 android:layout_width="150dp"
@@ -69,6 +70,8 @@
                 android:text="지도에서 확인하기"
                 android:background="@drawable/button_background_clicked"
                 />
+=======
+>>>>>>> Stashed changes
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>

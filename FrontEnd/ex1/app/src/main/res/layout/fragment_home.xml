@@ -70,5 +70,46 @@
             android:fontFamily="@font/neo"
             android:text="BookMarker"
             android:textAllCaps="false"/>
+<<<<<<< Updated upstream
     </RelativeLayout>
+=======
+
+        <FrameLayout
+            android:id="@+id/child_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="230dp"></FrameLayout>
+
+        <android.widget.Button
+            android:id="@+id/viewpager_map_btn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background_clicked"
+            android:fontFamily="@font/neo"
+            android:text="지도에서 확인하기" />
+
+        <android.widget.Button
+            android:id="@+id/viewpager_recomm_btn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="210dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background_clicked"
+            android:fontFamily="@font/neo"
+            android:text="추천받기" />
+
+    </RelativeLayout>
+
+
+
+
+
+>>>>>>> Stashed changes
 </FrameLayout>

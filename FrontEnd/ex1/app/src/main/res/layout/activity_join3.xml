@@ -139,19 +139,9 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
         android:hint="@string/some_id24"
-        android:paddingLeft="13dp"
+        android:textSize="14sp"
         android:textColorHint="#bdbdbd"
-        android:textSize="14sp" />
-
-    <Spinner
-        android:id="@+id/spinner_gen"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/edit_num"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="80dp"
-        android:layout_centerInParent="true"
-        android:entries="@array/spinner_array"
+        android:paddingLeft="13dp"
         />
 
     <TextView
@@ -168,6 +158,5 @@
         android:textAlignment="center"
         android:gravity="center"
         />
-
 
 </RelativeLayout>

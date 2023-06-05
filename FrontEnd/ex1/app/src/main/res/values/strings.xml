@@ -24,7 +24,7 @@
     <string name="some_id22">숫자</string>
     <string name="some_id23">전화번호</string>
     <string name="some_id24">010-1234-5678</string>
-    <string name="some_id25">관심 키워드</string>
+    <string name="some_id25">#관심 키워드</string>
     <string name="some_id26">#따뜻함</string>
     <string name="some_id27">키워드는 나중에 다시 수정할 수 있어요!</string>
     <string name="splash_text">오아시스라는 이름은\n여행자들이 뜨거운 사막에서\n신선한 물과 그늘을 찾듯이,\n카페를 찾는 이들에게 좋은 음료와\n새로운 경험을 선사한다는 의미를 담고 있다.</string>
@@ -34,7 +34,5 @@
     <string name="naver_client_id">xxx</string>
     <string name="naver_client_secret">xxx</string>
     <string name="naver_client_name">xxx</string>
-
-
 
 </resources>

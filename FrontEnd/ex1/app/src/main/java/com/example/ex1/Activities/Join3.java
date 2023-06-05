@@ -5,9 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,7 +24,6 @@ public class Join3 extends AppCompatActivity {
     TextView btn_next_sign3;
     View arrow3;
     EditText edit_name, edit_nickname, edit_age, edit_num;
-    Spinner spinner_gen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,23 +36,9 @@ public class Join3 extends AppCompatActivity {
         edit_nickname = findViewById(R.id.edit_nickname);
         edit_age = findViewById(R.id.edit_age);
         edit_num = findViewById(R.id.edit_num);
-        spinner_gen = findViewById(R.id.spinner_gen);
 
         Intent intent = getIntent(); //전달할 데이터를 받을 Intent
         UserInfo userInfo = (UserInfo) intent.getSerializableExtra("userInfo");
-
-
-        spinner_gen.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                userInfo.setUser_gen(parent.getItemAtPosition(position).toString());
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
 
         btn_next_sign3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,7 +65,6 @@ public class Join3 extends AppCompatActivity {
                     jsonObject.put("user_sex", -1);
                     jsonObject.put("user_age", userInfo.getUser_age());
                     jsonObject.put("user_nickname", userInfo.getUser_nickname());
-                    jsonObject.put("user_gen",userInfo.getUser_gen());
 
                     int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/signup"),
                             jsonObject);

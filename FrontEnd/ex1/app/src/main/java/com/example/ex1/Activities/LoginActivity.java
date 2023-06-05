@@ -28,7 +28,6 @@ import com.kakao.sdk.auth.model.OAuthToken;
 import com.kakao.sdk.user.UserApiClient;
 import com.kakao.sdk.user.model.User;
 import com.navercorp.nid.NaverIdLoginSDK;
-import com.navercorp.nid.oauth.NidOAuthLogin;
 import com.navercorp.nid.oauth.OAuthLoginCallback;
 
 import org.json.JSONException;
@@ -54,7 +53,6 @@ public class LoginActivity extends AppCompatActivity {
     private static String OAUTH_CLIENT_NAME = "cafe_oasis";
     Context mContext;
     NaverIdLoginSDK mOAuthLoginInstance;
-    NidOAuthLogin mOAuthLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
@@ -231,10 +229,10 @@ public class LoginActivity extends AppCompatActivity {
      */
 
     private OAuthLoginCallback mOAuthLoginCallback = new OAuthLoginCallback() {
-
         @Override
         public void onSuccess() {
-            String accessToken = mOAuthLoginInstance.INSTANCE.getAccessToken();
+
+            //String accessToken = mOAuthLoginInstance.getAccessToken();
             //String refreshToken = mOAuthLoginInstance.getRefreshToken(mContext);
             //long expiresAt = mOAuthLoginInstance.getExpiresAt(mContext);
             //String tokenType = mOAuthLoginInstance.getTokenType(mContext);
@@ -242,8 +240,7 @@ public class LoginActivity extends AppCompatActivity {
             //mOauthExpires.setText(String.valueOf(expiresAt));
             //mOauthTokenType.setText(tokenType);
             //mOAuthState.setText(mOAuthLoginInstance.getState(mContext).toString());
-            //mOAuthLogin.callProfileApi(mOAuthLoginInstance.INSTANCE.getAccessToken());
-            //Log.e(TAG,accessToken);
+//            mOAuthLogin.callProfileApi();
             redirectSignupActivity();
         }
 

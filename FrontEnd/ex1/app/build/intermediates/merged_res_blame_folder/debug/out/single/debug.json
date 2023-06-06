@@ -28,16 +28,20 @@
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\drawable\\main_image.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\layout_activity_history_modify.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\layout\\activity_history_modify.xml"
+        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\layout_activity_find_pw.xml.flat",
+        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\layout\\activity_find_pw.xml"
+    },
+    {
+        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable_button_background_unclicked.xml.flat",
+        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\drawable\\button_background_unclicked.xml"
     },
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-hdpi_ic_cafe_foreground.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-57:\\mipmap-hdpi\\ic_cafe_foreground.png"
     },
     {
-        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable_button_background_unclicked.xml.flat",
-        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\drawable\\button_background_unclicked.xml"
+        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\layout_activity_history_modify.xml.flat",
+        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\layout\\activity_history_modify.xml"
     },
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable_profile1.png.flat",
@@ -112,6 +116,10 @@
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\layout\\activity_join2.xml"
     },
     {
+        "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\layout_activity_find_id.xml.flat",
+        "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\layout\\activity_find_id.xml"
+    },
+    {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-mdpi_ic_cafe.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-57:\\mipmap-mdpi\\ic_cafe.png"
     },
@@ -122,6 +130,10 @@
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-xhdpi_ic_cafe.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-57:\\mipmap-xhdpi\\ic_cafe.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-56:/drawable_baseline_place_24_pink.xml.flat",
+        "source": "com.example.ex1.app-main-58:/drawable/baseline_place_24_pink.xml"
     },
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-mdpi_ic_cafe_foreground.png.flat",
@@ -242,10 +254,6 @@
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-57:\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.example.ex1.app-merged_res-56:/layout_activity_login.xml.flat",
-        "source": "com.example.ex1.app-main-58:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable-v24_arrow2.png.flat",
@@ -372,10 +380,6 @@
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-57:\\font\\kopub.ttf"
     },
     {
-        "merged": "com.example.ex1.app-merged_res-56:/layout_activity_find_pw.xml.flat",
-        "source": "com.example.ex1.app-main-58:/layout/activity_find_pw.xml"
-    },
-    {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable-v24_arrow_front.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\drawable-v24\\arrow_front.png"
     },
@@ -410,10 +414,6 @@
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-debug-57:\\mipmap-mdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "com.example.ex1.app-merged_res-56:/layout_activity_find_id.xml.flat",
-        "source": "com.example.ex1.app-main-58:/layout/activity_find_id.xml"
     },
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable_layer_list.xml.flat",
@@ -470,6 +470,10 @@
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\drawable_home1.png.flat",
         "source": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-main-58:\\drawable\\home1.png"
+    },
+    {
+        "merged": "com.example.ex1.app-merged_res-56:/drawable_baseline_place_24pink.xml.flat",
+        "source": "com.example.ex1.app-main-58:/drawable/baseline_place_24pink.xml"
     },
     {
         "merged": "C:\\Users\\commitKermit\\.gradle\\daemon\\7.5\\com.example.ex1.app-merged_res-56:\\mipmap-xhdpi_ic_cafe_foreground.png.flat",

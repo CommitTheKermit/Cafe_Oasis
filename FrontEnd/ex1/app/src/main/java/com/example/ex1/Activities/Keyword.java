@@ -10,10 +10,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ex1.R;
+import com.example.ex1.Utils.ServerComm;
 import com.google.android.material.slider.RangeSlider;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class Keyword extends AppCompatActivity {
-
+    public static int[] intArr = new int[9];
     int[] keyword_point_arr = {1,1,1,1,0,1,1,3,1,1,0,0};
 
     RangeSlider rangeSlider_beverage, rangeSlider_dessert,rangeSlider_various,rangeSlider_special,rangeSlider_size,
@@ -74,8 +83,17 @@ public class Keyword extends AppCompatActivity {
                 else if(keyword_point_arr[5]+keyword_point_arr[6]>4){
                     Toast.makeText(getApplicationContext(),"Large_store, Landscape의 총합이 4 이하여야 합니다.",Toast.LENGTH_SHORT).show();
                 }
+                JsonObject jsonObject = new JsonObject();
+                Gson gson = new Gson();
+                try {
+                    jsonObject.add("email", gson.toJsonTree(LoginActivity.userInfo.getUser_email()));
+                    jsonObject.add("user_keyword_value", gson.toJsonTree(keyword_point_arr));
+                    ServerComm.getJSONArray(new URL("http://cafeoasis.xyz/users/profile/keyword/create"),
+                            jsonObject);
+                } catch (MalformedURLException e) {
+                    throw new RuntimeException(e);
+                }
 
-                System.out.println();
 
             }
         });

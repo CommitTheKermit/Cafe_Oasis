@@ -17,6 +17,8 @@ drawable arrow_back
 drawable arrow_front
 drawable arrow_front_resize20
 drawable arrow_front_resize30
+drawable baseline_place_24_pink
+drawable baseline_place_24pink
 drawable bookmarker
 drawable button1
 drawable button2

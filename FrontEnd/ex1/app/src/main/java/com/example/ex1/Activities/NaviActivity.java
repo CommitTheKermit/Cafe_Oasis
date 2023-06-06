@@ -11,9 +11,10 @@ import com.example.ex1.Fragments.ProfileFragment;
 import com.example.ex1.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class NaviActivity extends AppCompatActivity {
-    BottomNavigationView bottomNavigationView; //바텀 네비게이션 뷰
 
+public class NaviActivity extends AppCompatActivity {
+
+    public static BottomNavigationView bottomNavigationView; //바텀 네비게이션 뷰
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,8 +41,6 @@ public class NaviActivity extends AppCompatActivity {
                 return true;
             }
         });
-
-
 
     }
 

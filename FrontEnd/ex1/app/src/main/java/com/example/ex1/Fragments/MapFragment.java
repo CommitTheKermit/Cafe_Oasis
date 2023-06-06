@@ -3,6 +3,7 @@ package com.example.ex1.Fragments;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
@@ -15,9 +16,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
+import com.example.ex1.Activities.LoginActivity;
 import com.example.ex1.Adapter.pointAdapter;
+import com.example.ex1.Objects.DataPage;
 import com.example.ex1.R;
 import com.naver.maps.geometry.LatLng;
 import com.naver.maps.map.CameraPosition;
@@ -32,30 +34,28 @@ import com.naver.maps.map.overlay.Overlay;
 import com.naver.maps.map.overlay.OverlayImage;
 import com.naver.maps.map.util.FusedLocationSource;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 
 public class MapFragment extends Fragment implements OnMapReadyCallback {
     private MapView mapView;
-    private static NaverMap naverMap;
+    public static NaverMap naverMap;
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1000; //2
     private FusedLocationSource locationSource; //2
     private static final String[] PERMISSIONS = {
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.ACCESS_COARSE_LOCATION
     };
+    public static LatLng latLng;
 
     //Infowindow 변수 선언 및 초기화
-    private InfoWindow infoWindow1 = new InfoWindow();
+    private InfoWindow[] infoWindows = new InfoWindow[10];
+    int i = 0;
+    ArrayList<DataPage> cafeList = null;
 
     //마커
-    private Marker marker1 = new Marker();
+//    private Marker marker1 = new Marker();
+    private Marker[] markerArr = new Marker[10];
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -72,6 +72,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         locationSource = new FusedLocationSource(this, LOCATION_PERMISSION_REQUEST_CODE); //2
     }
 
+
+
     @Override
     public void onMapReady(@NonNull NaverMap naverMap) {
         this.naverMap = naverMap;
@@ -84,14 +86,64 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
 
             return;
         }
-        Location initialLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);;
+        Location initialLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
         double latitude = initialLocation.getLatitude();    // 위도
         double longitude = initialLocation.getLongitude();  // 경도
+        CameraPosition cameraPosition = null;
 
-        CameraPosition cameraPosition = new CameraPosition(
-                new LatLng(latitude, longitude),  // 위치 지정
-                15                           // 줌 레벨
-        );
+        if(latLng != null){
+            cameraPosition = new CameraPosition(
+                    latLng,  // 위치 지정
+                    15                           // 줌 레벨
+            );
+            latLng = null;
+        }
+        else{
+            cameraPosition = new CameraPosition(
+                    new LatLng(latitude, longitude),  // 위치 지정
+                    15                           // 줌 레벨
+            );
+        }
+        int drawble = R.drawable.ic_baseline_place_24;
+        if(LoginActivity.list.size() > 0){
+            cafeList = LoginActivity.list;
+            if(RecommendationFragment.list.size() > 0)
+                cafeList.addAll(RecommendationFragment.list);
+            for(i = 0; i < cafeList.size(); i++){
+                markerArr[i] = new Marker();
+                infoWindows[i] = new InfoWindow();
+
+                if(i > 2)
+                    drawble = R.drawable.baseline_place_24_pink;
+
+                setMarker(markerArr[i],
+                        cafeList.get(i).getLatitude(),
+                        cafeList.get(i).getLongitude(),
+                        drawble,
+                        cafeList.get(i).getCafe_name());
+
+                final int index = i;
+                markerArr[i].setOnClickListener(new Overlay.OnClickListener() {
+                    @Override
+                    public boolean onClick(@NonNull Overlay overlay) {
+                        if (markerArr[index].getInfoWindow() == null) {
+                            ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);
+                            pointAdapter adapter = new pointAdapter(requireActivity(), rootView, cafeList.get(index));
+                            // 정보 창을 엽니다.
+                            infoWindows[index].setAdapter(adapter);
+                            infoWindows[index].setZIndex(10); //인포창의 우선순위
+                            infoWindows[index].setAlpha(0.9f); //투명도 조정
+                            infoWindows[index].open(markerArr[index]); //인포창 표시
+                        } else {
+                            // 정보 창이 이미 열려있는 경우 닫습니다.
+                            infoWindows[index].close();
+                        }
+                        return true;
+                    }
+                });
+
+            }
+        }
 
         ActivityCompat.requestPermissions(requireActivity(), PERMISSIONS, LOCATION_PERMISSION_REQUEST_CODE); //권한확인
         UiSettings uiSettings = naverMap.getUiSettings();
@@ -103,65 +155,12 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         naverMap.setCameraPosition(cameraPosition);
         // 정보 창이 열려있는 경우, 지도를 누르면 닫기
         naverMap.setOnMapClickListener((point, coord) -> {
-            if (infoWindow1.getMarker() != null) {
-                infoWindow1.close();
+            for(i = 0; i < infoWindows.length; i++){
+                if (infoWindows[i].getMarker() != null) {
+                    infoWindows[i].close();
+                }
             }
-        });
 
-        //2. Json 시도
-       /*
-       try {
-            String json = loadJSONFromAsset(); // assets 폴더의 JSON 파일을 어떻게 읽어오지..?
-            JSONArray jsonArray = new JSONArray(json);
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject jsonObject = jsonArray.getJSONObject(i);
-                double lat = jsonObject.getDouble("latitude");
-                double lng = jsonObject.getDouble("longitude");
-                String name = jsonObject.getString("cafe_name");
-                String address = jsonObject.getString("address");
-                String phone = jsonObject.getString("cafe_phone");
-
-                // 마커 생성
-                Marker[] marker;
-                setMarker(marker[i], lat, lng, R.drawable.ic_baseline_place_24, name);
-
-                marker1.setOnClickListener(overlay -> {
-                    if (marker1.getInfoWindow() == null) {
-                        ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);
-                        pointAdapter adapter = new pointAdapter(requireActivity(), rootView);
-                        // 정보 창을 엽니다.
-                        infoWindow1.setAdapter(adapter);
-                        infoWindow1.setZIndex(10); //인포창의 우선순위
-                        infoWindow1.setAlpha(0.9f); //투명도 조정
-                        infoWindow1.open(marker1); //인포창 표시
-                    } else {
-                        // 정보 창이 이미 열려있는 경우 닫습니다.
-                        infoWindow1.close();
-                    }
-                    return true;
-                });
-            }
-        } catch (JSONException jsonException) {
-            jsonException.printStackTrace();
-        }*/
-
-        setMarker(marker1, 35.84049650463925, 128.7003034345919, R.drawable.ic_baseline_place_24, "트로스트");
-
-        //1. 기존 되는 코드
-        marker1.setOnClickListener(overlay -> {
-            if (marker1.getInfoWindow() == null) {
-                ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);
-                pointAdapter adapter = new pointAdapter(requireActivity(), rootView);
-                // 정보 창을 엽니다.
-                infoWindow1.setAdapter(adapter);
-                infoWindow1.setZIndex(10); //인포창의 우선순위
-                infoWindow1.setAlpha(0.9f); //투명도 조정
-                infoWindow1.open(marker1); //인포창 표시
-            } else {
-                // 정보 창이 이미 열려있는 경우 닫습니다.
-                infoWindow1.close();
-            }
-            return true;
         });
     }
 

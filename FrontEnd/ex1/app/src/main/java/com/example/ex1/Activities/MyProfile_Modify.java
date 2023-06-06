@@ -95,7 +95,7 @@ public class MyProfile_Modify extends AppCompatActivity {
                 Toast.makeText(MyProfile_Modify.this, "등록 성공",
                         Toast.LENGTH_SHORT).show();
 
-                intent = new Intent(MyProfile_Modify.this, NaviActivity.class);
+                intent = new Intent(MyProfile_Modify.this, Keyword.class);
                 startActivity(intent);
                 finish();
             } else {

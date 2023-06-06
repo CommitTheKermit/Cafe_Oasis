@@ -18,8 +18,8 @@ from selenium.webdriver import ActionChains
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
-input_file = "cafe_name_big0.csv"
-output_file = "cafe_url_big0.csv"
+input_file = "cafe_name_big2.csv"
+output_file = "cafe_url_big2.csv"
 
 
 resultListClass = "UEzoS"

@@ -3137,6 +3137,8 @@ int drawable arrow_front_resize20 0x7f08007d
 int drawable arrow_front_resize30 0x7f08007e
 int drawable avd_hide_password 0x7f08007f
 int drawable avd_show_password 0x7f080080
+int drawable baseline_place_24_pink 0x7f080186
+int drawable baseline_place_24pink 0x7f080187
 int drawable bookmarker 0x7f080081
 int drawable bottom_background_img 0x7f080082
 int drawable btn_checkbox_checked_mtrl 0x7f080083

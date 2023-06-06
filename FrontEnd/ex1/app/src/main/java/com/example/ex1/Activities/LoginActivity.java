@@ -4,11 +4,18 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.splashscreen.SplashScreen;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,12 +26,19 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.ex1.Fragments.RatingFragment;
+import com.example.ex1.Fragments.RecommendationFragment;
 import com.example.ex1.Main.MainActivity;
+import com.example.ex1.Objects.DataPage;
 import com.example.ex1.Objects.JsonAndStatus;
 import com.example.ex1.Objects.UserInfo;
 import com.example.ex1.R;
+import com.example.ex1.Utils.DownloadImageTask;
 import com.example.ex1.Utils.PermissionUtils;
 import com.example.ex1.Utils.ServerComm;
+import com.example.ex1.ViewPagerAdapter;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 import com.kakao.sdk.auth.model.OAuthToken;
 import com.kakao.sdk.user.UserApiClient;
 import com.kakao.sdk.user.model.User;
@@ -33,6 +47,7 @@ import com.navercorp.nid.oauth.OAuthLoginCallback;
 import com.navercorp.nid.profile.data.NidProfile;
 
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,6 +56,11 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import kotlin.Unit;
 import kotlin.jvm.functions.Function2;
@@ -57,6 +77,8 @@ public class LoginActivity extends AppCompatActivity {
     private static String OAUTH_CLIENT_SECRET = "BUf5oFmqqI";
     private static String OAUTH_CLIENT_NAME = "cafe_oasis";
     public static UserInfo userInfo = new UserInfo();
+    public static ViewPager2 viewPager2;
+    public static ArrayList<DataPage> list = new ArrayList<>();
     Context mContext;
     NaverIdLoginSDK mOAuthLoginInstance;
     String kakaoEmail = "";
@@ -87,13 +109,68 @@ public class LoginActivity extends AppCompatActivity {
         mContext = this;
         main_image = findViewById(R.id.main_image);
 
-
         if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
             PermissionUtils.requestLocationPermissions((AppCompatActivity) LoginActivity.this, 1, true);
 
             return;
+        }
+
+        JsonObject jsonObject = new JsonObject();
+        try {
+            LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
+                    PackageManager.PERMISSION_GRANTED &&
+                    ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                            PackageManager.PERMISSION_GRANTED) {
+                return;
+            }
+            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+            double[] doubleArr =  new double[2];
+
+            doubleArr[0] = location.getLatitude();    // 위도
+            doubleArr[1] = location.getLongitude();  // 경도
+
+            Gson gson = new Gson();
+            jsonObject.add("user_location", gson.toJsonTree(doubleArr));
+
+
+            JSONArray jsonArray = ServerComm.getJSONArray(
+                    new URL("http://cafeoasis.xyz/cafe/recommend/rating"),
+                    jsonObject);
+            for(int i = 0; i < 3; i++)
+            {
+                JSONObject json = jsonArray.getJSONObject(i);
+                String name = json.get("cafe_name").toString();
+                String address = json.get("address").toString();
+                String phone_no = json.get("cafe_phone_no").toString();
+                double latitude = json.getDouble("latitude");
+                double longitude = json.getDouble("longitude");
+                String url = json.getString("cafe_image");
+//                String url = "https://drive.google.com/open?id=1cHCOfMlA4NiGS8odHDNUI3jL0XXMM994&usp=drive_fs";
+
+                ExecutorService executor = Executors.newSingleThreadExecutor();
+                Future<Bitmap> future = executor.submit(
+                        new DownloadImageTask(url));
+
+                Bitmap bitmap = future.get();
+                Resources res = getResources();
+                Drawable drawable = new BitmapDrawable(res, bitmap);
+
+                list.add(new DataPage(drawable,
+                        name, address, phone_no, latitude, longitude));
+            }
+
+
+        } catch (ExecutionException |
+                 InterruptedException e) {
+            throw new RuntimeException(e);
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
         }
 
         btn_sign.setOnClickListener(new View.OnClickListener() {
@@ -322,12 +399,12 @@ public class LoginActivity extends AppCompatActivity {
 
             Intent intent;
             if(statusCode == HttpURLConnection.HTTP_OK){
-                // 토큰이 데이터베이스에 존재하여 메인으로 넘어감
+                // 이메일이 데이터베이스에 존재하여 메인으로 넘어감
                 intent = new Intent(LoginActivity.this, NaviActivity.class);
                 intent.putExtra("option", "notFirstLogin");
             }
             else{
-                // 토큰이 데이터베이스에 존재하지 않아 개인정보 등록으로 넘어감
+                // 이메일 데이터베이스에 존재하지 않아 개인정보 등록으로 넘어감
 
                 intent = new Intent(LoginActivity.this, MyProfile_Modify.class);
                 intent.putExtra("option", "firstLogin");
@@ -351,17 +428,6 @@ public class LoginActivity extends AppCompatActivity {
 
         }
     };
-
-
-
-
-    // 성공 후 이동할 액티비티
-//    protected void redirectSignupActivity() {
-//        final Intent intent = new Intent(this, NaviActivity.class);
-//        startActivity(intent);
-//        finish();
-//    }
-
 
 
 

@@ -9,18 +9,22 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.example.ex1.Objects.DataPage;
 import com.example.ex1.R;
 import com.naver.maps.map.overlay.InfoWindow;
 
 public class pointAdapter extends InfoWindow.DefaultViewAdapter {
     private final Context mContext;
     private final ViewGroup mParent;
+    private DataPage cafeData;
 
-    public pointAdapter(@NonNull Context context, ViewGroup parent)
+    public pointAdapter(@NonNull Context context, ViewGroup parent, DataPage data)
     {
         super(context);
         mContext = context;
         mParent = parent;
+        this.cafeData = data;
+
     }
 
     @NonNull
@@ -35,10 +39,10 @@ public class pointAdapter extends InfoWindow.DefaultViewAdapter {
         TextView txtAddr = (TextView) view.findViewById(R.id.txtaddr);
         TextView txtTel = (TextView) view.findViewById(R.id.txttel);
 
-        txtTitle.setText("트로스트");
-        imagePoint.setImageResource(R.drawable.trost);
-        txtAddr.setText("대구 수성구 달구벌대로641길 4-8 2층");
-        txtTel.setText("0507-1304-4936");
+        txtTitle.setText(cafeData.getCafe_name());
+        imagePoint.setImageDrawable(cafeData.getImage());
+        txtAddr.setText(cafeData.getCafe_location());
+        txtTel.setText(cafeData.getPhone_no());
 
         return view;
     }

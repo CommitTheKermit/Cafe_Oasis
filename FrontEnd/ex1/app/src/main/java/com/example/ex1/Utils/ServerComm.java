@@ -5,6 +5,7 @@ import android.os.Build;
 import androidx.annotation.RequiresApi;
 
 import com.example.ex1.Objects.JsonAndStatus;
+import com.google.gson.JsonObject;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -191,14 +192,13 @@ public class ServerComm {
 
     }
 
-    public static JSONArray getJSONArray(URL argUrl,  JSONObject argJson) {
+    public static JSONArray getJSONArray(URL argUrl,  JsonObject argJson) {
         Thread thread = new Thread() {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void run() {
                 try {
                     String output = null;
-                    JSONObject returnJson = null;
                     // API 요청을 보내기 위한 URL 생성
                     HttpURLConnection conn = (HttpURLConnection) argUrl.openConnection();
                     conn.setRequestMethod("POST");
@@ -206,6 +206,7 @@ public class ServerComm {
 
                     conn.setDoOutput(true);
                     conn.getOutputStream().write(argJson.toString().getBytes());
+
 
                     int status = conn.getResponseCode();
 

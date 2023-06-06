@@ -270,12 +270,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_trendy"
-                android:valueFrom="1.0"
-                android:valueTo="3.0"
-                android:stepSize="1.0"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="20dp"
-                />
+                android:stepSize="1.0"
+                android:valueFrom="1.0"
+                android:valueTo="3.0" />
 
             <TextView
                 android:id="@+id/keyword_fourth"

@@ -1,7 +1,10 @@
 package com.example.ex1.Fragments;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -72,11 +75,23 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onMapReady(@NonNull NaverMap naverMap) {
         this.naverMap = naverMap;
+        LocationManager locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
+        if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(
+                        getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED) {
+
+            return;
+        }
+        Location initialLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);;
+        double latitude = initialLocation.getLatitude();    // 위도
+        double longitude = initialLocation.getLongitude();  // 경도
+
         CameraPosition cameraPosition = new CameraPosition(
-                new LatLng(35.8716, 128.6015),  // 위치 지정
+                new LatLng(latitude, longitude),  // 위치 지정
                 15                           // 줌 레벨
         );
-        naverMap.setCameraPosition(cameraPosition);
 
         ActivityCompat.requestPermissions(requireActivity(), PERMISSIONS, LOCATION_PERMISSION_REQUEST_CODE); //권한확인
         UiSettings uiSettings = naverMap.getUiSettings();
@@ -85,6 +100,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         naverMap.setLocationSource(locationSource);  //현재 위치
         naverMap.setLayerGroupEnabled(naverMap.LAYER_GROUP_BUILDING, true);
 
+        naverMap.setCameraPosition(cameraPosition);
         // 정보 창이 열려있는 경우, 지도를 누르면 닫기
         naverMap.setOnMapClickListener((point, coord) -> {
             if (infoWindow1.getMarker() != null) {

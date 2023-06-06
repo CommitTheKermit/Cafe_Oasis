@@ -143,12 +143,41 @@
         android:textAlignment="center"
         android:textAppearance="@style/some_id4" />
 
-    <ImageView
-        android:id="@+id/btn_naver"
-        android:layout_width="280dp"
+    <TextView
+        android:id="@+id/btn_find_id"
+        android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_below="@+id/btn_sign"
         android:layout_alignLeft="@+id/login_input_password"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:text="아이디 찾기"
+        android:textAlignment="center"
+        android:textAppearance="@style/some_id4" />
+
+    <TextView
+        android:id="@+id/btn_find_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_sign"
+        android:layout_marginLeft="20dp"
+        android:layout_alignRight="@+id/login_input_password"
+        android:layout_toRightOf="@+id/btn_find_id"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:text="비밀번호 찾기"
+        android:textAlignment="center"
+        android:textAppearance="@style/some_id4" />
+
+    <ImageView
+        android:id="@+id/btn_naver"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_find_id"
+        android:layout_alignLeft="@+id/login_input_password"
+        android:layout_alignRight="@+id/login_input_password"
         android:layout_marginTop="5dp"
         android:background="@drawable/naver4"
         android:scaleType="centerCrop" />

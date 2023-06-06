@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -46,8 +47,10 @@ import kotlin.jvm.functions.Function2;
 
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
-    private TextView btn_login, btn_sign;
+    private TextView btn_login, btn_sign, btn_find_id, btn_find_pw;
     private EditText login_input_email, login_input_password;
+    private CheckBox email_checkbox, keep_checkbox;
+    private TextView remember_email, maintain_login;
     View main_image;
     ImageView btn_kakao, btn_naver;
     private static String OAUTH_CLIENT_ID = "8KKe9jwrqNw84LwVTrBY";
@@ -68,6 +71,18 @@ public class LoginActivity extends AppCompatActivity {
         btn_kakao = findViewById(R.id.btn_kakao);
         btn_naver = findViewById(R.id.btn_naver);
         btn_sign = findViewById(R.id.btn_sign);
+        btn_find_id = findViewById(R.id.btn_find_id);
+        btn_find_pw = findViewById(R.id.btn_find_pw);
+
+        email_checkbox = findViewById(R.id.email_checkbox);
+        keep_checkbox = findViewById(R.id.keep_checkbox);
+        remember_email = findViewById(R.id.remember_email);
+        maintain_login = findViewById(R.id.maintain_login);
+
+        email_checkbox.setVisibility(View.GONE);
+        keep_checkbox.setVisibility(View.GONE);
+        remember_email.setVisibility(View.GONE);
+        maintain_login.setVisibility(View.GONE);
 
         mContext = this;
         main_image = findViewById(R.id.main_image);
@@ -118,6 +133,7 @@ public class LoginActivity extends AppCompatActivity {
                         userInfo.setUser_nickname(tempJson.getString("nickname"));
                         userInfo.setUser_age(tempJson.getInt("age"));
                         userInfo.setUser_sex(tempJson.getInt("sex"));
+
 
                         Intent intent = new Intent(LoginActivity.this, NaviActivity.class);
                         intent.putExtra("userInfo", userInfo);
@@ -201,6 +217,21 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        btn_find_id.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this,Find_Id_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_find_pw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this,Find_pw_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void Kakaoprofile() {

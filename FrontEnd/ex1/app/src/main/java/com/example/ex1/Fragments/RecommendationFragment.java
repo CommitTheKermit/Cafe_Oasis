@@ -31,6 +31,7 @@ public class RecommendationFragment extends Fragment {
     View view;
     ViewPager2 viewPager2;
     Button btnRecomm;
+    public static ArrayList<DataPage> list = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,23 +39,14 @@ public class RecommendationFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_recommendation,container,false);
 
         viewPager2 = view.findViewById(R.id.viewpager2_recommendation);
-        btnRecomm = (Button) view.findViewById(R.id.viewpager_recomm_btn);
 
-        ArrayList<DataPage> list = new ArrayList<>();
-        list.add(new DataPage(R.drawable.cafe2,"2 Page","사랑시","와우2"));
-        list.add(new DataPage(R.drawable.cafe3,"3 Page","고백구","와우3"));
-        list.add(new DataPage(R.drawable.cafe1,"1 Page","행복동","와우1"));
+
+//        list.add(new DataPage(R.drawable.cafe2,"2 Page","사랑시","와우2"));
+//        list.add(new DataPage(R.drawable.cafe3,"3 Page","고백구","와우3"));
+//        list.add(new DataPage(R.drawable.cafe1,"1 Page","행복동","와우1"));
 
         viewPager2.setAdapter(new ViewPagerAdapter(list));
 
         return view;
-    }
-
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-
     }
 }

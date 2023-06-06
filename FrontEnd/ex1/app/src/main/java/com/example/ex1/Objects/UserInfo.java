@@ -12,6 +12,7 @@ public class UserInfo implements Serializable {
     private int user_age = -1;
     private int user_sex = -1;
     private String user_phone = "default";
+    private int[] user_keyword = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     public int getUser_id() {
         return user_id;
@@ -49,6 +50,10 @@ public class UserInfo implements Serializable {
         return user_phone;
     }
 
+    public int[] getUser_keyword() {
+        return user_keyword;
+    }
+
     public void setUser_id(int user_id) {
         this.user_id = user_id;
     }
@@ -83,5 +88,9 @@ public class UserInfo implements Serializable {
 
     public void setUser_phone(String user_phone) {
         this.user_phone = user_phone;
+    }
+
+    public void setUser_keyword(int[] user_keyword) {
+        this.user_keyword = user_keyword;
     }
 }

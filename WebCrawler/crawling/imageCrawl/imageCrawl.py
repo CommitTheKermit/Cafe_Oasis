@@ -18,6 +18,10 @@ from selenium.webdriver import ActionChains
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
+input_file = "cafe_name_big0.csv"
+output_file = "cafe_url_big0.csv"
+
+
 resultListClass = "UEzoS"
 resultListTitleClass = "tzwk0"
 # resultListTitleClass = "P7gyV"
@@ -91,10 +95,10 @@ def get_image():
     global cafe_url_list
     count = 0
     designate_tab_and_click("사진")
-    drive_file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
-    drive_file_set = set()
-    for file in drive_file_list:
-        drive_file_set.add(file['title'])
+    # drive_file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
+    # drive_file_set = set()
+    # for file in drive_file_list:
+    #     drive_file_set.add(file['title'])
 
     try:
         WebDriverWait(driver,1.5).until(\
@@ -110,12 +114,12 @@ def get_image():
                 start = temp.find("url(\"")
                 end = temp.find("\");")
                 img_url = temp[start + 5 : end]
-                urllib.request.urlretrieve(img_url, f'image{count}.jpg') #이미지 다운로드
+                urllib.request.urlretrieve(img_url, f'image{count}_000.jpg') #이미지 다운로드
                 
-                if f"{cafe_name_global} image{count}.jpg" in drive_file_set:
-                    continue
+                # if f"{cafe_name_global} image{count}.jpg" in drive_file_set:
+                #     continue
                 file = drive.CreateFile({"title": f"{cafe_name_global} image{count}.jpg"})  # Create GoogleDriveFile instance with title 'image.jpg'
-                file.SetContentFile(f"image{count}.jpg")  # Set content of the file from given local path
+                file.SetContentFile(f"image{count}_000.jpg")  # Set content of the file from given local path
                 file.Upload()
                 
 
@@ -126,14 +130,11 @@ def get_image():
                 
                 drive_url = "https://drive.google.com/uc?id=" + file['id']
                 count += 1
-                # cafe_url_dict.setdefault(cafe_name_global, set())
-                # cafe_url_dict[cafe_name_global].add(drive_url)
-                cafe_url_list.append(drive_url)
+                cafe_url_dict.setdefault(cafe_name_global, set())
+                cafe_url_dict[cafe_name_global].add(drive_url)
         
-        cafe_url_list.append("None")
         
     except Exception as e:
-        cafe_url_list.append("None")
         return -1
 
 def doScrollDown(attempt):
@@ -160,10 +161,9 @@ try:
 finally:
    pass
 
-input_file = "cafe_name_big.csv"
-output_file = "cafe_url_big.csv"
-# cafe_url_dict = dict()
-cafe_url_list = list()
+
+cafe_url_dict = dict()
+# cafe_url_list = list()
 
 df = pd.read_csv(input_file)
 
@@ -241,10 +241,10 @@ for idx in df.index:
     driver.switch_to.window(window_name = driver.window_handles[0])
     driver.find_element(By.CLASS_NAME,"button_clear").send_keys(Keys.ENTER) #검색창 클리어
 
-cafe_name_image = df.copy()
-cafe_name_image['URL'] = cafe_url_list
-cafe_name_image.to_csv(output_file, encoding="utf-8-sig")
+# cafe_name_image = df.copy()
+# cafe_name_image['URL'] = cafe_url_list
+# cafe_name_image.to_csv(output_file, encoding="utf-8-sig")
 
-# cafe_name_review_df = pd.DataFrame.from_dict(cafe_url_dict, orient='index')
+cafe_name_review_df = pd.DataFrame.from_dict(cafe_url_dict, orient='index')
 
-# cafe_name_review_df.to_csv(output_file, encoding="utf-8-sig")
+cafe_name_review_df.to_csv(output_file, encoding="utf-8-sig")

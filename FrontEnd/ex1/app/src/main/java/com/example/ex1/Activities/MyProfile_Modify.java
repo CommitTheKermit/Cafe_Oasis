@@ -89,7 +89,7 @@ public class MyProfile_Modify extends AppCompatActivity {
             jsonObject.put("age", userInfo.getUser_age());
             jsonObject.put("nickname", userInfo.getUser_nickname());
 
-            int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/editProfile"),
+            int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/signup"),
                     jsonObject);
             if (statusCode == 200) {
                 Toast.makeText(MyProfile_Modify.this, "등록 성공",

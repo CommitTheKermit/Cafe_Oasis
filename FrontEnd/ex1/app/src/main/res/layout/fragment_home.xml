@@ -75,7 +75,38 @@
             android:id="@+id/child_frame"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="230dp"></FrameLayout>
+            android:layout_marginTop="230dp">
+
+        </FrameLayout>
+
+        <android.widget.Button
+            android:id="@+id/btn_map_home"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/neo"
+            android:text="지도에서 확인"
+            android:background="@drawable/button_background_clicked"
+            />
+
+
+        <android.widget.Button
+            android:id="@+id/btn_recomm_home"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="150dp"
+            android:fontFamily="@font/neo"
+            android:text="추천받기"
+            android:layout_alignRight="@id/btn_map_home"
+            android:background="@drawable/button_background_clicked"
+            />
+
+
 
     </RelativeLayout>
 

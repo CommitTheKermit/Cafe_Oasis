@@ -58,32 +58,6 @@
                 android:text="키워드"
                 />
 
-            <android.widget.Button
-                android:id="@+id/viewpager_map_btn"
-                android:layout_width="150dp"
-                android:layout_height="40dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerInParent="true"
-                android:layout_marginBottom="30dp"
-                android:fontFamily="@font/neo"
-                android:text="지도에서 확인하기"
-                android:background="@drawable/button_background_clicked"
-                />
-
-
-            <android.widget.Button
-                android:id="@+id/viewpager_recomm_btn"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerInParent="true"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="100dp"
-                android:fontFamily="@font/neo"
-                android:text="추천받기"
-                android:layout_alignRight="@id/viewpager_cafe_location"
-                android:background="@drawable/button_background_clicked"
-                />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>

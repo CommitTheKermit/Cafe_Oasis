@@ -3492,6 +3492,8 @@ id arc
 id arrow1
 id arrow2
 id arrow3
+id arrow_find_id
+id arrow_find_pw
 id asConfigured
 id async
 id auto
@@ -3521,9 +3523,14 @@ id browser_actions_menu_view
 id btnCheckCode
 id btnEmailSend
 id btn_check_email
+id btn_check_id
+id btn_check_pw
 id btn_complete_keyword
+id btn_find_id
+id btn_find_pw
 id btn_kakao
 id btn_login
+id btn_map_home
 id btn_naver
 id btn_next_keyword
 id btn_next_sign1
@@ -3533,6 +3540,7 @@ id btn_photo_shoot
 id btn_picture_load
 id btn_profile_modify
 id btn_receip
+id btn_recomm_home
 id btn_sign
 id buttonPanel
 id cache_measures
@@ -3626,6 +3634,9 @@ id edit_age
 id edit_check_email
 id edit_check_password
 id edit_email
+id edit_find_id
+id edit_find_pw_email
+id edit_find_pw_num
 id edit_name
 id edit_nickname
 id edit_num
@@ -4065,6 +4076,11 @@ id text_Landscape
 id text_beverage
 id text_concentration
 id text_dessert
+id text_find_id
+id text_find_id_num
+id text_find_pw
+id text_find_pw_email
+id text_find_pw_num
 id text_history
 id text_input_end_icon
 id text_input_error_icon
@@ -4086,6 +4102,8 @@ id text_special
 id text_splash
 id text_talk
 id text_trendy
+id text_userid
+id text_userpw
 id text_various
 id textinput_counter
 id textinput_error
@@ -4135,8 +4153,6 @@ id viewpager_cafe_keyword
 id viewpager_cafe_location
 id viewpager_cafe_name
 id viewpager_image
-id viewpager_map_btn
-id viewpager_recomm_btn
 id visible
 id visible_removing_fragment_view_tag
 id webView
@@ -4264,6 +4280,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cafe_history
 layout activity_email_authentication
+layout activity_find_id
+layout activity_find_pw
 layout activity_history_modify
 layout activity_join1
 layout activity_join2

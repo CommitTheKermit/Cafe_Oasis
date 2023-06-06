@@ -3491,6 +3491,8 @@ int id arc 0x7f0a0055
 int id arrow1 0x7f0a0056
 int id arrow2 0x7f0a0057
 int id arrow3 0x7f0a0058
+int id arrow_find_id 0x7f0a02f0
+int id arrow_find_pw 0x7f0a02f1
 int id asConfigured 0x7f0a0059
 int id async 0x7f0a005a
 int id auto 0x7f0a005b
@@ -3520,9 +3522,14 @@ int id browser_actions_menu_view 0x7f0a0072
 int id btnCheckCode 0x7f0a0073
 int id btnEmailSend 0x7f0a0074
 int id btn_check_email 0x7f0a0075
+int id btn_check_id 0x7f0a02f2
+int id btn_check_pw 0x7f0a02f3
 int id btn_complete_keyword 0x7f0a0076
+int id btn_find_id 0x7f0a02f4
+int id btn_find_pw 0x7f0a02f5
 int id btn_kakao 0x7f0a0077
 int id btn_login 0x7f0a0078
+int id btn_map_home 0x7f0a02ee
 int id btn_naver 0x7f0a0079
 int id btn_next_keyword 0x7f0a007a
 int id btn_next_sign1 0x7f0a007b
@@ -3532,6 +3539,7 @@ int id btn_photo_shoot 0x7f0a007e
 int id btn_picture_load 0x7f0a007f
 int id btn_profile_modify 0x7f0a0080
 int id btn_receip 0x7f0a0081
+int id btn_recomm_home 0x7f0a02ef
 int id btn_sign 0x7f0a0082
 int id buttonPanel 0x7f0a0083
 int id cache_measures 0x7f0a0084
@@ -3625,6 +3633,9 @@ int id edit_age 0x7f0a00db
 int id edit_check_email 0x7f0a00dc
 int id edit_check_password 0x7f0a00dd
 int id edit_email 0x7f0a00de
+int id edit_find_id 0x7f0a02f6
+int id edit_find_pw_email 0x7f0a02f7
+int id edit_find_pw_num 0x7f0a02f8
 int id edit_name 0x7f0a00df
 int id edit_nickname 0x7f0a00e0
 int id edit_num 0x7f0a00e1
@@ -4064,6 +4075,11 @@ int id text_Landscape 0x7f0a0292
 int id text_beverage 0x7f0a0293
 int id text_concentration 0x7f0a0294
 int id text_dessert 0x7f0a0295
+int id text_find_id 0x7f0a02f9
+int id text_find_id_num 0x7f0a02fa
+int id text_find_pw 0x7f0a02fb
+int id text_find_pw_email 0x7f0a02fc
+int id text_find_pw_num 0x7f0a02fd
 int id text_history 0x7f0a0296
 int id text_input_end_icon 0x7f0a0297
 int id text_input_error_icon 0x7f0a0298
@@ -4085,6 +4101,8 @@ int id text_special 0x7f0a02a7
 int id text_splash 0x7f0a02a8
 int id text_talk 0x7f0a02a9
 int id text_trendy 0x7f0a02aa
+int id text_userid 0x7f0a02fe
+int id text_userpw 0x7f0a02ff
 int id text_various 0x7f0a02ab
 int id textinput_counter 0x7f0a02ac
 int id textinput_error 0x7f0a02ad
@@ -4134,8 +4152,6 @@ int id viewpager_cafe_keyword 0x7f0a02d8
 int id viewpager_cafe_location 0x7f0a02d9
 int id viewpager_cafe_name 0x7f0a02da
 int id viewpager_image 0x7f0a02db
-int id viewpager_map_btn 0x7f0a02dc
-int id viewpager_recomm_btn 0x7f0a02ed
 int id visible 0x7f0a02dd
 int id visible_removing_fragment_view_tag 0x7f0a02de
 int id webView 0x7f0a02df
@@ -4263,6 +4279,8 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_cafe_history 0x7f0d001c
 int layout activity_email_authentication 0x7f0d001d
+int layout activity_find_id 0x7f0d00ae
+int layout activity_find_pw 0x7f0d00af
 int layout activity_history_modify 0x7f0d001e
 int layout activity_join1 0x7f0d001f
 int layout activity_join2 0x7f0d0020

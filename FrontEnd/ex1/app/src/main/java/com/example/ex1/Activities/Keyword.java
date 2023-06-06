@@ -75,6 +75,7 @@ public class Keyword extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Large_store, Landscape의 총합이 4 이하여야 합니다.",Toast.LENGTH_SHORT).show();
                 }
 
+                System.out.println();
 
             }
         });

@@ -97,22 +97,22 @@
         android:background="@drawable/rectangle_5"
         android:fontFamily="@font/neo"
         android:gravity="center"
-        android:text="비밀번호 확인"
+        android:text="인증정보 확인"
         android:textColor="@color/white"
         android:textSize="13sp" />
 
-    <TextView
-        android:id="@+id/text_userpw"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_below="@+id/btn_check_pw"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="15dp"
-        android:alpha="0.9"
-        android:fontFamily="@font/neo"
-        android:gravity="center"
-        android:textSize="13sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/text_userpw"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_below="@+id/btn_check_pw"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:alpha="0.9"-->
+<!--        android:fontFamily="@font/neo"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="13sp" />-->
 
 
 

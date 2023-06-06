@@ -2,6 +2,7 @@ package com.example.ex1.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,14 +11,21 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ex1.R;
+import com.example.ex1.Utils.ServerComm;
 import com.google.android.material.slider.RangeSlider;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class Keyword extends AppCompatActivity {
 
     int[] keyword_point_arr = {1,1,1,1,0,1,1,3,1,1,0,0};
 
     RangeSlider rangeSlider_beverage, rangeSlider_dessert,rangeSlider_various,rangeSlider_special,rangeSlider_size,
-            rangeSlider_Landscape,rangeSlider_concentration,rangeSlider_trendy;
+            rangeSlider_Landscape,rangeSlider_concentration,rangeSlider_trendy,rangeSlider_price;
     CheckBox check_parking, check_price,check_gift;
 
     TextView btn_next_keyword;
@@ -66,6 +74,7 @@ public class Keyword extends AppCompatActivity {
                     if(check_gift.isChecked()){
                         keyword_point_arr[11]=1;
                     }
+
 
                 }
                 else if(keyword_point_arr[0]+keyword_point_arr[1]+keyword_point_arr[2]>7){

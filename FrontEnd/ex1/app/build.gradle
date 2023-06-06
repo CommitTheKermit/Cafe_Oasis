@@ -31,6 +31,14 @@ android {
 }
 
 dependencies {
+    modules {
+        module("org.jetbrains.kotlin:kotlin-stdlib-jdk7") {
+            replacedBy("org.jetbrains.kotlin:kotlin-stdlib", "kotlin-stdlib-jdk7 is now part of kotlin-stdlib")
+        }
+        module("org.jetbrains.kotlin:kotlin-stdlib-jdk8") {
+            replacedBy("org.jetbrains.kotlin:kotlin-stdlib", "kotlin-stdlib-jdk8 is now part of kotlin-stdlib")
+        }
+    }
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
@@ -53,4 +61,5 @@ dependencies {
     implementation 'io.github.ParkSangGwon:tedpermission-rx3:3.3.0' // Ted Permission - RxJava3
 
     implementation 'androidx.core:core-splashscreen:1.0.1'
+    implementation "androidx.activity:activity:1.7.0"
 }

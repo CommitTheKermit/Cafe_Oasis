@@ -2,6 +2,7 @@ package com.example.ex1.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -9,7 +10,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ex1.R;
+import com.example.ex1.Utils.ServerComm;
 import com.google.android.material.slider.RangeSlider;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class Keyword_Modify extends AppCompatActivity {
 
@@ -75,6 +83,30 @@ public class Keyword_Modify extends AppCompatActivity {
                         keyword_mo_point_arr[11]=1;
                     }
 
+//                    JSONObject jsonObject = new JSONObject();
+//                    try {
+//
+//                        jsonObject.put("email", userInfo.getUser_email());
+//                        jsonObject.put("user_keyword_value", userInfo.getUser_email());
+//
+//                        int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/signup"),
+//                                jsonObject);
+//                        if(statusCode == 200){
+//                            Toast.makeText(Join3.this, "가입 성공",
+//                                    Toast.LENGTH_SHORT).show();
+//                            Intent intent = new Intent(Join3.this,LoginActivity.class);
+//                            startActivity(intent);
+//                            finish();
+//                        }
+//                        else{
+//                            Toast.makeText(Join3.this, "가입 실패",
+//                                    Toast.LENGTH_SHORT).show();
+//                        }
+//                    } catch (JSONException | MalformedURLException e) {
+//                        throw new RuntimeException(e);
+//                    }
+
+
                 }
                 else if(keyword_mo_point_arr[0]+keyword_mo_point_arr[1]+keyword_mo_point_arr[2]>7){
                     Toast.makeText(getApplicationContext(),"Desert, Various_menu, Special_menu의 총합이 6 이하여야 합니다.",Toast.LENGTH_SHORT).show();
@@ -87,7 +119,6 @@ public class Keyword_Modify extends AppCompatActivity {
 
 
     }
-
 
     private final RangeSlider.OnSliderTouchListener rangeSliderTouchListener_beverage_mo =
             new RangeSlider.OnSliderTouchListener() {

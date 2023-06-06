@@ -10,13 +10,12 @@
 
     <View
         android:id="@+id/main_image"
-        android:layout_width="150dp"
+        android:layout_width="146dp"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/main_image"
-        />
+        android:layout_marginTop="40dp"
+        android:background="@drawable/oasislogo" />
 
     <TextView
         android:id="@+id/login_email"
@@ -25,7 +24,7 @@
         android:layout_below="@+id/main_image"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:gravity="top"
         android:text="@string/some_id"
         android:textAppearance="@style/some_id1" />
@@ -34,16 +33,16 @@
         android:id="@+id/login_input_email"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_below="@+id/login_email"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_below="@+id/login_email"
         android:layout_marginTop="5dp"
         android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/neo"
         android:hint="@string/abc_gmail_c"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
-        />
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/login_password"
@@ -72,6 +71,7 @@
         android:textSize="14sp"
         android:textColorHint="#bdbdbd"
         android:paddingLeft="13dp"
+        android:fontFamily="@font/neo"
         />
 
     <CheckBox
@@ -88,12 +88,11 @@
         android:layout_width="286dp"
         android:layout_height="20dp"
         android:layout_below="@+id/login_input_password"
-        android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/email_checkbox"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/email_checkbox"
         android:text="@string/some_id3"
-        android:textAppearance="@style/some_id3"
-        />
+        android:textAppearance="@style/some_id3" />
 
     <CheckBox
         android:id="@+id/keep_checkbox"
@@ -109,28 +108,26 @@
         android:layout_width="286dp"
         android:layout_height="20dp"
         android:layout_below="@+id/remember_email"
-        android:layout_marginTop="3dp"
-        android:layout_toRightOf="@+id/keep_checkbox"
         android:layout_marginLeft="10dp"
-        android:text="@string/some_id4"
-        android:textAppearance="@style/some_id3"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/keep_checkbox"
         android:lineSpacingExtra="-2sp"
-        />
+        android:text="@string/some_id4"
+        android:textAppearance="@style/some_id3" />
 
     <TextView
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_below="@+id/keep_checkbox"
         android:layout_centerInParent="true"
         android:layout_marginLeft="80dp"
-        android:layout_below="@+id/keep_checkbox"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="22dp"
         android:background="@drawable/button1"
-        android:text="@string/some_id5"
-        android:textAppearance="@style/some_id4"
-        android:textAlignment="center"
         android:gravity="center"
-        />
+        android:text="@string/some_id5"
+        android:textAlignment="center"
+        android:textAppearance="@style/some_id4" />
 
     <TextView
         android:id="@+id/btn_sign"
@@ -146,26 +143,54 @@
         android:textAlignment="center"
         android:textAppearance="@style/some_id4" />
 
-    <ImageView
-        android:id="@+id/btn_naver"
-        android:layout_width="140dp"
+    <TextView
+        android:id="@+id/btn_find_id"
+        android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_below="@+id/btn_sign"
-        android:layout_marginTop="25dp"
         android:layout_alignLeft="@+id/login_input_password"
-        android:scaleType="centerCrop"
-        android:background="@drawable/naver"
-        />
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:text="아이디 찾기"
+        android:textAlignment="center"
+        android:textAppearance="@style/some_id4" />
+
+    <TextView
+        android:id="@+id/btn_find_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_sign"
+        android:layout_marginLeft="20dp"
+        android:layout_alignRight="@+id/login_input_password"
+        android:layout_toRightOf="@+id/btn_find_id"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:text="비밀번호 찾기"
+        android:textAlignment="center"
+        android:textAppearance="@style/some_id4" />
+
+    <ImageView
+        android:id="@+id/btn_naver"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_find_id"
+        android:layout_alignLeft="@+id/login_input_password"
+        android:layout_alignRight="@+id/login_input_password"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/naver4"
+        android:scaleType="centerCrop" />
 
     <ImageView
         android:id="@+id/btn_kakao"
-        android:layout_width="140dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_below="@+id/btn_sign"
-        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btn_naver"
+        android:layout_alignLeft="@+id/login_input_password"
         android:layout_alignRight="@+id/login_input_password"
-        android:scaleType="centerCrop"
-        android:background="@drawable/kakao"
-        />
+        android:layout_marginTop="5dp"
+        android:background="@drawable/kakao3"
+        android:scaleType="centerCrop" />
 
 </RelativeLayout>

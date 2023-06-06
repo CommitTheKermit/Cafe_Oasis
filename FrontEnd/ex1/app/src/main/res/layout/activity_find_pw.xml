@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Find_pw_Activity">
+
+
+    <View
+        android:id="@+id/arrow_find_pw"
+        android:layout_width="28dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="23dp"
+        android:alpha="0.7"
+        android:background="@drawable/arrow_back"
+        />
+
+    <TextView
+        android:id="@+id/text_find_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="64dp"
+        android:gravity="top"
+        android:text="비밀번호 찾기"
+        android:textAppearance="@style/some_id7" />
+
+    <TextView
+        android:id="@+id/text_find_pw_email"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_below="@+id/text_find_pw"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="이메일"
+        android:textAppearance="@style/some_id8" />
+
+    <EditText
+        android:id="@+id/edit_find_pw_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_find_pw_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/neo"
+        android:hint="@string/abc_gmail_c"
+        android:paddingLeft="13dp"
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_find_pw_num"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_below="@+id/edit_find_pw_email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="전화번호"
+        android:textAppearance="@style/some_id8" />
+
+    <EditText
+        android:id="@+id/edit_find_pw_num"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_find_pw_num"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/neo"
+        android:hint="010-1234-5678"
+        android:paddingLeft="13dp"
+        android:textColorHint="#bdbdbd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/btn_check_pw"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/edit_find_pw_num"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="9dp"
+        android:alpha="0.9"
+        android:background="@drawable/rectangle_5"
+        android:fontFamily="@font/neo"
+        android:gravity="center"
+        android:text="비밀번호 확인"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/text_userpw"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btn_check_pw"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.9"
+        android:fontFamily="@font/neo"
+        android:gravity="center"
+        android:textSize="13sp" />
+
+
+
+</RelativeLayout>

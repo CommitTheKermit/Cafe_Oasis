@@ -13,17 +13,19 @@
             android:background="@drawable/ic_baseline_local_cafe_24"
             android:layout_gravity="center"
             android:layout_margin="2dp" />
+
         <TextView
             android:id="@+id/txttitle"
-            android:layout_width="match_parent"
+            android:layout_width="197dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginEnd="4dp"
             android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
             android:text="포인트 지점명"
             android:textSize="14dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/neo"/>
     </LinearLayout>
 
     <View
@@ -31,7 +33,7 @@
         android:layout_height="1dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
-        android:background="@android:color/holo_orange_dark" />
+        android:background="@color/oasis" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +43,7 @@
 
         <ImageView
             android:id="@+id/imagepoint"
-            android:layout_width="96dp"
+            android:layout_width="75dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
             android:layout_margin="0dp" />
@@ -49,7 +51,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="3dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -67,12 +69,13 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="12dp"
-                    android:text="포인트 지점 주소" />
+                    android:text="포인트 지점 주소"
+                    android:fontFamily="@font/neo"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="3dp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="14dp"
@@ -85,8 +88,24 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="12dp"
-                    android:text="064-0000-0000" />
+                    android:text="064-0000-0000"
+                    android:fontFamily="@font/neo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/callbutton"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:text="주문"
+                    android:textSize="8dp"
+                    android:fontFamily="@font/neo"/>
             </LinearLayout>
         </LinearLayout>
-</LinearLayout>
+    </LinearLayout>
 </LinearLayout>

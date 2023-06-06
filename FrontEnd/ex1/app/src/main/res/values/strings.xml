@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ex1</string>
+    <string name="app_name">Cafe Oasis</string>
     <string name="some_id">이메일</string>
     <string name="abc_gmail_c">예) abc@gmail.com</string>
     <string name="some_id2">비밀번호</string>
@@ -34,7 +34,5 @@
     <string name="naver_client_id">xxx</string>
     <string name="naver_client_secret">xxx</string>
     <string name="naver_client_name">xxx</string>
-
-
 
 </resources>

@@ -62,9 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="resourceFile" />
-        <option value="valueResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +72,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QSlwaAuyV71e0ebu8ZQ2Fm2NCp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -83,12 +85,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ex_login" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\ex1\app\src\main\res\layout" />
-      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\ex1\app\src\main\res\drawable" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\res\values" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\debug\res\font" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\debug\res\values" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\debug\res" />
+      <recent name="C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-1033358499">
+      <recent name="com.example.ex1.Activities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.ex1.Adapter" />
@@ -210,19 +217,19 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join3.java</url>
-          <line>93</line>
+          <line>80</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join3.java</url>
-          <line>90</line>
+          <line>77</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join1.java</url>
@@ -231,48 +238,118 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
-          <line>73</line>
+          <line>79</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
-          <line>174</line>
-          <option name="timeStamp" value="64" />
+          <line>106</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
           <line>171</line>
-          <option name="timeStamp" value="66" />
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
-          <line>176</line>
-          <option name="timeStamp" value="67" />
+          <line>148</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
-          <line>157</line>
-          <option name="timeStamp" value="68" />
+          <line>183</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="69" />
+          <line>231</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/ReceiptRecognitionActivity.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="70" />
+          <line>207</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="71" />
+          <line>97</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/MyProfile_Modify.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/LoginActivity.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
           <line>73</line>
-          <option name="timeStamp" value="72" />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Utils/ServerComm.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Activities/Join3.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ex1/Fragments/RecommendationFragment.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

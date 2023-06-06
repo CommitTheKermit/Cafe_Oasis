@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.Ex1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_cafe</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Ex1</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="23">true</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+
+    </style>
+    <style name="Theme.Ex1" parent="Theme.MaterialComponents.Light.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#8FC1E4</item>
+        <item name="colorPrimaryVariant">#8FC1E4</item>
+        <item name="colorOnPrimary">@color/white</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">#A5CFED</item>
+        <item name="colorSecondaryVariant">#A5CFED</item>
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>

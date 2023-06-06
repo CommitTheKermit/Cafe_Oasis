@@ -5,49 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardCornerRadius="20dp"
+        android:outlineProvider="none"
         >
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/viewpager_image"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/round"
-                />
-
+                android:background="@drawable/round" />
             <TextView
                 android:id="@+id/viewpager_cafe_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_below="@id/viewpager_image"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="20dp"
                 android:layout_centerInParent="true"
+                android:text="카페 이름"
+                android:fontFamily="@font/neo"
                 />
-
             <TextView
                 android:id="@+id/viewpager_cafe_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12dp"
+                android:layout_marginTop="10dp"
                 android:layout_below="@id/viewpager_cafe_name"
                 android:layout_centerInParent="true"
+                android:fontFamily="@font/neo"
+                android:text="주소"
                 />
-
             <TextView
                 android:id="@+id/viewpager_cafe_keyword"
                 android:layout_width="wrap_content"
@@ -55,24 +54,36 @@
                 android:textSize="12dp"
                 android:layout_below="@id/viewpager_cafe_location"
                 android:layout_centerInParent="true"
+                android:fontFamily="@font/neo"
+                android:text="키워드"
                 />
 
-            <ImageView
+            <android.widget.Button
                 android:id="@+id/viewpager_map_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/map_btn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="5dp"/>
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/neo"
+                android:text="지도에서 확인하기"
+                android:background="@drawable/button_background_clicked"
+                />
 
+
+            <android.widget.Button
+                android:id="@+id/viewpager_recomm_btn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="@font/neo"
+                android:text="추천받기"
+                android:layout_alignRight="@id/viewpager_cafe_location"
+                android:background="@drawable/button_background_clicked"
+                />
         </RelativeLayout>
-
-
-
-
     </androidx.cardview.widget.CardView>
-
-
-
 </RelativeLayout>

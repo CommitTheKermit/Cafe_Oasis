@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -28,8 +28,7 @@ public class Join3 extends AppCompatActivity {
     View arrow3;
     EditText edit_name, edit_nickname, edit_age, edit_num;
     Spinner spinner_gen;
-    String gen;
-
+    UserInfo userInfo = new UserInfo();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,14 +43,18 @@ public class Join3 extends AppCompatActivity {
         spinner_gen = findViewById(R.id.spinner_gen);
 
         Intent intent = getIntent(); //전달할 데이터를 받을 Intent
-        UserInfo userInfo = (UserInfo) intent.getSerializableExtra("userInfo");
+        userInfo = (UserInfo) intent.getSerializableExtra("userInfo");
 
+        String[] items = {"남성", "여성"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+                this, android.R.layout.simple_spinner_item, items);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_gen.setAdapter(adapter);
 
         spinner_gen.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //userInfo.setUser_gen(parent.getItemAtPosition(position).toString());
-                gen = parent.getItemAtPosition(position).toString();
+                userInfo.setUser_sex(position + 1);
             }
 
             @Override
@@ -60,12 +63,12 @@ public class Join3 extends AppCompatActivity {
             }
         });
 
+
         btn_next_sign3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 userInfo.setUser_name(edit_name.getText().toString());
                 userInfo.setUser_nickname(edit_nickname.getText().toString());
-                userInfo.setUser_gen(gen);
                 int age = -1;
                 try {
                     age = Integer.parseInt(edit_age.getText().toString());
@@ -78,15 +81,15 @@ public class Join3 extends AppCompatActivity {
 
                 JSONObject jsonObject = new JSONObject();
                 try {
-                    jsonObject.put("user_email", userInfo.getUser_email());
-                    jsonObject.put("user_pw", userInfo.getUser_pw());
-                    jsonObject.put("user_name", userInfo.getUser_name());
-                    jsonObject.put("user_phone", userInfo.getUser_phone());
+
+                    jsonObject.put("email", userInfo.getUser_email());
+                    jsonObject.put("password", userInfo.getUser_pw());
+                    jsonObject.put("name", userInfo.getUser_name());
+                    jsonObject.put("phone_no", userInfo.getUser_phone());
                     jsonObject.put("user_type", 1);
-                    jsonObject.put("user_sex", -1);
-                    jsonObject.put("user_age", userInfo.getUser_age());
-                    jsonObject.put("user_nickname", userInfo.getUser_nickname());
-                    jsonObject.put("user_gen",userInfo.getUser_gen());
+                    jsonObject.put("sex", userInfo.getUser_sex());
+                    jsonObject.put("age", userInfo.getUser_age());
+                    jsonObject.put("nickname", userInfo.getUser_nickname());
 
                     int statusCode = ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/signup"),
                             jsonObject);

@@ -111,6 +111,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Activities.HistoryModifyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Activities.Keyword_Modify"
             android:exported="false">
             <meta-data

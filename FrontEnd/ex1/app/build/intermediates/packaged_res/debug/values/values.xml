@@ -48,13 +48,11 @@
     <string name="splash_text">오아시스라는 이름은\n여행자들이 뜨거운 사막에서\n신선한 물과 그늘을 찾듯이,\n카페를 찾는 이들에게 좋은 음료와\n새로운 경험을 선사한다는 의미를 담고 있다.</string>
     <style name="SplashTheme" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
-
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_cafe</item>
         <item name="windowSplashScreenAnimationDuration">1000</item>
         <item name="postSplashScreenTheme">@style/Theme.Ex1</item>
         <item name="android:windowLightStatusBar" ns1:targetApi="23">true</item>
         <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
-
     </style>
     <style name="Theme.Ex1" parent="Theme.MaterialComponents.Light.NoActionBar">
         

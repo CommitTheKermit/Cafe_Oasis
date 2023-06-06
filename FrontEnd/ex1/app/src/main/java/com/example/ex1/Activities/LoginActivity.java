@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -21,6 +22,7 @@ import android.widget.Toast;
 import com.example.ex1.Main.MainActivity;
 import com.example.ex1.Objects.JsonAndStatus;
 import com.example.ex1.Objects.UserInfo;
+import com.example.ex1.PreferenceManager;
 import com.example.ex1.R;
 import com.example.ex1.Utils.PermissionUtils;
 import com.example.ex1.Utils.ServerComm;
@@ -50,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText login_input_email, login_input_password;
     View main_image;
     ImageView btn_kakao, btn_naver;
+    CheckBox email_checkbox;
     private static String OAUTH_CLIENT_ID = "8KKe9jwrqNw84LwVTrBY";
     private static String OAUTH_CLIENT_SECRET = "BUf5oFmqqI";
     private static String OAUTH_CLIENT_NAME = "cafe_oasis";
@@ -72,7 +75,14 @@ public class LoginActivity extends AppCompatActivity {
         btn_find_pw = findViewById(R.id.btn_find_pw);
         mContext = this;
         main_image = findViewById(R.id.main_image);
+        email_checkbox = findViewById(R.id.email_checkbox);
 
+        boolean boo = PreferenceManager.getBoolean(mContext,"check"); //로그인 정보 기억하기 체크 유무 확인
+        if(boo){ // 체크가 되어있다면 아래 코드를 수행
+            //저장된 아이디와 암호를 가져와 셋팅한다.
+            login_input_email.setText(PreferenceManager.getString(mContext, "id"));
+            email_checkbox.setChecked(true); //체크박스는 여전히 체크 표시 하도록 셋팅
+        }
 
         if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION)
@@ -96,6 +106,9 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = login_input_email.getText().toString();
                 String pw = login_input_password.getText().toString();
+
+                PreferenceManager.setString(mContext, "id", login_input_email.getText().toString()); //id라는 키값으로 저장
+
 
                 // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
                 JSONObject jsonObject = new JSONObject();
@@ -134,6 +147,23 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+
+
+        //로그인 기억하기 체크박스 유무에 따른 동작 구현
+        email_checkbox.setOnClickListener(new CheckBox.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (((CheckBox)v).isChecked()) { // 체크박스 체크 되어 있으면
+                    //editText에서 아이디와 암호 가져와 PreferenceManager에 저장한다.
+                    PreferenceManager.setString(mContext, "id", login_input_email.getText().toString()); //id 키값으로 저장
+                    PreferenceManager.setBoolean(mContext, "check", email_checkbox.isChecked()); //현재 체크박스 상태 값 저장
+                } else { //체크박스가 해제되어있으면
+                    PreferenceManager.setBoolean(mContext, "check", email_checkbox.isChecked()); //현재 체크박스 상태 값 저장
+                    PreferenceManager.clear(mContext); //로그인 정보를 모두 날림
+                }
+            }
+        }) ;
+
 
 // 카카오톡이 설치되어 있는지 확인하는 메서드 , 카카오에서 제공함. 콜백 객체를 이용합.
         Function2<OAuthToken,Throwable, Unit> callback =new Function2<OAuthToken, Throwable, Unit>() {

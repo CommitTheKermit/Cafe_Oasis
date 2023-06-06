@@ -18,6 +18,7 @@ import com.example.ex1.Utils.ServerComm;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -81,9 +82,9 @@ public class Join3 extends AppCompatActivity {
 
                 JSONObject jsonObject = new JSONObject();
                 try {
-
+                    String pw_hash = BCrypt.hashpw(userInfo.getUser_pw(),BCrypt.gensalt(10));
                     jsonObject.put("email", userInfo.getUser_email());
-                    jsonObject.put("password", userInfo.getUser_pw());
+                    jsonObject.put("password", pw_hash);
                     jsonObject.put("name", userInfo.getUser_name());
                     jsonObject.put("phone_no", userInfo.getUser_phone());
                     jsonObject.put("user_type", 1);

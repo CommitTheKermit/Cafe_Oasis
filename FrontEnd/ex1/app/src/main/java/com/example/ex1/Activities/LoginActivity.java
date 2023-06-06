@@ -36,6 +36,7 @@ import com.navercorp.nid.profile.data.NidProfile;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -52,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText login_input_email, login_input_password;
     View main_image;
     ImageView btn_kakao, btn_naver;
-    CheckBox email_checkbox;
+    CheckBox email_checkbox, keep_checkbox;
     private static String OAUTH_CLIENT_ID = "8KKe9jwrqNw84LwVTrBY";
     private static String OAUTH_CLIENT_SECRET = "BUf5oFmqqI";
     private static String OAUTH_CLIENT_NAME = "cafe_oasis";
@@ -76,8 +77,9 @@ public class LoginActivity extends AppCompatActivity {
         mContext = this;
         main_image = findViewById(R.id.main_image);
         email_checkbox = findViewById(R.id.email_checkbox);
+        keep_checkbox = findViewById(R.id.keep_checkbox);
 
-        boolean boo = PreferenceManager.getBoolean(mContext,"check"); //로그인 정보 기억하기 체크 유무 확인
+        boolean boo = PreferenceManager.getBoolean(mContext,"check_email"); //이메일 정보 기억하기 체크 유무 확인
         if(boo){ // 체크가 되어있다면 아래 코드를 수행
             //저장된 아이디와 암호를 가져와 셋팅한다.
             login_input_email.setText(PreferenceManager.getString(mContext, "id"));
@@ -106,15 +108,14 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = login_input_email.getText().toString();
                 String pw = login_input_password.getText().toString();
-
+                String pw_hash = BCrypt.hashpw(pw,BCrypt.gensalt(10));
                 PreferenceManager.setString(mContext, "id", login_input_email.getText().toString()); //id라는 키값으로 저장
-
 
                 // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
                 JSONObject jsonObject = new JSONObject();
                 try {
                     jsonObject.put("email", email);
-                    jsonObject.put("password", pw);
+                    jsonObject.put("password", pw_hash);
 
                     JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/users/login"),
                             jsonObject);

@@ -62,4 +62,7 @@ dependencies {
 
     implementation 'androidx.core:core-splashscreen:1.0.1'
     implementation "androidx.activity:activity:1.7.0"
+
+    implementation group: 'de.svenkubiak', name: 'jBCrypt', version: '0.4.1'
+
 }

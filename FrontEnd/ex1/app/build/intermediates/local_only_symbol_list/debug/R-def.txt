@@ -79,12 +79,14 @@ font neo
 id arrow1
 id arrow2
 id arrow3
+id arrow_change_pw
 id arrow_find_id
 id arrow_find_pw
 id bookmarket_btn
 id bottomNavi
 id btnCheckCode
 id btnEmailSend
+id btn_change_pw
 id btn_check_email
 id btn_check_id
 id btn_check_pw
@@ -116,6 +118,7 @@ id check_price
 id check_price_mo
 id child_frame
 id edit_age
+id edit_change_pw_email
 id edit_check_email
 id edit_check_password
 id edit_email
@@ -221,6 +224,8 @@ id text_Landscape
 id text_Landscape_mo
 id text_beverage
 id text_beverage_mo
+id text_change_pw
+id text_change_pw_email
 id text_concentration
 id text_concentration_mo
 id text_dessert
@@ -253,7 +258,6 @@ id text_talk_mo
 id text_trendy
 id text_trendy_mo
 id text_userid
-id text_userpw
 id text_various
 id text_various_mo
 id txtaddr
@@ -267,6 +271,7 @@ id viewpager_cafe_location
 id viewpager_cafe_name
 id viewpager_image
 layout activity_cafe_history
+layout activity_change_pw
 layout activity_email_authentication
 layout activity_find_id
 layout activity_find_pw

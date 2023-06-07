@@ -104,6 +104,13 @@
         android:theme="@style/Theme.Ex1"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.ex1.Activities.Change_pw_Activity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.ex1.Activities.Find_pw_Activity"
             android:exported="false" >
             <meta-data

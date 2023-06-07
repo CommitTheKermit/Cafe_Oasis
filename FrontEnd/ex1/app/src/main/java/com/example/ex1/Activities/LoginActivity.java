@@ -28,7 +28,6 @@ import android.widget.Toast;
 
 import com.example.ex1.Fragments.RatingFragment;
 import com.example.ex1.Fragments.RecommendationFragment;
-import com.example.ex1.Main.MainActivity;
 import com.example.ex1.Objects.DataPage;
 import com.example.ex1.Objects.JsonAndStatus;
 import com.example.ex1.Objects.UserInfo;
@@ -165,8 +164,7 @@ public class LoginActivity extends AppCompatActivity {
             }
 
 
-        } catch (ExecutionException |
-                 InterruptedException e) {
+        } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
@@ -211,9 +209,10 @@ public class LoginActivity extends AppCompatActivity {
                         userInfo.setUser_nickname(tempJson.getString("nickname"));
                         userInfo.setUser_age(tempJson.getInt("age"));
                         userInfo.setUser_sex(tempJson.getInt("sex"));
+                        Intent intent;
 
                         int[] tempArr = new int[12];
-                        if(json.get("user_keywords") != null){
+                        if(json.getString("user_keywords").length() > 10 ){
                             JSONObject keywordJson = json.getJSONObject("user_keywords");
                             tempArr[0] = keywordJson.getInt("beverage");
                             tempArr[1] = keywordJson.getInt("dessert");
@@ -228,13 +227,15 @@ public class LoginActivity extends AppCompatActivity {
                             tempArr[10] = keywordJson.getBoolean("parking") ? 1 : 0;;
                             tempArr[11] = keywordJson.getBoolean("price") ? 1 : 0;;
 
+                            userInfo.setUser_keyword(tempArr);
+
+                            intent = new Intent(LoginActivity.this, NaviActivity.class);
+                            intent.putExtra("userInfo", userInfo);
+
                         }
-                        userInfo.setUser_keyword(tempArr);
-
-
-
-                        Intent intent = new Intent(LoginActivity.this, NaviActivity.class);
-                        intent.putExtra("userInfo", userInfo);
+                        else{
+                            intent = new Intent(LoginActivity.this, Keyword.class);
+                        }
                         startActivity(intent);
                         finish();
                     }

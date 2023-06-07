@@ -133,7 +133,8 @@ public class HomeFragment extends Fragment {
                         double latitude = json.getDouble("latitude");
                         double longitude = json.getDouble("longitude");
                         String url = json.getString("cafe_image");
-//                        String url = "https://drive.google.com/open?id=1cHCOfMlA4NiGS8odHDNUI3jL0XXMM994&usp=drive_fs";
+                        if(!url.startsWith("https://"))
+                            url = "https://drive.google.com/open?id=1cHCOfMlA4NiGS8odHDNUI3jL0XXMM994&usp=drive_fs";
 
                         ExecutorService executor = Executors.newSingleThreadExecutor();
                         Future<Bitmap> future = executor.submit(

@@ -160,6 +160,7 @@ public class HomeFragment extends Fragment {
                 }
             }
         });
+
         btn_map_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

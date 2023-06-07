@@ -177,6 +177,7 @@ id my_cafe_history
 id my_profile
 id nav
 id oasis_map
+id password_toggle
 id profile
 id profile_modify_arrow
 id profile_modify_arrow1

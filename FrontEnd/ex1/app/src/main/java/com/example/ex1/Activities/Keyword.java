@@ -65,10 +65,10 @@ public class Keyword extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(keyword_point_arr[0]+keyword_point_arr[1]+keyword_point_arr[2]+keyword_point_arr[3]<=7
-                        &&keyword_point_arr[5]+keyword_point_arr[6]<=4){
+                        &&keyword_point_arr[4]+keyword_point_arr[5]<=4){
 
                     if(check_parking.isChecked()){
-                        keyword_point_arr[4]=1;
+                        keyword_point_arr[9]=1;
                     }
                     if(check_price.isChecked()){
                         keyword_point_arr[10]=1;
@@ -81,7 +81,7 @@ public class Keyword extends AppCompatActivity {
                 else if(keyword_point_arr[0]+keyword_point_arr[1]+keyword_point_arr[2]>7){
                     Toast.makeText(getApplicationContext(),"Desert, Various_menu, Special_menu의 총합이 6 이하여야 합니다.",Toast.LENGTH_SHORT).show();
                 }
-                else if(keyword_point_arr[5]+keyword_point_arr[6]>4){
+                else if(keyword_point_arr[4]+keyword_point_arr[5]>4){
                     Toast.makeText(getApplicationContext(),"Large_store, Landscape의 총합이 4 이하여야 합니다.",Toast.LENGTH_SHORT).show();
                 }
                 JsonObject jsonObject = new JsonObject();
@@ -92,7 +92,9 @@ public class Keyword extends AppCompatActivity {
                     ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/profile/keyword/create"),
                             jsonObject);
 
+
                     LoginActivity.userInfo.setUser_keyword(keyword_point_arr);
+
                     Intent intent = new Intent(Keyword.this, NaviActivity.class);
                     startActivity(intent);
                     finish();
@@ -198,7 +200,7 @@ public class Keyword extends AppCompatActivity {
                     int miniNumber = Float.toString(slider.getValues().get(0)).indexOf(".");
                     String minVal = Float.toString(slider.getValues().get(0)).substring(0, miniNumber);
                     int keyword_point= Integer.parseInt(minVal);
-                    keyword_point_arr[5]=keyword_point;
+                    keyword_point_arr[4]=keyword_point;
 //                    Log.d("DualThumbSeekbar ", "onStopTrackingTouch minPrice : " + minVal);
                 }
             };
@@ -217,7 +219,7 @@ public class Keyword extends AppCompatActivity {
                     int miniNumber = Float.toString(slider.getValues().get(0)).indexOf(".");
                     String minVal = Float.toString(slider.getValues().get(0)).substring(0, miniNumber);
                     int keyword_point= Integer.parseInt(minVal);
-                    keyword_point_arr[6]=keyword_point;
+                    keyword_point_arr[5]=keyword_point;
 //                    Log.d("DualThumbSeekbar ", "onStopTrackingTouch minPrice : " + minVal);
                 }
             };
@@ -236,8 +238,8 @@ public class Keyword extends AppCompatActivity {
                     int miniNumber = Float.toString(slider.getValues().get(0)).indexOf(".");
                     String minVal = Float.toString(slider.getValues().get(0)).substring(0, miniNumber);
                     int keyword_point= Integer.parseInt(minVal);
-                    keyword_point_arr[7]=4-keyword_point;
-                    keyword_point_arr[8]=keyword_point;
+                    keyword_point_arr[6]=4-keyword_point;
+                    keyword_point_arr[7]=keyword_point;
 //                    Log.d("DualThumbSeekbar ", "onStopTrackingTouch minPrice : " + minVal);
                 }
             };
@@ -256,7 +258,7 @@ public class Keyword extends AppCompatActivity {
                     int miniNumber = Float.toString(slider.getValues().get(0)).indexOf(".");
                     String minVal = Float.toString(slider.getValues().get(0)).substring(0, miniNumber);
                     int keyword_point= Integer.parseInt(minVal);
-                    keyword_point_arr[9]=keyword_point;
+                    keyword_point_arr[8]=keyword_point;
 //                    Log.d("DualThumbSeekbar ", "onStopTrackingTouch minPrice : " + minVal);
                 }
             };

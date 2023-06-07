@@ -58,36 +58,42 @@
         android:gravity="top"
         />
 
-    <EditText
-        android:id="@+id/login_input_password"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_toggle"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_below="@+id/login_password"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/rectangle_2"
-        android:hint="@string/password"
-        android:textSize="14sp"
-        android:textColorHint="#bdbdbd"
-        android:paddingLeft="13dp"
-        android:fontFamily="@font/neo"
-        />
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/login_password">
+        <EditText
+            android:id="@+id/login_input_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle_2"
+            android:fontFamily="@font/neo"
+            android:hint="@string/password"
+            android:paddingLeft="13dp"
+            android:textColorHint="#bdbdbd"
+            android:textSize="14sp"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <CheckBox
         android:id="@+id/email_checkbox"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_below="@+id/login_input_password"
+        android:layout_below="@+id/password_toggle"
         android:layout_marginTop="20dp"
-        android:layout_alignLeft="@+id/login_input_password"
+        android:layout_alignLeft="@+id/password_toggle"
         />
 
     <TextView
         android:id="@+id/remember_email"
         android:layout_width="286dp"
         android:layout_height="20dp"
-        android:layout_below="@+id/login_input_password"
+        android:layout_below="@+id/password_toggle"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="22dp"
         android:layout_toRightOf="@+id/email_checkbox"
@@ -100,7 +106,7 @@
         android:layout_height="20dp"
         android:layout_below="@+id/email_checkbox"
         android:layout_marginTop="3dp"
-        android:layout_alignLeft="@+id/login_input_password"
+        android:layout_alignLeft="@+id/password_toggle"
         />
 
     <TextView
@@ -148,7 +154,7 @@
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_below="@+id/btn_sign"
-        android:layout_alignLeft="@+id/login_input_password"
+        android:layout_alignLeft="@+id/password_toggle"
         android:layout_marginTop="5dp"
         android:background="@drawable/button1"
         android:gravity="center"
@@ -162,7 +168,7 @@
         android:layout_height="40dp"
         android:layout_below="@+id/btn_sign"
         android:layout_marginLeft="20dp"
-        android:layout_alignRight="@+id/login_input_password"
+        android:layout_alignRight="@+id/password_toggle"
         android:layout_toRightOf="@+id/btn_find_id"
         android:layout_marginTop="5dp"
         android:background="@drawable/button1"
@@ -176,8 +182,8 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_below="@+id/btn_find_id"
-        android:layout_alignLeft="@+id/login_input_password"
-        android:layout_alignRight="@+id/login_input_password"
+        android:layout_alignLeft="@+id/password_toggle"
+        android:layout_alignRight="@+id/password_toggle"
         android:layout_marginTop="5dp"
         android:background="@drawable/naver4"
         android:scaleType="centerCrop" />
@@ -187,8 +193,8 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_below="@+id/btn_naver"
-        android:layout_alignLeft="@+id/login_input_password"
-        android:layout_alignRight="@+id/login_input_password"
+        android:layout_alignLeft="@+id/password_toggle"
+        android:layout_alignRight="@+id/password_toggle"
         android:layout_marginTop="5dp"
         android:background="@drawable/kakao3"
         android:scaleType="centerCrop" />

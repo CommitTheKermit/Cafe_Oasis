@@ -49,13 +49,13 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     public static LatLng latLng;
 
     //Infowindow 변수 선언 및 초기화
-    private InfoWindow[] infoWindows = new InfoWindow[10];
+    private InfoWindow[] infoWindows = new InfoWindow[6];
     int i = 0;
-    ArrayList<DataPage> cafeList = null;
+    ArrayList<DataPage> cafeList = new ArrayList<>();
 
     //마커
 //    private Marker marker1 = new Marker();
-    private Marker[] markerArr = new Marker[10];
+    private Marker[] markerArr = new Marker[6];
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -77,6 +77,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onMapReady(@NonNull NaverMap naverMap) {
         this.naverMap = naverMap;
+        cafeList = new ArrayList<>();
         LocationManager locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
         if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED &&
@@ -104,22 +105,49 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                     15                           // 줌 레벨
             );
         }
-        int drawble = R.drawable.ic_baseline_place_24;
-        if(LoginActivity.list.size() > 0){
-            cafeList = LoginActivity.list;
-            if(RecommendationFragment.list.size() > 0)
-                cafeList.addAll(RecommendationFragment.list);
+        if(RatingFragment.list.size() > 0){
+            cafeList.addAll(RatingFragment.list);
             for(i = 0; i < cafeList.size(); i++){
                 markerArr[i] = new Marker();
                 infoWindows[i] = new InfoWindow();
 
-                if(i > 2)
-                    drawble = R.drawable.baseline_place_24_pink;
-
                 setMarker(markerArr[i],
                         cafeList.get(i).getLatitude(),
                         cafeList.get(i).getLongitude(),
-                        drawble,
+                        R.drawable.ic_baseline_place_24,
+                        cafeList.get(i).getCafe_name());
+
+                final int index = i;
+                markerArr[i].setOnClickListener(new Overlay.OnClickListener() {
+                    @Override
+                    public boolean onClick(@NonNull Overlay overlay) {
+                        if (markerArr[index].getInfoWindow() == null) {
+                            ViewGroup rootView = (ViewGroup) mapView.findViewById(R.id.fragment_container);
+                            pointAdapter adapter = new pointAdapter(requireActivity(), rootView, cafeList.get(index));
+                            // 정보 창을 엽니다.
+                            infoWindows[index].setAdapter(adapter);
+                            infoWindows[index].setZIndex(10); //인포창의 우선순위
+                            infoWindows[index].setAlpha(0.9f); //투명도 조정
+                            infoWindows[index].open(markerArr[index]); //인포창 표시
+                        } else {
+                            // 정보 창이 이미 열려있는 경우 닫습니다.
+                            infoWindows[index].close();
+                        }
+                        return true;
+                    }
+                });
+
+            }
+        }
+        if(RecommendationFragment.list.size() > 0){
+            cafeList.addAll(RecommendationFragment.list);
+            for(i = RatingFragment.list.size(); i < cafeList.size(); i++){
+                markerArr[i] = new Marker();
+                infoWindows[i] = new InfoWindow();
+                setMarker(markerArr[i],
+                        cafeList.get(i).getLatitude(),
+                        cafeList.get(i).getLongitude(),
+                        R.drawable.baseline_place_24_pink,
                         cafeList.get(i).getCafe_name());
 
                 final int index = i;
@@ -145,6 +173,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
             }
         }
 
+
+
         ActivityCompat.requestPermissions(requireActivity(), PERMISSIONS, LOCATION_PERMISSION_REQUEST_CODE); //권한확인
         UiSettings uiSettings = naverMap.getUiSettings();
         uiSettings.setLocationButtonEnabled(true);
@@ -155,10 +185,9 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         naverMap.setCameraPosition(cameraPosition);
         // 정보 창이 열려있는 경우, 지도를 누르면 닫기
         naverMap.setOnMapClickListener((point, coord) -> {
-            for(i = 0; i < infoWindows.length; i++){
-                if (infoWindows[i].getMarker() != null) {
-                    infoWindows[i].close();
-                }
+            for(int k = 0; k < cafeList.size(); k++){
+                if(infoWindows[k] != null && infoWindows[k].isVisible())
+                    infoWindows[k].close();
             }
 
         });

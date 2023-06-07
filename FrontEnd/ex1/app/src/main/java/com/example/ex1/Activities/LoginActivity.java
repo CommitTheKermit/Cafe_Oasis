@@ -122,7 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                             Manifest.permission.ACCESS_FINE_LOCATION},
                     1);
         }
-
+        RatingFragment.list.clear();
         JsonObject jsonObject = new JsonObject();
         try {
             LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -162,6 +162,7 @@ public class LoginActivity extends AppCompatActivity {
                 list.add(new DataPage(drawable,
                         name, address, phone_no, latitude, longitude));
             }
+            RatingFragment.list.addAll(list);
 
 
         } catch (ExecutionException | InterruptedException e) {
@@ -235,6 +236,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                         else{
                             intent = new Intent(LoginActivity.this, Keyword.class);
+                            intent.putExtra("userInfo", userInfo);
                         }
                         startActivity(intent);
                         finish();

@@ -21,6 +21,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.ex1.Activities.Keyword;
+import com.example.ex1.Activities.LoginActivity;
 import com.example.ex1.Activities.NaviActivity;
 import com.example.ex1.Objects.DataPage;
 import com.example.ex1.R;
@@ -112,14 +113,18 @@ public class HomeFragment extends Fragment {
 
                     Gson gson = new Gson();
 
+                    int[] tempArr = new int[9];
+                    for(int i = 0 ; i < 9; i++)
+                        tempArr[i] = LoginActivity.userInfo.getUser_keyword()[i];
 
-                    jsonObject.add("user_cafe_profile", gson.toJsonTree(Keyword.intArr));
+                    jsonObject.add("user_cafe_profile",
+                            gson.toJsonTree(tempArr));
                     jsonObject.add("user_location", gson.toJsonTree(doubleArr));
 
                     JSONArray jsonArray = ServerComm.getJSONArray(new URL("http://cafeoasis.xyz/cafe/recommend/keyword"),
                             jsonObject);
                     RecommendationFragment.list.clear();
-                    for(int i = 0; i < 3; i++)
+                    for(int i = 0; i < jsonArray.length(); i++)
                     {
                         JSONObject json = jsonArray.getJSONObject(i);
                         String name = json.get("cafe_name").toString();

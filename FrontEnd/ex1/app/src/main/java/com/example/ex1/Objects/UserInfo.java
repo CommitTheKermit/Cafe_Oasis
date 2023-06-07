@@ -12,7 +12,7 @@ public class UserInfo implements Serializable {
     private int user_age = -1;
     private int user_sex = -1;
     private String user_phone = "default";
-    private int[] user_keyword = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0};
+    private int[] user_keyword = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0};
 
     public int getUser_id() {
         return user_id;

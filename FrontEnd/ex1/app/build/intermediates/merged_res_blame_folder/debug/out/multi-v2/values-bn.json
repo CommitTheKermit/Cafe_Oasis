@@ -4,7 +4,7 @@
             "outputFile": "com.example.ex1.app-mergeDebugResources-54:/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\49bf70bb139cc4ad90ed45e3c03662cc\\transformed\\jetified-play-services-base-17.0.0\\res\\values-bn\\values.xml",
+                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\e5b30b2efe78100601418e07e91f9253\\transformed\\jetified-play-services-base-17.5.0\\res\\values-bn\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,23 +55,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\e416e642b5cf3df33010012a64cd2b3a\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-bn\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "210",
-                        "endOffsets": "457"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "4960",
-                        "endColumns": "210",
-                        "endOffsets": "5166"
-                    }
-                },
-                {
                     "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\b9c438a33dd0fbe451280e6623909e86\\transformed\\browser-1.4.0\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -86,6 +69,23 @@
                         "startOffsets": "6480,6743,6845,6954",
                         "endColumns": "105,101,108,105",
                         "endOffsets": "6581,6840,6949,7055"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\commitKermit\\.gradle\\caches\\transforms-3\\1b88497e8add90e4a0d01fcbba179b41\\transformed\\jetified-play-services-basement-17.5.0\\res\\values-bn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "210",
+                        "endOffsets": "457"
+                    },
+                    "to": {
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "4960",
+                        "endColumns": "210",
+                        "endOffsets": "5166"
                     }
                 },
                 {

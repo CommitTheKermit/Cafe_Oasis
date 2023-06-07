@@ -50,7 +50,7 @@ public class Find_Id_Activity extends AppCompatActivity {
 
                 try {
                     jsonObject.put("phone_no", num);
-                    JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/users/findid"),
+                    JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/users/findemail"),
                             jsonObject);
 
                     if(resultJson.getStatusCode() == 200){

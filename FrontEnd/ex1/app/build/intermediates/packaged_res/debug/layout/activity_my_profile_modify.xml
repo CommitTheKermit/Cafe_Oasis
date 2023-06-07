@@ -154,6 +154,16 @@
         android:inputType="number"
         />
 
+    <Spinner
+        android:id="@+id/spinner_gen_mod"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/modify_num"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_centerInParent="true"
+        />
+
     <TextView
         android:id="@+id/btn_profile_modify"
         android:layout_width="360dp"

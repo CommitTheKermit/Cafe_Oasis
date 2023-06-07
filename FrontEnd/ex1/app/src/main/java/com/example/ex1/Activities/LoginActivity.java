@@ -37,6 +37,10 @@ import com.example.ex1.Utils.DownloadImageTask;
 import com.example.ex1.Utils.PermissionUtils;
 import com.example.ex1.Utils.ServerComm;
 import com.example.ex1.ViewPagerAdapter;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.kakao.sdk.auth.model.OAuthToken;
@@ -82,6 +86,8 @@ public class LoginActivity extends AppCompatActivity {
     Context mContext;
     NaverIdLoginSDK mOAuthLoginInstance;
     String kakaoEmail = "";
+    private FusedLocationProviderClient fusedLocationClient;
+    double[] doubleArr =  new double[2];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
@@ -109,26 +115,20 @@ public class LoginActivity extends AppCompatActivity {
         mContext = this;
         main_image = findViewById(R.id.main_image);
 
-        if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
-            PermissionUtils.requestLocationPermissions((AppCompatActivity) LoginActivity.this, 1, true);
-
-            return;
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                        PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{
+                            Manifest.permission.ACCESS_FINE_LOCATION},
+                    1);
         }
 
         JsonObject jsonObject = new JsonObject();
         try {
-            LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
-                    PackageManager.PERMISSION_GRANTED &&
-                    ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
-                            PackageManager.PERMISSION_GRANTED) {
-                return;
-            }
-            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+            LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-            double[] doubleArr =  new double[2];
+            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
             doubleArr[0] = location.getLatitude();    // 위도
             doubleArr[1] = location.getLongitude();  // 경도
@@ -140,7 +140,7 @@ public class LoginActivity extends AppCompatActivity {
             JSONArray jsonArray = ServerComm.getJSONArray(
                     new URL("http://cafeoasis.xyz/cafe/recommend/rating"),
                     jsonObject);
-            for(int i = 0; i < 3; i++)
+            for(int i = 0; i < jsonArray.length(); i++)
             {
                 JSONObject json = jsonArray.getJSONObject(i);
                 String name = json.get("cafe_name").toString();
@@ -149,7 +149,8 @@ public class LoginActivity extends AppCompatActivity {
                 double latitude = json.getDouble("latitude");
                 double longitude = json.getDouble("longitude");
                 String url = json.getString("cafe_image");
-//                String url = "https://drive.google.com/open?id=1cHCOfMlA4NiGS8odHDNUI3jL0XXMM994&usp=drive_fs";
+                if(!url.startsWith("https://"))
+                    url = "https://drive.google.com/open?id=1cHCOfMlA4NiGS8odHDNUI3jL0XXMM994&usp=drive_fs";
 
                 ExecutorService executor = Executors.newSingleThreadExecutor();
                 Future<Bitmap> future = executor.submit(
@@ -201,8 +202,8 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "로그인 성공",
                                 Toast.LENGTH_SHORT).show();
 
-                        JSONObject tempJson = resultJson.getJsonObject();
-
+                        JSONObject json = resultJson.getJsonObject();
+                        JSONObject tempJson = json.getJSONObject("customer");
 
                         userInfo.setUser_email(tempJson.getString("email"));
                         userInfo.setUser_name(tempJson.getString("name"));
@@ -210,6 +211,26 @@ public class LoginActivity extends AppCompatActivity {
                         userInfo.setUser_nickname(tempJson.getString("nickname"));
                         userInfo.setUser_age(tempJson.getInt("age"));
                         userInfo.setUser_sex(tempJson.getInt("sex"));
+
+                        int[] tempArr = new int[12];
+                        if(json.get("user_keywords") != null){
+                            JSONObject keywordJson = json.getJSONObject("user_keywords");
+                            tempArr[0] = keywordJson.getInt("beverage");
+                            tempArr[1] = keywordJson.getInt("dessert");
+                            tempArr[2] = keywordJson.getInt("various_menu");
+                            tempArr[3] = keywordJson.getInt("special_menu");
+                            tempArr[4] = keywordJson.getInt("large_store");
+                            tempArr[5] = keywordJson.getInt("background");
+                            tempArr[6] = keywordJson.getInt("talking");
+                            tempArr[7] = keywordJson.getInt("concentration");
+                            tempArr[8] = keywordJson.getInt("trendy_store");
+                            tempArr[9] = keywordJson.getBoolean("gift_packaging") ? 1 : 0;;
+                            tempArr[10] = keywordJson.getBoolean("parking") ? 1 : 0;;
+                            tempArr[11] = keywordJson.getBoolean("price") ? 1 : 0;;
+
+                        }
+                        userInfo.setUser_keyword(tempArr);
+
 
 
                         Intent intent = new Intent(LoginActivity.this, NaviActivity.class);
@@ -331,6 +352,63 @@ public class LoginActivity extends AppCompatActivity {
                     // 유저의 연령대
                     Log.d(TAG, "invoke: age=" + user.getKakaoAccount().getAgeRange());
                     kakaoEmail = user.getKakaoAccount().getEmail();
+
+                    String email = kakaoEmail;
+                    String pw = "oauth_login";
+
+                    // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
+                    JSONObject jsonObject = new JSONObject();
+                    try {
+                        jsonObject.put("email", email);
+                        jsonObject.put("password", pw);
+
+                        JsonAndStatus resultJson = ServerComm.getOutputString(new URL("http://cafeoasis.xyz/users/login"),
+                                jsonObject);
+
+                        if(resultJson.getStatusCode() == 200){
+                            Toast.makeText(LoginActivity.this, "로그인 성공",
+                                    Toast.LENGTH_SHORT).show();
+
+                            JSONObject json = resultJson.getJsonObject();
+                            JSONObject tempJson = json.getJSONObject("customer");
+
+                            userInfo.setUser_email(tempJson.getString("email"));
+                            userInfo.setUser_name(tempJson.getString("name"));
+                            userInfo.setUser_type(tempJson.getInt("user_type"));
+                            userInfo.setUser_nickname(tempJson.getString("nickname"));
+                            userInfo.setUser_age(tempJson.getInt("age"));
+                            userInfo.setUser_sex(tempJson.getInt("sex"));
+
+                            int[] tempArr = new int[12];
+                            if(json.get("user_keywords") != null){
+                                JSONObject keywordJson = json.getJSONObject("user_keywords");
+                                tempArr[0] = keywordJson.getInt("beverage");
+                                tempArr[1] = keywordJson.getInt("dessert");
+                                tempArr[2] = keywordJson.getInt("various_menu");
+                                tempArr[3] = keywordJson.getInt("special_menu");
+                                tempArr[4] = keywordJson.getInt("large_store");
+                                tempArr[5] = keywordJson.getInt("background");
+                                tempArr[6] = keywordJson.getInt("talking");
+                                tempArr[7] = keywordJson.getInt("concentration");
+                                tempArr[8] = keywordJson.getInt("trendy_store");
+                                tempArr[9] = keywordJson.getBoolean("gift_packaging") ? 1 : 0;;
+                                tempArr[10] = keywordJson.getBoolean("parking") ? 1 : 0;;
+                                tempArr[11] = keywordJson.getBoolean("price") ? 1 : 0;;
+
+                            }
+                            userInfo.setUser_keyword(tempArr);
+
+                            Intent intent = new Intent(LoginActivity.this, NaviActivity.class);
+                            intent.putExtra("userInfo", userInfo);
+                            startActivity(intent);
+                            finish();
+                        }
+                        else{
+                            Toast.makeText(LoginActivity.this, "아이디와 비밀번호를 다시 확인해보세요", Toast.LENGTH_SHORT).show();
+                        }
+                    } catch (JSONException | MalformedURLException e) {
+                        throw new RuntimeException(e);
+                    }
 //                    id_1 = String.valueOf(user.getId());
 //                    // 유저 닉네임 세팅해주기
 //                    nickname.setText(user.getKakaoAccount().getProfile().getNickname());
@@ -397,11 +475,67 @@ public class LoginActivity extends AppCompatActivity {
                 throw new RuntimeException(e);
             }
 
-            Intent intent;
+            Intent intent = null;
             if(statusCode == HttpURLConnection.HTTP_OK){
                 // 이메일이 데이터베이스에 존재하여 메인으로 넘어감
-                intent = new Intent(LoginActivity.this, NaviActivity.class);
-                intent.putExtra("option", "notFirstLogin");
+
+                String email = naverEmail;
+                String pw = "oauth_login";
+
+                // 번역할 텍스트와 목표 언어를 JSON 형식으로 작성
+                JSONObject jsonObject = new JSONObject();
+                try {
+                    jsonObject.put("email", email);
+                    jsonObject.put("password", pw);
+
+                    JsonAndStatus resultJson = ServerComm.getOutputString(
+                            new URL("http://cafeoasis.xyz/users/login"),
+                            jsonObject);
+
+                    if(resultJson.getStatusCode() == 200){
+                        Toast.makeText(LoginActivity.this, "로그인 성공",
+                                Toast.LENGTH_SHORT).show();
+
+                        JSONObject json = resultJson.getJsonObject();
+                        JSONObject tempJson = json.getJSONObject("customer");
+
+                        userInfo.setUser_email(tempJson.getString("email"));
+                        userInfo.setUser_name(tempJson.getString("name"));
+                        userInfo.setUser_type(tempJson.getInt("user_type"));
+                        userInfo.setUser_nickname(tempJson.getString("nickname"));
+                        userInfo.setUser_age(tempJson.getInt("age"));
+                        userInfo.setUser_sex(tempJson.getInt("sex"));
+
+                        int[] tempArr = new int[12];
+                        if(json.get("user_keywords") != null){
+                            JSONObject keywordJson = json.getJSONObject("user_keywords");
+                            tempArr[0] = keywordJson.getInt("beverage");
+                            tempArr[1] = keywordJson.getInt("dessert");
+                            tempArr[2] = keywordJson.getInt("various_menu");
+                            tempArr[3] = keywordJson.getInt("special_menu");
+                            tempArr[4] = keywordJson.getInt("large_store");
+                            tempArr[5] = keywordJson.getInt("background");
+                            tempArr[6] = keywordJson.getInt("talking");
+                            tempArr[7] = keywordJson.getInt("concentration");
+                            tempArr[8] = keywordJson.getInt("trendy_store");
+                            tempArr[9] = keywordJson.getBoolean("gift_packaging") ? 1 : 0;;
+                            tempArr[10] = keywordJson.getBoolean("parking") ? 1 : 0;;
+                            tempArr[11] = keywordJson.getBoolean("price") ? 1 : 0;;
+
+                        }
+                        userInfo.setUser_keyword(tempArr);
+
+                        intent = new Intent(LoginActivity.this, NaviActivity.class);
+                        intent.putExtra("option", "notFirstLogin");
+                        intent.putExtra("userInfo", userInfo);
+                    }
+                    else{
+                        Toast.makeText(LoginActivity.this, "아이디와 비밀번호를 다시 확인해보세요", Toast.LENGTH_SHORT).show();
+                    }
+                } catch (JSONException | MalformedURLException e) {
+                    throw new RuntimeException(e);
+                }
+
             }
             else{
                 // 이메일 데이터베이스에 존재하지 않아 개인정보 등록으로 넘어감

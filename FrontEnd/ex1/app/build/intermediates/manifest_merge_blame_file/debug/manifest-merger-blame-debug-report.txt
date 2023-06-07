@@ -41,664 +41,671 @@
 20-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:16:5-18:48
 20-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:17:9-64
 21
-22    <queries>
-22-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:20:5-38:15
-23
-24        <!-- Browser -->
-25        <intent>
-25-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:23:9-27:18
-26            <action android:name="android.intent.action.VIEW" />
-26-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:13-65
-26-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:21-62
-27
-28            <data android:scheme="http" />
-28-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-43
-28-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:19-40
-29        </intent>
+22    <uses-feature android:name="android.hardware.location.gps" />
+22-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:19:5-66
+22-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:19:19-63
+23    <uses-feature android:name="android.hardware.location.network" />
+23-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:20:5-70
+23-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:20:19-67
+24
+25    <queries>
+25-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:22:5-40:15
+26
+27        <!-- Browser -->
+28        <intent>
+28-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:25:9-29:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-65
+29-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:21-62
 30
-31        <!-- Camera -->
-32        <intent>
-32-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:30:9-32:18
-33            <action android:name="android.media.action.IMAGE_CAPTURE" />
-33-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:31:13-73
-33-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:31:21-70
-34        </intent>
-35
-36        <!-- Gallery -->
-37        <intent>
-37-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:35:9-37:18
-38            <action android:name="android.intent.action.GET_CONTENT" />
-38-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:13-72
-38-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:36:21-69
-39        </intent>
-40        <!-- 네이버앱 : 로그인, 스킴로그인 -->
-41        <package android:name="com.nhn.android.search" /> <!-- 커스텀탭 로그인 -->
-41-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:16:9-58
-41-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:16:18-55
-42        <intent>
-42-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:18:9-20:18
-43            <action android:name="android.support.customtabs.action.CustomTabsService" />
-43-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:19:13-90
-43-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:19:21-87
-44        </intent>
-45
-46        <package android:name="com.android.chrome" />
-46-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:22:9-54
-46-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:22:18-51
-47        <package android:name="com.locnall.KimGiSa" />
-47-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:10:9-55
-47-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:10:18-52
-48        <package android:name="com.lguplus.navi" />
-48-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:11:9-52
-48-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:11:18-49
-49        <package android:name="com.kakao.talk" />
-49-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:10:9-50
-49-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:10:18-47
-50        <package android:name="com.kakao.talk.alpha" />
-50-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:11:9-56
-50-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:11:18-53
-51        <package android:name="com.kakao.talk.sandbox" />
-51-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:12:9-58
-51-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:12:18-55
-52        <package android:name="com.kakao.onetalk" />
-52-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:13:9-53
-52-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:13:18-50
-53
-54        <intent>
-54-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:15:9-21:18
-55            <action android:name="android.intent.action.VIEW" />
-55-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:13-65
-55-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:21-62
+31            <data android:scheme="http" />
+31-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:13-43
+31-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:19-40
+32        </intent>
+33
+34        <!-- Camera -->
+35        <intent>
+35-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:32:9-34:18
+36            <action android:name="android.media.action.IMAGE_CAPTURE" />
+36-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:33:13-73
+36-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:33:21-70
+37        </intent>
+38
+39        <!-- Gallery -->
+40        <intent>
+40-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:37:9-39:18
+41            <action android:name="android.intent.action.GET_CONTENT" />
+41-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:38:13-72
+41-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:38:21-69
+42        </intent>
+43        <!-- 네이버앱 : 로그인, 스킴로그인 -->
+44        <package android:name="com.nhn.android.search" /> <!-- 커스텀탭 로그인 -->
+44-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:16:9-58
+44-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:16:18-55
+45        <intent>
+45-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:18:9-20:18
+46            <action android:name="android.support.customtabs.action.CustomTabsService" />
+46-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:19:13-90
+46-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:19:21-87
+47        </intent>
+48
+49        <package android:name="com.android.chrome" />
+49-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:22:9-54
+49-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:22:18-51
+50        <package android:name="com.locnall.KimGiSa" />
+50-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:10:9-55
+50-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:10:18-52
+51        <package android:name="com.lguplus.navi" />
+51-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:11:9-52
+51-->[com.kakao.sdk:v2-navi:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1be621aabb10bdf69d527bce5b02d472\transformed\jetified-v2-navi-2.13.0\AndroidManifest.xml:11:18-49
+52        <package android:name="com.kakao.talk" />
+52-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:10:9-50
+52-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:10:18-47
+53        <package android:name="com.kakao.talk.alpha" />
+53-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:11:9-56
+53-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:11:18-53
+54        <package android:name="com.kakao.talk.sandbox" />
+54-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:12:9-58
+54-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:12:18-55
+55        <package android:name="com.kakao.onetalk" />
+55-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:13:9-53
+55-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:13:18-50
 56
-57            <category android:name="android.intent.category.BROWSABLE" />
-57-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:209:17-78
-57-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:209:27-75
-58
-59            <data android:scheme="https" />
-59-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-43
-59-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:19-40
-60        </intent>
-61    </queries>
-62
-63    <permission
-63-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:40:5-42:47
-64        android:name="com.example.permission.MAPS_RECEIVE"
-64-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:41:9-59
-65        android:protectionLevel="signature" />
-65-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:42:9-44
-66
-67    <uses-feature
-67-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:44:5-46:35
-68        android:glEsVersion="0x00020000"
-68-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:45:9-41
-69        android:required="true" />
-69-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:46:9-32
+57        <intent>
+57-->[com.kakao.sdk:v2-common:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\7b2656e4e82db9002f989823e0ac00db\transformed\jetified-v2-common-2.13.0\AndroidManifest.xml:15:9-21:18
+58            <action android:name="android.intent.action.VIEW" />
+58-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-65
+58-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:21-62
+59
+60            <category android:name="android.intent.category.BROWSABLE" />
+60-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:211:17-78
+60-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:211:27-75
+61
+62            <data android:scheme="https" />
+62-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:13-43
+62-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:19-40
+63        </intent>
+64    </queries>
+65
+66    <permission
+66-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:42:5-44:47
+67        android:name="com.example.permission.MAPS_RECEIVE"
+67-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:43:9-59
+68        android:protectionLevel="signature" />
+68-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:44:9-44
+69
 70    <uses-feature
-70-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:47:5-49:36
-71        android:name="android.hardware.telephony"
-71-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:48:9-50
-72        android:required="false" />
-72-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:49:9-33
+70-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:46:5-48:35
+71        android:glEsVersion="0x00020000"
+71-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:47:9-41
+72        android:required="true" />
+72-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:48:9-32
 73    <uses-feature
-73-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:50:5-52:36
-74        android:name="android.hardware.camera"
-74-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:51:9-47
+73-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:49:5-51:36
+74        android:name="android.hardware.telephony"
+74-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:50:9-50
 75        android:required="false" />
-75-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:52:9-33
+75-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:51:9-33
 76    <uses-feature
-76-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:12:5-14:36
-77        android:name="android.hardware.wifi"
-77-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:13:9-45
+76-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:52:5-54:36
+77        android:name="android.hardware.camera"
+77-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:53:9-47
 78        android:required="false" />
-78-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:14:9-33
-79
-80    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-80-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:5-76
-80-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:22-73
-81
-82    <permission
-82-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-83        android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-83-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-84        android:protectionLevel="signature" />
-84-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-85
-86    <uses-permission android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-86-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-86-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-87
-88    <application
-88-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:54:5-217:19
-89        android:name="com.example.ex1.KakaoApplication"
-89-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:55:9-41
-90        android:allowBackup="true"
-90-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:56:9-35
-91        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-91-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-92        android:dataExtractionRules="@xml/data_extraction_rules"
-92-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:57:9-65
-93        android:debuggable="true"
-94        android:fullBackupContent="@xml/backup_rules"
-94-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:58:9-54
-95        android:icon="@mipmap/ic_launcher"
-95-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:59:9-43
-96        android:label="@string/app_name"
-96-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:60:9-41
-97        android:requestLegacyExternalStorage="true"
-97-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:61:9-52
-98        android:roundIcon="@mipmap/ic_launcher_round"
-98-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:62:9-54
-99        android:supportsRtl="true"
-99-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:63:9-35
-100        android:testOnly="true"
-101        android:theme="@style/Theme.Ex1"
-101-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:64:9-41
-102        android:usesCleartextTraffic="true" >
-102-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:65:9-44
-103        <activity
-103-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:67:9-73:20
-104            android:name="com.example.ex1.Activities.Find_pw_Activity"
-104-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:68:13-56
-105            android:exported="false" >
-105-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:69:13-37
-106            <meta-data
-106-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-107                android:name="android.app.lib_name"
-107-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-108                android:value="" />
-108-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-109        </activity>
-110        <activity
-110-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:9-80:20
-111            android:name="com.example.ex1.Activities.Find_Id_Activity"
-111-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:75:13-56
-112            android:exported="false" >
-112-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:76:13-37
-113            <meta-data
-113-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-114                android:name="android.app.lib_name"
-114-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-115                android:value="" />
-115-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-116        </activity>
-117
-118        <provider
-118-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:82:9-90:20
-119            android:name="androidx.core.content.FileProvider"
-119-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:83:13-62
-120            android:authorities="com.example.ex1"
-120-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:84:13-50
-121            android:exported="false"
-121-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:85:13-37
-122            android:grantUriPermissions="true" >
-122-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:86:13-47
-123            <meta-data
-123-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:87:13-89:54
-124                android:name="android.support.FILE_PROVIDER_PATHS"
-124-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:88:17-67
-125                android:resource="@xml/file_paths" />
-125-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:89:17-51
-126        </provider>
-127
-128        <activity
-128-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:92:9-98:20
-129            android:name="com.example.ex1.Activities.EmailAuthenticationActivity"
-129-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:93:13-67
-130            android:exported="false" >
-130-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:94:13-37
-131            <meta-data
-131-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-132                android:name="android.app.lib_name"
-132-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-133                android:value="" />
-133-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-134        </activity>
-135        <activity
-135-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:99:9-105:20
-136            android:name="com.example.ex1.Activities.ReceiptRecognitionActivity"
-136-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:100:13-66
-137            android:exported="false" >
-137-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:101:13-37
-138            <meta-data
-138-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-139                android:name="android.app.lib_name"
-139-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-140                android:value="" />
-140-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-141        </activity>
-142        <activity
-142-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:106:9-112:20
-143            android:name="com.example.ex1.Activities.CafeHistoryActivity"
-143-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:107:13-59
-144            android:exported="false" >
-144-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:108:13-37
-145            <meta-data
-145-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-146                android:name="android.app.lib_name"
-146-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-147                android:value="" />
-147-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-148        </activity>
-149        <activity
-149-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:113:9-119:20
-150            android:name="com.example.ex1.Activities.HistoryModifyActivity"
-150-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:114:13-61
-151            android:exported="false" >
-151-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:115:13-37
-152            <meta-data
-152-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-153                android:name="android.app.lib_name"
-153-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-154                android:value="" />
-154-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-155        </activity>
-156        <activity
-156-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:120:9-126:20
-157            android:name="com.example.ex1.Activities.Keyword_Modify"
-157-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:121:13-54
-158            android:exported="false" >
-158-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:122:13-37
-159            <meta-data
-159-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-160                android:name="android.app.lib_name"
-160-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-161                android:value="" />
-161-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-162        </activity>
-163        <activity
-163-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:127:9-133:20
-164            android:name="com.example.ex1.Activities.MyProfile_Modify"
-164-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:128:13-56
-165            android:exported="false" >
-165-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:129:13-37
-166            <meta-data
-166-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-167                android:name="android.app.lib_name"
-167-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-168                android:value="" />
-168-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-169        </activity>
-170        <activity
-170-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:134:9-140:20
-171            android:name="com.example.ex1.Main.MainActivity"
-171-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:135:13-46
-172            android:exported="false" >
-172-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:136:13-37
-173            <meta-data
-173-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-174                android:name="android.app.lib_name"
-174-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-175                android:value="" />
-175-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-176        </activity>
-177        <activity
-177-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:141:9-147:20
-178            android:name="com.example.ex1.Activities.SplashActivity"
-178-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:142:13-54
-179            android:exported="false" >
-179-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:143:13-37
-180            <meta-data
-180-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-181                android:name="android.app.lib_name"
-181-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-182                android:value="" />
-182-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-183        </activity>
-184        <activity
-184-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:148:9-154:20
-185            android:name="com.example.ex1.Activities.Keyword"
-185-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:149:13-47
-186            android:exported="false" >
-186-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:150:13-37
-187            <meta-data
-187-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-188                android:name="android.app.lib_name"
-188-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-189                android:value="" />
-189-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-190        </activity>
-191        <activity
-191-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:155:9-161:20
-192            android:name="com.example.ex1.Activities.Join3"
-192-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:156:13-45
-193            android:exported="false" >
-193-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:157:13-37
-194            <meta-data
-194-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-195                android:name="android.app.lib_name"
-195-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-196                android:value="" />
-196-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-197        </activity>
-198        <activity
-198-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:162:9-168:20
-199            android:name="com.example.ex1.Activities.Join2"
-199-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:163:13-45
-200            android:exported="false" >
-200-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:164:13-37
-201            <meta-data
-201-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-202                android:name="android.app.lib_name"
-202-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-203                android:value="" />
-203-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-204        </activity>
-205        <activity
-205-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:169:9-175:20
-206            android:name="com.example.ex1.Activities.Join1"
-206-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:170:13-45
-207            android:exported="false" >
-207-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:171:13-37
-208            <meta-data
-208-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-209                android:name="android.app.lib_name"
-209-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-210                android:value="" />
-210-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-211        </activity>
-212        <activity
-212-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:176:9-182:20
-213            android:name="com.example.ex1.Activities.NaviActivity"
-213-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:177:13-52
-214            android:exported="false" >
-214-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:178:13-37
-215            <meta-data
-215-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-216                android:name="android.app.lib_name"
-216-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-217                android:value="" />
-217-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-218        </activity>
-219        <activity
-219-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:183:9-196:20
-220            android:name="com.example.ex1.Activities.LoginActivity"
-220-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:184:13-53
-221            android:exported="true"
-221-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:185:13-36
-222            android:theme="@style/SplashTheme" >
-222-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:186:13-47
-223            <intent-filter>
-223-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:187:13-191:29
-224                <action android:name="android.intent.action.MAIN" />
-224-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:188:17-69
-224-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:188:25-66
-225
-226                <category android:name="android.intent.category.LAUNCHER" />
-226-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:190:17-77
-226-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:190:27-74
-227            </intent-filter>
+78-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:54:9-33
+79    <uses-feature
+79-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:12:5-14:36
+80        android:name="android.hardware.wifi"
+80-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:13:9-45
+81        android:required="false" />
+81-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:14:9-33
+82
+83    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+83-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:5-76
+83-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:18:22-73
+84
+85    <permission
+85-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+86        android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+86-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+87        android:protectionLevel="signature" />
+87-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+88
+89    <uses-permission android:name="com.example.ex1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+89-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+89-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+90
+91    <application
+91-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:56:5-219:19
+92        android:name="com.example.ex1.KakaoApplication"
+92-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:57:9-41
+93        android:allowBackup="true"
+93-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:58:9-35
+94        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+94-->[androidx.core:core:1.9.0] C:\Users\commitKermit\.gradle\caches\transforms-3\d53e7a873ba907dea2c671d6f503a427\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+95        android:dataExtractionRules="@xml/data_extraction_rules"
+95-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:59:9-65
+96        android:debuggable="true"
+97        android:fullBackupContent="@xml/backup_rules"
+97-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:60:9-54
+98        android:icon="@mipmap/ic_launcher"
+98-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:61:9-43
+99        android:label="@string/app_name"
+99-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:62:9-41
+100        android:requestLegacyExternalStorage="true"
+100-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:63:9-52
+101        android:roundIcon="@mipmap/ic_launcher_round"
+101-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:64:9-54
+102        android:supportsRtl="true"
+102-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:65:9-35
+103        android:testOnly="true"
+104        android:theme="@style/Theme.Ex1"
+104-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:66:9-41
+105        android:usesCleartextTraffic="true" >
+105-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:67:9-44
+106        <activity
+106-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:69:9-75:20
+107            android:name="com.example.ex1.Activities.Find_pw_Activity"
+107-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-56
+108            android:exported="false" >
+108-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:13-37
+109            <meta-data
+109-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+110                android:name="android.app.lib_name"
+110-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+111                android:value="" />
+111-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+112        </activity>
+113        <activity
+113-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:76:9-82:20
+114            android:name="com.example.ex1.Activities.Find_Id_Activity"
+114-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:77:13-56
+115            android:exported="false" >
+115-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:78:13-37
+116            <meta-data
+116-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+117                android:name="android.app.lib_name"
+117-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+118                android:value="" />
+118-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+119        </activity>
+120
+121        <provider
+121-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:84:9-92:20
+122            android:name="androidx.core.content.FileProvider"
+122-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:85:13-62
+123            android:authorities="com.example.ex1"
+123-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:86:13-50
+124            android:exported="false"
+124-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:87:13-37
+125            android:grantUriPermissions="true" >
+125-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:88:13-47
+126            <meta-data
+126-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:89:13-91:54
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:90:17-67
+128                android:resource="@xml/file_paths" />
+128-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:91:17-51
+129        </provider>
+130
+131        <activity
+131-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:94:9-100:20
+132            android:name="com.example.ex1.Activities.EmailAuthenticationActivity"
+132-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:95:13-67
+133            android:exported="false" >
+133-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:96:13-37
+134            <meta-data
+134-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+135                android:name="android.app.lib_name"
+135-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+136                android:value="" />
+136-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+137        </activity>
+138        <activity
+138-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:101:9-107:20
+139            android:name="com.example.ex1.Activities.ReceiptRecognitionActivity"
+139-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:102:13-66
+140            android:exported="false" >
+140-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:103:13-37
+141            <meta-data
+141-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+142                android:name="android.app.lib_name"
+142-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+143                android:value="" />
+143-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+144        </activity>
+145        <activity
+145-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:108:9-114:20
+146            android:name="com.example.ex1.Activities.CafeHistoryActivity"
+146-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:109:13-59
+147            android:exported="false" >
+147-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:110:13-37
+148            <meta-data
+148-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+149                android:name="android.app.lib_name"
+149-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+150                android:value="" />
+150-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+151        </activity>
+152        <activity
+152-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:115:9-121:20
+153            android:name="com.example.ex1.Activities.HistoryModifyActivity"
+153-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:116:13-61
+154            android:exported="false" >
+154-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:117:13-37
+155            <meta-data
+155-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+156                android:name="android.app.lib_name"
+156-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+157                android:value="" />
+157-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+158        </activity>
+159        <activity
+159-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:122:9-128:20
+160            android:name="com.example.ex1.Activities.Keyword_Modify"
+160-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:123:13-54
+161            android:exported="false" >
+161-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:124:13-37
+162            <meta-data
+162-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+163                android:name="android.app.lib_name"
+163-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+164                android:value="" />
+164-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+165        </activity>
+166        <activity
+166-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:129:9-135:20
+167            android:name="com.example.ex1.Activities.MyProfile_Modify"
+167-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:130:13-56
+168            android:exported="false" >
+168-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:131:13-37
+169            <meta-data
+169-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+170                android:name="android.app.lib_name"
+170-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+171                android:value="" />
+171-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+172        </activity>
+173        <activity
+173-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:136:9-142:20
+174            android:name="com.example.ex1.Main.MainActivity"
+174-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:137:13-46
+175            android:exported="false" >
+175-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:138:13-37
+176            <meta-data
+176-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+177                android:name="android.app.lib_name"
+177-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+178                android:value="" />
+178-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+179        </activity>
+180        <activity
+180-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:143:9-149:20
+181            android:name="com.example.ex1.Activities.SplashActivity"
+181-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:144:13-54
+182            android:exported="false" >
+182-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:145:13-37
+183            <meta-data
+183-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+184                android:name="android.app.lib_name"
+184-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+185                android:value="" />
+185-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+186        </activity>
+187        <activity
+187-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:150:9-156:20
+188            android:name="com.example.ex1.Activities.Keyword"
+188-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:151:13-47
+189            android:exported="false" >
+189-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:152:13-37
+190            <meta-data
+190-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+191                android:name="android.app.lib_name"
+191-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+192                android:value="" />
+192-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+193        </activity>
+194        <activity
+194-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:157:9-163:20
+195            android:name="com.example.ex1.Activities.Join3"
+195-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:158:13-45
+196            android:exported="false" >
+196-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:159:13-37
+197            <meta-data
+197-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+198                android:name="android.app.lib_name"
+198-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+199                android:value="" />
+199-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+200        </activity>
+201        <activity
+201-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:164:9-170:20
+202            android:name="com.example.ex1.Activities.Join2"
+202-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:165:13-45
+203            android:exported="false" >
+203-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:166:13-37
+204            <meta-data
+204-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+205                android:name="android.app.lib_name"
+205-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+206                android:value="" />
+206-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+207        </activity>
+208        <activity
+208-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:171:9-177:20
+209            android:name="com.example.ex1.Activities.Join1"
+209-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:172:13-45
+210            android:exported="false" >
+210-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:173:13-37
+211            <meta-data
+211-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+212                android:name="android.app.lib_name"
+212-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+213                android:value="" />
+213-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+214        </activity>
+215        <activity
+215-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:178:9-184:20
+216            android:name="com.example.ex1.Activities.NaviActivity"
+216-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:179:13-52
+217            android:exported="false" >
+217-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:180:13-37
+218            <meta-data
+218-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+219                android:name="android.app.lib_name"
+219-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+220                android:value="" />
+220-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+221        </activity>
+222        <activity
+222-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:185:9-198:20
+223            android:name="com.example.ex1.Activities.LoginActivity"
+223-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:186:13-53
+224            android:exported="true"
+224-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:187:13-36
+225            android:theme="@style/SplashTheme" >
+225-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:188:13-47
+226            <intent-filter>
+226-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:189:13-193:29
+227                <action android:name="android.intent.action.MAIN" />
+227-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:190:17-69
+227-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:190:25-66
 228
-229            <meta-data
-229-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:70:13-72:36
-230                android:name="android.app.lib_name"
-230-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:71:17-52
-231                android:value="" />
-231-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:17-33
-232        </activity>
-233
-234        <meta-data
-234-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:198:9-200:42
-235            android:name="com.naver.maps.map.CLIENT_ID"
-235-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:199:13-56
-236            android:value="hu4kbw8ndf" />
-236-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:200:13-39
-237
-238        <activity
-238-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:202:9-216:20
-239            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
-239-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:203:13-70
-240            android:exported="true"
-240-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:204:13-36
-241            android:launchMode="singleTask"
-241-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:18:13-44
-242            android:theme="@style/TransparentCompat" >
-242-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:19:13-53
-243            <intent-filter>
-243-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:205:13-215:29
-244                <action android:name="android.intent.action.VIEW" />
-244-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:13-65
-244-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:21-62
-245
-246                <category android:name="android.intent.category.DEFAULT" />
-246-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:208:17-76
-246-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:208:27-73
-247                <category android:name="android.intent.category.BROWSABLE" />
-247-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:209:17-78
-247-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:209:27-75
+229                <category android:name="android.intent.category.LAUNCHER" />
+229-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:192:17-77
+229-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:192:27-74
+230            </intent-filter>
+231
+232            <meta-data
+232-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:72:13-74:36
+233                android:name="android.app.lib_name"
+233-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:73:17-52
+234                android:value="" />
+234-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:74:17-33
+235        </activity>
+236
+237        <meta-data
+237-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:200:9-202:42
+238            android:name="com.naver.maps.map.CLIENT_ID"
+238-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:201:13-56
+239            android:value="hu4kbw8ndf" />
+239-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:202:13-39
+240
+241        <activity
+241-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:204:9-218:20
+242            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+242-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:205:13-70
+243            android:exported="true"
+243-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:206:13-36
+244            android:launchMode="singleTask"
+244-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:18:13-44
+245            android:theme="@style/TransparentCompat" >
+245-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:19:13-53
+246            <intent-filter>
+246-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:207:13-217:29
+247                <action android:name="android.intent.action.VIEW" />
+247-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-65
+247-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:21-62
 248
-249                <!-- Redirect URI: "kakao${NATIVE_APP_KEY}://oauth" -->
-250                <data
-250-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-43
-251                    android:host="oauth"
-251-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:213:21-41
-252                    android:scheme="kakao0a54726da46915c126069829a6458a5f" />
-252-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:19-40
-253            </intent-filter>
-254        </activity>
-255        <activity
-255-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:13:9-16:59
-256            android:name="com.kakao.sdk.friend.view.FullPickerActivity"
-256-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:14:13-72
-257            android:theme="@style/DayNightFull"
-257-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:15:13-48
-258            android:windowSoftInputMode="adjustNothing" />
-258-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:16:13-56
-259        <activity
-259-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:17:9-19:52
-260            android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
-260-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:18:13-73
-261            android:theme="@style/DayNightPopup" /> <!-- <activity -->
-261-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:19:13-49
-262        <!-- android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" -->
-263        <!-- android:configChanges="orientation|screenSize" -->
-264        <!-- android:theme="@style/Theme.AppCompat.Light.Dialog" /> -->
-265        <activity
-265-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:32:9-35:78
-266            android:name="com.navercorp.nid.oauth.NidOAuthBridgeActivity"
-266-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:33:13-74
-267            android:configChanges="orientation|screenSize"
-267-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:34:13-59
-268            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" /> <!-- <activity -->
-268-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:35:13-75
-269        <!-- android:name="com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity" -->
-270        <!-- android:configChanges="orientation|screenSize" -->
-271        <!-- android:screenOrientation="behind" -->
-272        <!-- android:label="OAuth2.0 by WebView" -->
-273        <!-- android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/> -->
-274        <activity
-274-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:44:9-63:20
-275            android:name="com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity"
-275-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:45:13-86
-276            android:configChanges="orientation|screenSize"
-276-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:46:13-59
-277            android:exported="true"
-277-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:47:13-36
-278            android:label="OAuth2.0 by Custom tabs"
-278-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:48:13-52
-279            android:launchMode="singleTask"
-279-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:49:13-44
-280            android:screenOrientation="behind"
-280-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:50:13-47
-281            android:theme="@style/Theme.AppCompat.NoActionBar" >
-281-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:51:13-63
-282            <intent-filter>
-282-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:52:13-62:29
-283                <action android:name="android.intent.action.VIEW" />
-283-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:13-65
-283-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:24:21-62
-284
-285                <category android:name="android.intent.category.DEFAULT" />
-285-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:208:17-76
-285-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:208:27-73
-286                <category android:name="android.intent.category.BROWSABLE" />
-286-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:209:17-78
-286-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:209:27-75
-287                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
-288                <data
-288-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-43
-289                    android:host="authorize"
-289-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:213:21-41
-290                    android:path="/"
-291                    android:scheme="naver3rdpartylogin" />
-291-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:19-40
-292            </intent-filter>
-293        </activity>
-294        <activity
-294-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:10:9-15:56
-295            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
-295-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:11:13-67
-296            android:configChanges="orientation|screenSize|keyboardHidden"
-296-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:12:13-74
-297            android:exported="false"
-297-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:13:13-37
-298            android:launchMode="singleTask"
-298-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:14:13-44
-299            android:theme="@style/TransparentCompat" />
-299-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:15:13-53
-300        <activity
-300-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:21:9-25:51
-301            android:name="com.naver.maps.map.app.LegendActivity"
-301-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:22:13-65
-302            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-302-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:23:13-91
-303            android:label="@string/navermap_legend"
-303-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:24:13-52
-304            android:theme="@style/navermap_app" />
-304-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:25:13-48
-305        <activity
-305-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:26:9-30:51
-306            android:name="com.naver.maps.map.app.LegalNoticeActivity"
-306-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:27:13-70
-307            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-307-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:28:13-91
-308            android:label="@string/navermap_legal_notice"
-308-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:29:13-58
-309            android:theme="@style/navermap_app" />
-309-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:30:13-48
-310        <activity
-310-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:31:9-35:51
-311            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
-311-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:32:13-76
-312            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
-312-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:33:13-91
-313            android:label="@string/navermap_open_source_license"
-313-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:34:13-65
-314            android:theme="@style/navermap_app" />
-314-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:35:13-48
-315        <activity
-315-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
-316            android:name="com.gun0912.tedpermission.TedPermissionActivity"
-316-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:11:13-75
-317            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
-317-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:12:13-144
-318            android:screenOrientation="unspecified"
-318-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:13:13-52
-319            android:theme="@style/Theme.Transparent.Permission" />
-319-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:14:13-64
-320
-321        <provider
-321-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
-322            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
-322-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:17:13-84
-323            android:authorities="com.example.ex1.tedpermissionprovider"
-323-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:18:13-73
-324            android:exported="false" />
-324-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:19:13-37
-325
-326        <activity
-326-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\49bf70bb139cc4ad90ed45e3c03662cc\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-327            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-327-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\49bf70bb139cc4ad90ed45e3c03662cc\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-328            android:exported="false"
-328-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\49bf70bb139cc4ad90ed45e3c03662cc\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-329            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-329-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\49bf70bb139cc4ad90ed45e3c03662cc\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-330
-331        <meta-data
-331-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e416e642b5cf3df33010012a64cd2b3a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-332            android:name="com.google.android.gms.version"
-332-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e416e642b5cf3df33010012a64cd2b3a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-333            android:value="@integer/google_play_services_version" />
-333-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e416e642b5cf3df33010012a64cd2b3a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-334
-335        <provider
-335-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-336            android:name="androidx.startup.InitializationProvider"
-336-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-337            android:authorities="com.example.ex1.androidx-startup"
-337-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-338            android:exported="false" >
-338-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-339            <meta-data
-339-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-340                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-340-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-341                android:value="androidx.startup" />
-341-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+249                <category android:name="android.intent.category.DEFAULT" />
+249-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:210:17-76
+249-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:210:27-73
+250                <category android:name="android.intent.category.BROWSABLE" />
+250-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:211:17-78
+250-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:211:27-75
+251
+252                <!-- Redirect URI: "kakao${NATIVE_APP_KEY}://oauth" -->
+253                <data
+253-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:13-43
+254                    android:host="oauth"
+254-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:215:21-41
+255                    android:scheme="kakao0a54726da46915c126069829a6458a5f" />
+255-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:19-40
+256            </intent-filter>
+257        </activity>
+258        <activity
+258-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:13:9-16:59
+259            android:name="com.kakao.sdk.friend.view.FullPickerActivity"
+259-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:14:13-72
+260            android:theme="@style/DayNightFull"
+260-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:15:13-48
+261            android:windowSoftInputMode="adjustNothing" />
+261-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:16:13-56
+262        <activity
+262-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:17:9-19:52
+263            android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
+263-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:18:13-73
+264            android:theme="@style/DayNightPopup" /> <!-- <activity -->
+264-->[com.kakao.sdk:v2-friend:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\6f0275c7fdc6d8dbf579ceaab66f7781\transformed\jetified-v2-friend-2.13.0\AndroidManifest.xml:19:13-49
+265        <!-- android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" -->
+266        <!-- android:configChanges="orientation|screenSize" -->
+267        <!-- android:theme="@style/Theme.AppCompat.Light.Dialog" /> -->
+268        <activity
+268-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:32:9-35:78
+269            android:name="com.navercorp.nid.oauth.NidOAuthBridgeActivity"
+269-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:33:13-74
+270            android:configChanges="orientation|screenSize"
+270-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:34:13-59
+271            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" /> <!-- <activity -->
+271-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:35:13-75
+272        <!-- android:name="com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity" -->
+273        <!-- android:configChanges="orientation|screenSize" -->
+274        <!-- android:screenOrientation="behind" -->
+275        <!-- android:label="OAuth2.0 by WebView" -->
+276        <!-- android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/> -->
+277        <activity
+277-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:44:9-63:20
+278            android:name="com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity"
+278-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:45:13-86
+279            android:configChanges="orientation|screenSize"
+279-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:46:13-59
+280            android:exported="true"
+280-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:47:13-36
+281            android:label="OAuth2.0 by Custom tabs"
+281-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:48:13-52
+282            android:launchMode="singleTask"
+282-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:49:13-44
+283            android:screenOrientation="behind"
+283-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:50:13-47
+284            android:theme="@style/Theme.AppCompat.NoActionBar" >
+284-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:51:13-63
+285            <intent-filter>
+285-->[com.navercorp.nid:oauth-jdk8:5.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\878a18e6f71612a34325ef9766ba9ecd\transformed\jetified-oauth-jdk8-5.5.0\AndroidManifest.xml:52:13-62:29
+286                <action android:name="android.intent.action.VIEW" />
+286-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:13-65
+286-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:26:21-62
+287
+288                <category android:name="android.intent.category.DEFAULT" />
+288-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:210:17-76
+288-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:210:27-73
+289                <category android:name="android.intent.category.BROWSABLE" />
+289-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:211:17-78
+289-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:211:27-75
+290                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
+291                <data
+291-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:13-43
+292                    android:host="authorize"
+292-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:215:21-41
+293                    android:path="/"
+294                    android:scheme="naver3rdpartylogin" />
+294-->C:\Users\commitKermit\Desktop\github\Cafe_Oasis\FrontEnd\ex1\app\src\main\AndroidManifest.xml:28:19-40
+295            </intent-filter>
+296        </activity>
+297        <activity
+297-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:10:9-15:56
+298            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+298-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:11:13-67
+299            android:configChanges="orientation|screenSize|keyboardHidden"
+299-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:12:13-74
+300            android:exported="false"
+300-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:13:13-37
+301            android:launchMode="singleTask"
+301-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:14:13-44
+302            android:theme="@style/TransparentCompat" />
+302-->[com.kakao.sdk:v2-auth:2.13.0] C:\Users\commitKermit\.gradle\caches\transforms-3\2389732d3b09c26718ae04ef47e199bb\transformed\jetified-v2-auth-2.13.0\AndroidManifest.xml:15:13-53
+303        <activity
+303-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:21:9-25:51
+304            android:name="com.naver.maps.map.app.LegendActivity"
+304-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:22:13-65
+305            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+305-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:23:13-91
+306            android:label="@string/navermap_legend"
+306-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:24:13-52
+307            android:theme="@style/navermap_app" />
+307-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:25:13-48
+308        <activity
+308-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:26:9-30:51
+309            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+309-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:27:13-70
+310            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+310-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:28:13-91
+311            android:label="@string/navermap_legal_notice"
+311-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:29:13-58
+312            android:theme="@style/navermap_app" />
+312-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:30:13-48
+313        <activity
+313-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:31:9-35:51
+314            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+314-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:32:13-76
+315            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+315-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:33:13-91
+316            android:label="@string/navermap_open_source_license"
+316-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:34:13-65
+317            android:theme="@style/navermap_app" />
+317-->[com.naver.maps:map-sdk:3.16.2] C:\Users\commitKermit\.gradle\caches\transforms-3\2f48402ec4477fe15f5b0e416247b15f\transformed\jetified-map-sdk-3.16.2\AndroidManifest.xml:35:13-48
+318        <activity
+318-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
+319            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+319-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:11:13-75
+320            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+320-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:12:13-144
+321            android:screenOrientation="unspecified"
+321-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:13:13-52
+322            android:theme="@style/Theme.Transparent.Permission" />
+322-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:14:13-64
+323
+324        <provider
+324-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
+325            android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"
+325-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:17:13-84
+326            android:authorities="com.example.ex1.tedpermissionprovider"
+326-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:18:13-73
+327            android:exported="false" />
+327-->[io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\62c590b28e523c4f499b622e7ed16600\transformed\jetified-tedpermission-3.3.0\AndroidManifest.xml:19:13-37
+328
+329        <activity
+329-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e5b30b2efe78100601418e07e91f9253\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+330            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+330-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e5b30b2efe78100601418e07e91f9253\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+331            android:exported="false"
+331-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e5b30b2efe78100601418e07e91f9253\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+332            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+332-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\e5b30b2efe78100601418e07e91f9253\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+333
+334        <meta-data
+334-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1b88497e8add90e4a0d01fcbba179b41\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+335            android:name="com.google.android.gms.version"
+335-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1b88497e8add90e4a0d01fcbba179b41\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+336            android:value="@integer/google_play_services_version" />
+336-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\commitKermit\.gradle\caches\transforms-3\1b88497e8add90e4a0d01fcbba179b41\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+337
+338        <provider
+338-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+339            android:name="androidx.startup.InitializationProvider"
+339-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+340            android:authorities="com.example.ex1.androidx-startup"
+340-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+341            android:exported="false" >
+341-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 342            <meta-data
-342-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\commitKermit\.gradle\caches\transforms-3\c924ecfdcfb90e4180a912619c83b303\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-343                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-343-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\commitKermit\.gradle\caches\transforms-3\c924ecfdcfb90e4180a912619c83b303\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+342-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+343                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+343-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 344                android:value="androidx.startup" />
-344-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\commitKermit\.gradle\caches\transforms-3\c924ecfdcfb90e4180a912619c83b303\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+344-->[androidx.emoji2:emoji2:1.2.0] C:\Users\commitKermit\.gradle\caches\transforms-3\04b58f8755a1f93a9a79454a4b3ed8fe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 345            <meta-data
-345-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-346                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-346-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+345-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\commitKermit\.gradle\caches\transforms-3\c924ecfdcfb90e4180a912619c83b303\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+346                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+346-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\commitKermit\.gradle\caches\transforms-3\c924ecfdcfb90e4180a912619c83b303\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 347                android:value="androidx.startup" />
-347-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-348        </provider>
-349
-350        <uses-library
-350-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-351            android:name="androidx.window.extensions"
-351-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-352            android:required="false" />
-352-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+347-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\commitKermit\.gradle\caches\transforms-3\c924ecfdcfb90e4180a912619c83b303\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+348            <meta-data
+348-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+349                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+349-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+350                android:value="androidx.startup" />
+350-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+351        </provider>
+352
 353        <uses-library
-353-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-354            android:name="androidx.window.sidecar"
-354-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+353-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+354            android:name="androidx.window.extensions"
+354-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
 355            android:required="false" />
-355-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-356
-357        <receiver
-357-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-358            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-358-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-359            android:directBootAware="false"
-359-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-360            android:enabled="true"
-360-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-361            android:exported="true"
-361-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-362            android:permission="android.permission.DUMP" >
-362-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-363            <intent-filter>
-363-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-364                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-364-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-364-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-365            </intent-filter>
+355-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+356        <uses-library
+356-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+357            android:name="androidx.window.sidecar"
+357-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+358            android:required="false" />
+358-->[androidx.window:window:1.0.0] C:\Users\commitKermit\.gradle\caches\transforms-3\06e4731b17b23a1d8627720204bd3bfb\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+359
+360        <receiver
+360-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+361            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+361-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+362            android:directBootAware="false"
+362-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+363            android:enabled="true"
+363-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+364            android:exported="true"
+364-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+365            android:permission="android.permission.DUMP" >
+365-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 366            <intent-filter>
-366-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-367                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-367-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-367-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+366-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+367                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+367-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+367-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 368            </intent-filter>
 369            <intent-filter>
-369-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-370                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-370-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-370-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+370                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 371            </intent-filter>
 372            <intent-filter>
-372-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-373                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-373-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-373-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+373                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 374            </intent-filter>
-375        </receiver>
-376    </application>
-377
-378</manifest>
+375            <intent-filter>
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+376                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\commitKermit\.gradle\caches\transforms-3\94b1717ea0671ca882992686e14cbaf9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+377            </intent-filter>
+378        </receiver>
+379    </application>
+380
+381</manifest>

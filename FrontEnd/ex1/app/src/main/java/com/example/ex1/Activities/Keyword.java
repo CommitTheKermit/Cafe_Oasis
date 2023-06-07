@@ -2,6 +2,7 @@ package com.example.ex1.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -88,8 +89,14 @@ public class Keyword extends AppCompatActivity {
                 try {
                     jsonObject.add("email", gson.toJsonTree(LoginActivity.userInfo.getUser_email()));
                     jsonObject.add("user_keyword_value", gson.toJsonTree(keyword_point_arr));
-                    ServerComm.getJSONArray(new URL("http://cafeoasis.xyz/users/profile/keyword/create"),
+                    ServerComm.getStatusCode(new URL("http://cafeoasis.xyz/users/profile/keyword/create"),
                             jsonObject);
+
+                    LoginActivity.userInfo.setUser_keyword(keyword_point_arr);
+                    Intent intent = new Intent(Keyword.this, NaviActivity.class);
+                    startActivity(intent);
+                    finish();
+
                 } catch (MalformedURLException e) {
                     throw new RuntimeException(e);
                 }

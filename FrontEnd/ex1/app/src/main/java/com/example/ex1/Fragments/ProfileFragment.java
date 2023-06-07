@@ -33,6 +33,7 @@ public class ProfileFragment extends Fragment {
 
         textProfileNickname = view.findViewById(R.id.textProfileNickname);
         textProfileEmail = view.findViewById(R.id.textProfileEmail);
+
         textProfileNickname.setText(LoginActivity.userInfo.getUser_nickname());
         textProfileEmail.setText(LoginActivity.userInfo.getUser_email());
 
@@ -40,6 +41,7 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), MyProfile_Modify.class);
+                intent.putExtra("option", "not_first");
                 startActivity(intent);
 
             }

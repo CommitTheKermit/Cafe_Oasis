@@ -59,6 +59,40 @@ public class ServerComm {
         }
 
     }
+    public static int getStatusCode(URL argUrl, JsonObject argJson){
+        Thread thread = new Thread(){
+            @Override
+            public void run() {
+                try{
+                    // API 요청을 보내기 위한 URL 생성
+                    HttpURLConnection conn = (HttpURLConnection) argUrl.openConnection();
+                    conn.setRequestMethod("POST");
+                    conn.setRequestProperty("Content-Type", "application/json");
+
+                    conn.setDoOutput(true);
+                    conn.getOutputStream().write(argJson.toString().getBytes());
+
+                    int status = conn.getResponseCode();
+
+                    // 연결 종료
+                    conn.disconnect();
+                    statusCode = status;
+
+                } catch (Exception e) {
+                    return;
+                }
+            }
+        };
+        thread.start();
+
+        try{
+            thread.join();
+            return statusCode;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
     //POST 메서드 결과 JSON 반환
     public static JsonAndStatus getOutputString(URL argUrl, JSONObject argJson) {
         Thread thread = new Thread() {
@@ -191,7 +225,6 @@ public class ServerComm {
         }
 
     }
-
     public static JSONArray getJSONArray(URL argUrl,  JsonObject argJson) {
         Thread thread = new Thread() {
             @RequiresApi(api = Build.VERSION_CODES.N)
